@@ -7,7 +7,7 @@ export default function Home() {
       <Header />
         <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <h1> aarushi ammavajjala </h1>
-        <h2> developer, studying computer science </h2>
+        <h2> developer, studying computer science @ tbd </h2>
       </main>
     </div>
     </>

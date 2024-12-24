@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <header className="bg-gray-800 p-4 text-white">
+        <div>
             <h1>aarushi ammavajjala</h1>
             <nav>
                 <ul className="flex space-x-4">
@@ -11,6 +11,6 @@ export default function Header() {
                     <li><a href="/contact">Contact</a></li>
                 </ul>
             </nav>
-        </header>
+        </div>
     )
 }
