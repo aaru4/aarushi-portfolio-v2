@@ -10,11 +10,11 @@ export default function Home() {
       <Navbar />
         <main className="flex flex-col gap-8 row-start-2 items-left sm:items-start">
         <section id="home">
-          <h1 className="font-bold text-5xl px-4 py-2 bg-gradient-to-r from-[#bddca7] to-[#a7dccd] h-auto w-full">
+          <h1 className="font-bold text-5xl px-4 py-2 rounded bg-gradient-to-r from-[#bddca7] to-[#a7dccd] h-auto w-full">
             Aarushi Ammavajjala
           </h1>
-            <h1 className="font-bold text-xl"> Developer. </h1>
-            <h1 className="text-l"> Studying Computer Science @ South Forsyth High School </h1>
+            <h1 className="font-bold text-xl px-3"> Developer. </h1>
+            <h1 className="text-l"> Studying Computer Science @ South Forsyth High School. Contact me at aaru7811@gmail.com </h1>
             <a
               href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
               target="_blank"
@@ -33,6 +33,7 @@ export default function Home() {
         <section id="education">
             <h1> education </h1>
           </section>
+        <section id="experience">
         <div className="flex flex-wrap gap-8">
           <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#FFC5C5" />
           <ProjectBox title="AI Researcher" org="Cornell University" color="#faf2b9" />
@@ -45,6 +46,7 @@ export default function Home() {
           <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#FFC5C5" />
           <ProjectBox title="AI Researcher" org="Cornell University" color="#faf2b9" />
         </div>
+        </section>
       </main>
     </div>
   );
