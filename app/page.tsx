@@ -8,7 +8,7 @@ export default function Home() {
         <main className="flex flex-col gap-8 row-start-2 items-left sm:items-start">
         <h1> aarushi ammavajjala </h1>
         <h2> developer, studying computer science @ tbd </h2>
-        <div className="flex gap-8">
+        <div className="flex flex-wrap gap-8">
           <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#FFC5C5" />
           <ProjectBox title="AI Researcher" org="Cornell University" color="#faf2b9" />
           <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#FFC5C5" />
