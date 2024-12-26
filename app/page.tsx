@@ -1,5 +1,5 @@
-import Navbar from '../components/header';
-import { ProjectBox } from '../components/ProjectCard';
+import Navbar from './components/header';
+import { ProjectBox } from './components/ProjectCard';
 // color palette: #FFC5C5, #faf2b9, #bddca7, #a7dccd
 export default function Home() {
   return (
