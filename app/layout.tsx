@@ -8,12 +8,12 @@ const Ruda = RudaFont({
   subsets: ["latin"],
 });
 
-interface projectCard {
+interface ProjectCard {
   title: string
   org: string
 }
 
-export const ProjectBox: React.FC<projectCard> = ({ title, org }) => {
+export const ProjectBox: React.FC<ProjectCard> = ({ title, org }) => {
   return (
     <div style={cardStyles.container}>
       <h1 style={cardStyles.title}>{title}</h1>
