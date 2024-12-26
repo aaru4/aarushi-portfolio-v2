@@ -33,14 +33,14 @@ export default function Home() {
         </section>
         <section id="education">
           <h1 className="text-2xl py-3"> Education </h1>
-          <ProjectBox title="South Forsyth High School" org="2021-2025" color="#fccf97" />
+          <ProjectBox title="South Forsyth High School" org="2021-2025" color="#faf2b9" />
         </section>
         <section id="experience">
         <div className="flex flex-wrap gap-8">
           <ProjectBox title="AI Researcher" org="Cornell University" color="#faf2b9" />
           <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#bddca7" />
           <ProjectBox title="AI Researcher" org="Cornell University" color="#a7dccd" />
-          <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#ebc2ff" />
+          <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#dbc7ff" />
         </div>
         </section>
       </main>
