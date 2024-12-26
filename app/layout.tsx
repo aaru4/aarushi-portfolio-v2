@@ -4,7 +4,7 @@ import React from "react";
 import "./globals.css";
 
 const Archivo = ArchivoFont({
-  weight: "600",
+  weight: "300",
   subsets: ["latin"],
 });
 
