@@ -1,6 +1,6 @@
+import Image from 'next/image';
 import Navbar from './components/header';
 import { ProjectBox } from './components/ProjectCard';
-import Image from 'next/image'
 
 // color palette: #FFC5C5, #faf2b9, #bddca7, #a7dccd
 
@@ -10,7 +10,7 @@ export default function Home() {
       <Navbar />
         <main className="flex flex-col gap-8 row-start-2 items-left sm:items-start">
         <section id="home">
-          <h1 className="bg-gradient-to-r from-[#bddca7] to-[#a7dccd] h-64 w-full">>
+          <h1 className="bg-gradient-to-r from-[#bddca7] to-[#a7dccd] h-64 w-full">
             Aarushi Ammavajjala
           </h1>
             <h1 className="font-bold text-xl"> Developer. </h1>
