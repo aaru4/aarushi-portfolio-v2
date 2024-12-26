@@ -15,7 +15,7 @@ export default function Home() {
         </div>
             <h1 className="font-bold text-xl py-3"> Developer. </h1>
             <h1 className="text-l"> Studying Computer Science @ South Forsyth High School. </h1>
-            <h1 className="text-l"> Contact me: aaru7811@gmail.com </h1>
+            <h1 className="text-l"> Contact me: aaru7811 [at] gmail [dot] com </h1>
             <a
               href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
               target="_blank"
@@ -27,13 +27,13 @@ export default function Home() {
                   alt="LinkedIn Icon"
                   width={40}
                   height={40}
-                  className="hover:bg-[#a7dccd] transition-opacity duration-200"
+                  className="rounded hover:bg-[#a7dccd] opacity-50 transition-opacity duration-200"
                 />
             </a>
         </section>
         <section id="education">
-            <h1> education </h1>
-          </section>
+          <h1 className="font-bold text-xl py-3"> Education </h1>
+        </section>
         <section id="experience">
         <div className="flex flex-wrap gap-8">
           <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#FFC5C5" />
