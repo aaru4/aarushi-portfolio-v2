@@ -13,18 +13,19 @@ export default function Home() {
           <h1 className="bg-gradient-to-r from-[#bddca7] to-[#a7dccd] h-64 w-full">>
             Aarushi Ammavajjala
           </h1>
-            <h1> developer, studying computer science @ tbd </h1>
-            <a 
-              href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/" 
-              target="_blank" 
+            <h1 className="font-bold text-xl"> Developer. </h1>
+            <h1 className="text-l"> Studying Computer Science @ South Forsyth High School </h1>
+            <a
+              href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
+              target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-4"
               >
-                <Image 
-                  src="/linkedin.svg" 
-                  alt="LinkedIn Icon" 
-                  width={40} 
-                  height={40} 
+                <Image
+                  src="/linkedin.svg"
+                  alt="LinkedIn Icon"
+                  width={40}
+                  height={40}
                   className="hover:opacity-80 transition-opacity duration-200"
                 />
             </a>
