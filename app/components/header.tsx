@@ -5,10 +5,11 @@ const Navbar = () => {
     <nav>
       <ul>
         <li>
-          <Link href="/">Home</Link>
+            float: left
+          <Link href="./page">Home</Link>
         </li>
         <li>
-          <Link href="/edu">Education & Skills</Link>
+          <Link href="/pages/edu">Education & Skills</Link>
         </li>
         <li>
           <Link href="/exp">Experience</Link>
