@@ -11,6 +11,17 @@ export default function Home() {
         <div className="flex gap-8">
           <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#FFC5C5" />
           <ProjectBox title="AI Researcher" org="Cornell University" color="#faf2b9" />
+          <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#FFC5C5" />
+          <ProjectBox title="AI Researcher" org="Cornell University" color="#faf2b9" />
+          <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#FFC5C5" />
+          <ProjectBox title="AI Researcher" org="Cornell University" color="#faf2b9" />
+          <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#FFC5C5" />
+          <ProjectBox title="AI Researcher" org="Cornell University" color="#faf2b9" />
+          <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#FFC5C5" />
+          <ProjectBox title="AI Researcher" org="Cornell University" color="#faf2b9" />
+        </div>
+        <div className="education">
+          <h1> education </h1>
         </div>
       </main>
     </div>
