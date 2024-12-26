@@ -6,7 +6,8 @@ const Navbar = () => {
       <ul className="flex space-x-4">
         <li className="font-bold text-xl p-2 rounded" style={{ backgroundColor: "#a7dccd" }}>
           Aarushi Ammavajjala
-        </li>
+        </li>                                                 
+        <li>
           <Link href="#home">Home</Link>
         </li>
         <li>
