@@ -10,11 +10,11 @@ export default function Home() {
       <Navbar />
         <main className="flex flex-col gap-8 row-start-2 items-left sm:items-start">
         <section id="home">
-          <h1 className="font-bold text-5xl px-4 py-2 rounded bg-gradient-to-r from-[#bddca7] to-[#a7dccd] h-auto w-full">
-            Aarushi Ammavajjala
-          </h1>
-            <h1 className="font-bold text-xl px-3"> Developer. </h1>
-            <h1 className="text-l"> Studying Computer Science @ South Forsyth High School. Contact me at aaru7811@gmail.com </h1>
+        <div className="inline-block px-2 py-2 rounded bg-gradient-to-r from-[#bddca7] to-[#a7dccd]">
+          <h1 className="font-bold text-5xl px-2 py-2">Aarushi Ammavajjala</h1>
+        </div>
+            <h1 className="font-bold text-xl py-1"> Developer. </h1>
+            <h1 className="text-l"> Studying Computer Science @ South Forsyth High School. \n Contact me at aaru7811@gmail.com </h1>
             <a
               href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
               target="_blank"
