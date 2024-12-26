@@ -4,8 +4,9 @@ const Navbar = () => {
   return (
     <nav>
       <ul className="flex space-x-4">
-        <li className="font-bold text-xl"> Aarushi Ammavajjala </li>
-        <li>
+        <li className="font-bold text-xl p-2 rounded" style={{ backgroundColor: "#a7dccd" }}>
+          Aarushi Ammavajjala
+        </li>
           <Link href="#home">Home</Link>
         </li>
         <li>
