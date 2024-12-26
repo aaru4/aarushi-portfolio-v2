@@ -10,7 +10,7 @@ export default function Home() {
       <Navbar />
         <main className="flex flex-col gap-8 row-start-2 items-left sm:items-start">
         <section id="home">
-          <h1 className="bg-gradient-to-r from-[#bddca7] to-[#a7dccd] h-64 w-full">
+          <h1 className="font-bold text-5xl bg-gradient-to-r from-[#bddca7] to-[#a7dccd] h-auto w-full">
             Aarushi Ammavajjala
           </h1>
             <h1 className="font-bold text-xl"> Developer. </h1>
