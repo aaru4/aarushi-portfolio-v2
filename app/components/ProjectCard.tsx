@@ -1,11 +1,12 @@
 interface ProjectCardProps {
     title: string;
     org: string;
+    color: string;
   }
   
-  export const ProjectBox: React.FC<ProjectCardProps> = ({ title, org }) => {
+  export const ProjectBox: React.FC<ProjectCardProps> = ({ title, org, color }) => {
     return (
-      <div style={cardStyles.container}>
+      <div style={{...cardStyles.container, backgroundColor: color }}>
         <h1 style={cardStyles.title}>{title}</h1>
         <p style={cardStyles.org}>{org}</p>
       </div>
