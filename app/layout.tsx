@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Ruda as RudaFont } from "next/font/google";
+import { Archivo as ArchivoFont } from "next/font/google";
 import React from "react";
 import "./globals.css";
 
-const Ruda = RudaFont({
+const Archivo = ArchivoFont({
   weight: "600",
   subsets: ["latin"],
 });
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${Ruda.className} antialiased`}
+        className={`${Archivo.className} antialiased`}
       >
         {children}
       </body>
