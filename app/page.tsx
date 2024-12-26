@@ -1,5 +1,5 @@
 import Header from './components/header';
-import { ProjectBox } from './layout';
+import { ProjectBox } from './components/ProjectCard';
 
 export default function Home() {
   return (
