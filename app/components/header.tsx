@@ -3,13 +3,12 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <nav>
-      <ul>
+      <ul className="flex space-x-4">
         <li>
-            float: left
-          <Link href="./page">Home</Link>
+          <Link href="/page.tsx">Home</Link>
         </li>
         <li>
-          <Link href="/pages/edu">Education & Skills</Link>
+          <Link href="/pages/edu.tsx">Education & Skills</Link>
         </li>
         <li>
           <Link href="/exp">Experience</Link>
