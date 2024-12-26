@@ -14,7 +14,20 @@ export default function Home() {
             Aarushi Ammavajjala
           </h1>
             <h1> developer, studying computer science @ tbd </h1>
-            <Image src="../public/linkedin.svg" alt="LinkedIn Icon" />
+            <a 
+              href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block mt-4"
+              >
+                <Image 
+                  src="/linkedin.svg" 
+                  alt="LinkedIn Icon" 
+                  width={40} 
+                  height={40} 
+                  className="hover:opacity-80 transition-opacity duration-200"
+                />
+            </a>
         </section>
         <section id="education">
             <h1> education </h1>
