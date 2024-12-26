@@ -23,13 +23,12 @@ interface ProjectCardProps {
       textAlign: "center" as const,
     },
     title: {
-      fontSize: "24px",
-      fontWeight: "bold",
+      fontSize: "18px",
       marginBottom: "8px",
       color: "#333",
     },
     org: {
-      fontSize: "18px",
+      fontSize: "12px",
       color: "#666",
     },
   };

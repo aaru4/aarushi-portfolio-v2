@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Navbar from './components/header';
 import { ProjectBox } from './components/ProjectCard';
 
-// color palette: #FFC5C5, #faf2b9, #bddca7, #a7dccd
+// color palette: #fccf97, #faf2b9, #bddca7, #a7dccd
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         <div className="inline-block px-2 py-2 rounded bg-gradient-to-r from-[#bddca7] to-[#a7dccd]">
           <h1 className="font-bold text-5xl px-2 py-2">Aarushi Ammavajjala</h1>
         </div>
-            <h1 className="font-bold text-xl py-3"> Developer. </h1>
+            <h1 className="font-bold text-xl py-3"> Developer </h1>
             <h1 className="text-l"> Studying Computer Science @ South Forsyth High School. </h1>
             <h1 className="text-l"> Contact me: aaru7811 [at] gmail [dot] com </h1>
             <a
@@ -33,19 +33,14 @@ export default function Home() {
         </section>
         <section id="education">
           <h1 className="font-bold text-xl py-3"> Education </h1>
+          <ProjectBox title="South Forsyth High School" org="2021-2025" color="#fccf97" />
         </section>
         <section id="experience">
         <div className="flex flex-wrap gap-8">
-          <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#FFC5C5" />
+          <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#fccf97" />
           <ProjectBox title="AI Researcher" org="Cornell University" color="#faf2b9" />
-          <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#FFC5C5" />
-          <ProjectBox title="AI Researcher" org="Cornell University" color="#faf2b9" />
-          <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#FFC5C5" />
-          <ProjectBox title="AI Researcher" org="Cornell University" color="#faf2b9" />
-          <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#FFC5C5" />
-          <ProjectBox title="AI Researcher" org="Cornell University" color="#faf2b9" />
-          <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#FFC5C5" />
-          <ProjectBox title="AI Researcher" org="Cornell University" color="#faf2b9" />
+          <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#bddca7" />
+          <ProjectBox title="AI Researcher" org="Cornell University" color="#a7dccd" />
         </div>
         </section>
       </main>
