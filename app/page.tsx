@@ -34,14 +34,24 @@ export default function Home() {
         </section>
         <section id="education">
           <h1 className="font-bold text-2xl py-3"> Education & Skills </h1>
+          <ProjectBox 
+  title="South Forsyth High School"
+  org=""
+  date="August 2021 - May 2025"
+  desc=""
+  color="#a8e6ce" />
+  <div className="flex flex-wrap gap-8">
           <SkillBox title="Python" color="#a8e6ce" />
           <SkillBox title="Java" color="#b2dfdb" />
-          <SkillBox title="AI/ML" color="#b3e5fc" />
           <SkillBox title="Swift" color="#b3e5fc" />
           <SkillBox title="R" color="#ffabab" />
+          <SkillBox title="Deep Learning" color="#b3e5fc" />
+          <SkillBox title="Computer Vision" color="#b3e5fc" />
+          <SkillBox title="NLP" color="#a8e6ce" />
           <SkillBox title="React" color="#ffabab" />
           <SkillBox title="Next.js" color="#ff677d" />
-          <SkillBox title="JavaScript/TypeScript" color="#a8e6ce" />
+          <SkillBox title="JavaScript/TypeScript" color="#ffabab" />
+          </div>
         </section>
         <section id="experience">
         <h1 className="font-bold text-2xl py-3"> Research and Work Experiences </h1>
