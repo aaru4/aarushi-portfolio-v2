@@ -106,7 +106,7 @@ export default function Home() {
   title="AI Research Intern" 
   org="Stanford Center for Artificial Intelligence in Medicine and Imaging" 
   date="June - July 2024" 
-  desc="Developed a comprehensive pulmonary diagnostic tool." 
+  desc="1 of 20 selected nationwide. Developed high-accuracy pulmonary diagnostic system. Leveraged RadGraph for unsupervised radiology report diagnosis system; used outputted predictions to train a ResNet computer vision ultrasound analysis mode" 
   color="#a8e6ce" 
 />
 
@@ -114,7 +114,7 @@ export default function Home() {
   title="Development Intern" 
   org="Microsoft" 
   date="July 2023 - April 2024" 
-  desc="Utilized Swift, SQL, Dart, and JavaScript to develop JackTag, a health and safety mobile application and NFC wearable; presented to Microsoft and AT&T investors." 
+  desc="Utilized Swift, SQL, Dart, and JavaScript to develop JackTag, a health and safety mobile application and NFC wearable that streamlines communication of critical medical information between crisis victims and first responders. Presented to Microsoft and AT&T investors." 
   color="#b2dfdb" 
 />
 
@@ -122,7 +122,7 @@ export default function Home() {
   title="AI Research Intern" 
   org="TSI + Cornell University" 
   date="June - August 2023" 
-  desc="Developed a graph neural network for binary state neuroimaging recognition."
+  desc="Developed a graph neural network for binary state neuroimaging recognition. Accepted to TSI (~10% of 850), matched at Cornell University. Published paper and spoke at Talaria International Conference."
   color="#ffabab"
 />
 
@@ -130,7 +130,7 @@ export default function Home() {
   title="AI Research Intern" 
   org="Midwestern University" 
   date="August 2023 - May 2024" 
-  desc="Developed a transformer-based neural network to automate gastric POCUS and reduce anesthesia-induced aspiration morbidity."
+  desc="Developed a highly-accurate transformer-based neural network to automate gastric POCUS and reduce anesthesia-induced aspiration morbidity."
   color="#ff677d"
 />
           </div>

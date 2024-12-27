@@ -62,10 +62,3 @@ interface ProjectCardProps {
       lineHeight: "1.5",
     },
   };
-  
-  const cardHoverStyles = {
-    container: {
-      transform: "translateY(-10px)", 
-      boxShadow: "0px 15px 25px rgba(0, 0, 0, 0.2)",
-    },
-  };
