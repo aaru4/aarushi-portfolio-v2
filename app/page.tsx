@@ -33,21 +33,20 @@ export default function Home() {
                 />
             </a>
         </section>
-        <section id="education" className="flex gap-8">
-          <h1 className="font-bold text-2xl py-3"> Education & Skills </h1>
-
+        <h1 id="education" className="font-bold text-2xl py-3"> Education & Skills </h1>
+        <section className="flex gap-8">
   <div className="w-1/3">
-    <ProjectBox 
+    <ProjectBox
       title="South Forsyth High School"
       org=""
       date="August 2021 - May 2025"
       desc=""
-      color="#a8e6ce" 
+      color="#a8e6ce"
     />
   </div>
 
   <div className="w-2/3">
-    <div className="grid grid-cols-2 gap-8">
+    <div className="grid grid-cols-5 gap-8">
       <SkillBox title="Python" color="#a8e6ce" />
       <SkillBox title="Java" color="#b2dfdb" />
       <SkillBox title="Swift" color="#b3e5fc" />
