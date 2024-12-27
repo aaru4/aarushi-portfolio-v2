@@ -46,7 +46,7 @@ export default function Home() {
   </div>
 
   <div className="w-2/3 pl-40">
-    <div className="grid grid-cols-5 gap-4">
+    <div className="grid grid-cols-5 gap-7">
       <SkillBox title="Python" color="#a8e6ce" />
       <SkillBox title="Java" color="#b2dfdb" />
       <SkillBox title="Swift" color="#b3e5fc" />
