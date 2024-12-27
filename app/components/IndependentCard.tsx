@@ -13,8 +13,13 @@ interface IndCardProps {
 
   export const IndBox: React.FC<IndCardProps> = ({ title, org, color }) => {
     return (
-      <div style={{ ...cardStyles.container,   background: `linear-gradient(${hexToRgba(color, 0.5)}, ${color})`, ...cardHoverStyles.container }}>
-        <h1 style={cardStyles.title}>{title}</h1>
+      <div
+      className={`w-[400px] p-6 rounded-lg shadow-lg mx-auto text-center transform transition-transform duration-300 hover:scale-110`}
+      style={{
+        background: `linear-gradient(${hexToRgba(color, 0.5)}, ${color})`,
+      }}
+    > 
+            <h1 style={cardStyles.title}>{title}</h1>
         <p style={cardStyles.org}>{org}</p>
       </div>
     );
@@ -25,7 +30,7 @@ interface IndCardProps {
       borderRadius: "12px", 
       boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.1)", 
       padding: "20px", 
-      maxWidth: "250px",
+      width: "400px",
       margin: "16px auto",
       textAlign: "center" as const,
       transition: "transform 0.3s ease, box-shadow 0.3s ease",
@@ -41,12 +46,5 @@ interface IndCardProps {
       fontSize: "16px",
       color: "#555",
       marginBottom: "8px",
-    },
-  };
-  
-  const cardHoverStyles = {
-    container: {
-      transform: "translateY(-10px)", 
-      boxShadow: "0px 15px 25px rgba(0, 0, 0, 0.2)",
     },
   };
