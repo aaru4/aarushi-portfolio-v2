@@ -46,8 +46,8 @@ export default function Home() {
     />
   </div>
 
-  <div className="w-2/3 pl-5">
-    <div className="grid grid-cols-5 gap-6">
+  <div className="w-2/3 pl-2">
+    <div className="grid grid-cols-3 gap-3">
       <SkillBox title="Python" color="#a8e6ce" />
       <SkillBox title="Java" color="#b2dfdb" />
       <SkillBox title="Swift" color="#b3e5fc" />
@@ -55,9 +55,8 @@ export default function Home() {
       <SkillBox title="Deep Learning" color="#ff677d" />
       <SkillBox title="Computer Vision" color="#a8e6ce" />
       <SkillBox title="NLP" color="#b2dfdb" />
-      <SkillBox title="React" color="#b3e5fc" />
-      <SkillBox title="R" color="#ffabab" />
-      <SkillBox title="JavaScript" color="#ff677d" />
+      <SkillBox title="R" color="#b3e5fc" />
+      <SkillBox title="JavaScript" color="#ffabab" />
     </div>
   </div>
 </section>
@@ -156,7 +155,13 @@ export default function Home() {
   color="#ffabab"
 />
 </a>
-
+<ProjectBox 
+  title="Awards" 
+  org="hackas, how many shall i put?" 
+  date="tbd" 
+  desc="ncwit gwc taco bell ?"
+  color="#ff677d"
+/>
           </div>
         </section>
         <section id="projects">

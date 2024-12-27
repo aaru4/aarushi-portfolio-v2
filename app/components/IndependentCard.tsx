@@ -14,7 +14,7 @@ interface IndCardProps {
   export const IndBox: React.FC<IndCardProps> = ({ title, org, color }) => {
     return (
       <div
-      className={`w-[400px] p-6 rounded-lg shadow-lg mx-auto text-center transform transition-transform duration-300 hover:scale-110`}
+      className={`w-[300px] p-6 rounded-lg shadow-lg mx-auto text-center transform transition-transform duration-300 hover:scale-110`}
       style={{
         background: `linear-gradient(${hexToRgba(color, 0.5)}, ${color})`,
       }}
