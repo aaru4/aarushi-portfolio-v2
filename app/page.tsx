@@ -35,12 +35,14 @@ export default function Home() {
         <section id="education">
           <h1 className="font-bold text-2xl py-3"> Education & Skills </h1>
           <div className="flex flex-wrap gap-8">
+            <div>
           <ProjectBox 
   title="South Forsyth High School"
   org=""
   date="August 2021 - May 2025"
   desc=""
   color="#a8e6ce" />
+  </div>
   <div className="flex flex-wrap gap-8">
           <SkillBox title="Python" color="#a8e6ce" />
           <SkillBox title="Java" color="#b2dfdb" />
@@ -64,7 +66,7 @@ export default function Home() {
   title="HCI/AI Research Intern" 
   org="Georgia Institute of Technology" 
   date="January 2025 - Present" 
-  desc="Coordinating AI development across 140+ youth-led international NGOs." 
+  desc=""
   color="#a8e6ce"
 />
 
