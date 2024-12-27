@@ -46,7 +46,7 @@ export default function Home() {
   </div>
 
   <div className="w-2/3">
-    <div className="grid grid-cols-5 gap-2">
+    <div className="grid grid-cols-5 gap-4">
       <SkillBox title="Python" color="#a8e6ce" />
       <SkillBox title="Java" color="#b2dfdb" />
       <SkillBox title="Swift" color="#b3e5fc" />
@@ -69,7 +69,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="inline-block mt-4"
               >
-        <ProjectBox 
+        <ProjectBox
   title="HCI/AI Research Intern" 
   org="Georgia Institute of Technology" 
   date="January 2025 - Present" 
@@ -136,7 +136,7 @@ export default function Home() {
           </div>
         </section>
         <section id="projects">
-        <h1 className="font-bold text-2xl py-3"> Recent Project </h1>
+        <h1 className="font-bold text-2xl py-3"> Recent Projects </h1>
         <div className="flex flex-wrap gap-8">
 
         <IndBox 
