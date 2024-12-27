@@ -55,7 +55,7 @@ export default function Home() {
           </div>
         </section>
         <section id="experience">
-        <h1 className="font-bold text-2xl py-3"> Research and Work Experiences </h1>
+        <h1 className="font-bold text-2xl py-3"> Recent Experiences </h1>
         <div className="flex flex-wrap gap-8">
 
         <ProjectBox 
@@ -105,14 +105,6 @@ export default function Home() {
   desc="Developed a graph neural network for binary state neuroimaging recognition."
   color="#a8e6ce"
 />
-
-<ProjectBox
-  title="Research Intern"
-  org="Midwestern University"
-  date="August 2023 - May 2024"
-  desc="Developed a transformer-based neural network to reduce anesthesia-induced aspiration morbidity." 
-  color="#b2dfdb"
-    />
           </div>
         </section>
       </main>

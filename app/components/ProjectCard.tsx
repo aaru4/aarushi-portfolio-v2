@@ -6,9 +6,16 @@ interface ProjectCardProps {
     color: string;
   }
   
+  function hexToRgba(hex, opacity) {
+    let r = parseInt(hex.slice(1, 3), 16);
+    let g = parseInt(hex.slice(3, 5), 16);
+    let b = parseInt(hex.slice(5, 7), 16);
+    return `rgba(${r}, ${g}, ${b}, ${opacity})`;
+  }
+
   export const ProjectBox: React.FC<ProjectCardProps> = ({ title, org, date, desc, color }) => {
     return (
-      <div style={{ ...cardStyles.container, background: `linear-gradient(#e3e3e3, ${color})`, ...cardHoverStyles.container }}>
+      <div style={{ ...cardStyles.container,   background: `linear-gradient(${hexToRgba(color, 0.6)}, ${color})`, ...cardHoverStyles.container }}>
         <h1 style={cardStyles.title}>{title}</h1>
         <p style={cardStyles.org}>{org}</p>
         <p style={cardStyles.date}>{date}</p>
