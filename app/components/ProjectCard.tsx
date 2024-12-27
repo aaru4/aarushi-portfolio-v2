@@ -20,7 +20,7 @@ interface ProjectCardProps {
   const cardStyles = {
     container: {
       borderRadius: "12px", 
-      boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.1)", h
+      boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.1)", 
       padding: "20px", 
       maxWidth: "300px",
       margin: "16px auto",
@@ -54,7 +54,7 @@ interface ProjectCardProps {
   
   const cardHoverStyles = {
     container: {
-      transform: "translateY(-10px)", // Slightly lift the card on hover
-      boxShadow: "0px 15px 25px rgba(0, 0, 0, 0.2)", // Stronger shadow for the hover effect
+      transform: "translateY(-10px)", 
+      boxShadow: "0px 15px 25px rgba(0, 0, 0, 0.2)",
     },
   };
