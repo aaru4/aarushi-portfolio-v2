@@ -15,7 +15,7 @@ interface ProjectCardProps {
 
   export const ProjectBox: React.FC<ProjectCardProps> = ({ title, org, date, desc, color }) => {
     return (
-      <div style={{ ...cardStyles.container,   background: `linear-gradient(${hexToRgba(color, 0.4)}, ${color})`, ...cardHoverStyles.container }}>
+      <div style={{ ...cardStyles.container,   background: `linear-gradient(${hexToRgba(color, 0.5)}, ${color})`, ...cardHoverStyles.container }}>
         <h1 style={cardStyles.title}>{title}</h1>
         <p style={cardStyles.org}>{org}</p>
         <p style={cardStyles.date}>{date}</p>
@@ -29,7 +29,7 @@ interface ProjectCardProps {
       borderRadius: "12px", 
       boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.1)", 
       padding: "20px", 
-      maxWidth: "300px",
+      maxWidth: "250px",
       margin: "16px auto",
       textAlign: "center" as const,
       transition: "transform 0.3s ease, box-shadow 0.3s ease",
