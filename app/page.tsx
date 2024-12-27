@@ -33,10 +33,9 @@ export default function Home() {
                   className="rounded hover:bg-[#ffabab] transition-opacity-80 duration-200"
                 />
             </a>
-        </section>
-        <h1 id="education" className="font-bold text-2xl py-3"> Education & Skills </h1>
-        <section className="flex gap-8">
-  <div className="w-1/3">
+            </section>
+            <section className="flex flex-col gap-6 sm:flex-row sm:gap-8">
+  <div className="w-full sm:w-1/3">
     <UCProjectBox
       title="South Forsyth High School"
       org=""
@@ -46,8 +45,8 @@ export default function Home() {
     />
   </div>
 
-  <div className="w-2/3 pl-15">
-    <div className="grid grid-cols-3 gap-3">
+  <div className="w-full sm:w-2/3 px-4">
+    <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
       <SkillBox title="Python" color="#a8e6ce" />
       <SkillBox title="Java" color="#b2dfdb" />
       <SkillBox title="Swift" color="#b3e5fc" />
