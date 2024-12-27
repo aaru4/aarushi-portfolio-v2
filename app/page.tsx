@@ -64,7 +64,7 @@ export default function Home() {
         <h1 className="font-bold text-2xl py-3"> Recent Experiences </h1>
         <div className="flex flex-wrap gap-8">
         <a
-              href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
+              href="https://sites.google.com/view/riarriaga/home?authuser=0"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-4"
@@ -77,7 +77,12 @@ export default function Home() {
   color="#a8e6ce"
 />
 </a>
-
+<a
+              href="https://www.way.org.my/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4"
+              >
         <ProjectBox 
   title="AI Development Intern" 
   org="United Nations" 
@@ -85,7 +90,13 @@ export default function Home() {
   desc="Coordinating AI development across 140+ youth-led international NGOs." 
   color="#b2dfdb"
 />
-
+</a>
+<a
+              href="https://med.stanford.edu/anesthesia/research.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4"
+              >
 <ProjectBox 
   title="AI Research Intern" 
   org="Stanford Department of Anesthesiology" 
@@ -93,7 +104,13 @@ export default function Home() {
   desc="Predicting hypotension from arterial blood waveforms using deep learning." 
   color="#ffabab" 
 />
-
+</a>
+<a
+              href="https://med.stanford.edu/anesthesia/research.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4"
+              >
 <ProjectBox 
   title="Development Intern" 
   org="Oracle" 
@@ -101,7 +118,13 @@ export default function Home() {
   desc="Designed and implemented a billing system using OCI, APEX, SQL, & PL/SQL; directed FIFO debt management, payment application, and error handling, with delinquency predictions." 
   color="#ff677d"
 />
-
+</a>
+<a
+              href="https://med.stanford.edu/anesthesia/research.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4"
+              >
 <ProjectBox 
   title="AI Research Intern" 
   org="Stanford Center for Artificial Intelligence in Medicine and Imaging" 
@@ -109,7 +132,13 @@ export default function Home() {
   desc="1 of 20 selected nationwide. Developed high-accuracy pulmonary diagnostic system.  RadGraph for unsupervised radiology report classifier; used outputted predictions to train a ResNet ultrasound analysis model." 
   color="#a8e6ce" 
 />
-
+</a>
+<a
+              href="https://med.stanford.edu/anesthesia/research.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4"
+              >
 <ProjectBox 
   title="Development Intern" 
   org="Microsoft" 
@@ -117,7 +146,13 @@ export default function Home() {
   desc="Utilized Swift, SQL, Dart, and JavaScript to develop JackTag, a health and safety mobile application and NFC wearable that streamlines communication of critical medical information between crisis victims and first responders. Presented to Microsoft and AT&T investors." 
   color="#b2dfdb" 
 />
-
+</a>
+<a
+              href="https://med.stanford.edu/anesthesia/research.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4"
+              >
 <ProjectBox 
   title="AI Research Intern" 
   org="TSI + Cornell University" 
@@ -125,7 +160,7 @@ export default function Home() {
   desc="Developed a graph neural network for binary state neuroimaging recognition. Accepted to TSI (~10% of 850), matched at Cornell University. Published paper and spoke at Talaria International Conference."
   color="#ffabab"
 />
-
+</a>
 <ProjectBox 
   title="AI Research Intern" 
   org="Midwestern University" 
