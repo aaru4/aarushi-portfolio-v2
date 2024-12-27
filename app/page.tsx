@@ -80,7 +80,7 @@ export default function Home() {
   desc="Designed and implemented a billing system using OCI, APEX, SQL, & PL/SQL; directed FIFO debt management, payment application, and error handling, with delinquency predictions." 
   color="#b3e5fc" 
 />
-  // color palette: #a8e6ce, #b2dfdb, #b3e5fc, #ffabab, #ff677d
+
 <ProjectBox 
   title="Research Intern" 
   org="Stanford Center for Artificial Intelligence in Medicine and Imaging" 
