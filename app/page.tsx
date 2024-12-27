@@ -151,13 +151,7 @@ export default function Home() {
 </a>
 <ProjectBox 
   title="Awards" 
-  org={
-    <>
-    <div>"National Center for Women & Information Technology: National Winner (Top 1% of 3500 applicants)." </div>
-    <div>Girls Who Code 20 Under 20. </div> 
-    <div>10x Hackathon Winner (total participant count: ~3500)."</div>
-    </>
-  }
+  org="National Center for Women & Information Technology: National Winner (Top 1% of 3500 applicants). Girls Who Code 20 Under 20. 10x Hackathon Winner (total participant count: ~3500). Taco Bell Ambition Accelerator International Seed Grantee. Disney Dreamers Academy."
   date="" 
   desc=""
   color="#ff677d"
