@@ -106,7 +106,7 @@ export default function Home() {
 />
 </a>
 
-<UCProjectBox 
+<ProjectBox 
   title="Development Intern" 
   org="Oracle" 
   date="August 2024 - Present" 
@@ -149,7 +149,7 @@ export default function Home() {
   color="#ffabab"
 />
 </a>
-<UCProjectBox 
+<ProjectBox 
   title="Awards" 
   org="hackas, how many shall i put?" 
   date="tbd" 
