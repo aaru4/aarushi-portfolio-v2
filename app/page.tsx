@@ -45,7 +45,7 @@ export default function Home() {
     />
   </div>
 
-  <div className="w-2/3 pl-40">
+  <div className="w-2/3 pl-20">
     <div className="grid grid-cols-5 gap-7">
       <SkillBox title="Python" color="#a8e6ce" />
       <SkillBox title="Java" color="#b2dfdb" />
@@ -56,7 +56,7 @@ export default function Home() {
       <SkillBox title="NLP" color="#b2dfdb" />
       <SkillBox title="React" color="#b3e5fc" />
       <SkillBox title="R" color="#ffabab" />
-      <SkillBox title="JavaScript/TypeScript" color="#ff677d" />
+      <SkillBox title="JavaScript" color="#ff677d" />
     </div>
   </div>
 </section>
@@ -106,7 +106,7 @@ export default function Home() {
   title="AI Research Intern" 
   org="Stanford Center for Artificial Intelligence in Medicine and Imaging" 
   date="June - July 2024" 
-  desc="1 of 20 selected nationwide. Developed high-accuracy pulmonary diagnostic system. Leveraged RadGraph for unsupervised radiology report diagnosis system; used outputted predictions to train a ResNet computer vision ultrasound analysis mode" 
+  desc="1 of 20 selected nationwide. Developed high-accuracy pulmonary diagnostic system.  RadGraph for unsupervised radiology report classifier; used outputted predictions to train a ResNet ultrasound analysis model." 
   color="#a8e6ce" 
 />
 

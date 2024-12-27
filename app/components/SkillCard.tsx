@@ -16,7 +16,7 @@ interface SkillCardProps {
       borderRadius: "8px",
       boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
       padding: "6px",
-      width: "180px",
+      width: "150px",
       margin: "16px auto",
       textAlign: "center" as const,
     },
