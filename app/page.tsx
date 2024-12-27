@@ -46,12 +46,12 @@ export default function Home() {
     />
   </div>
 
-  <div className="w-2/3 pl-2">
+  <div className="w-2/3 pl-15">
     <div className="grid grid-cols-3 gap-3">
       <SkillBox title="Python" color="#a8e6ce" />
       <SkillBox title="Java" color="#b2dfdb" />
       <SkillBox title="Swift" color="#b3e5fc" />
-      <SkillBox title="Microsoft Suite" color="#ffabab" />
+      <SkillBox title="SQL" color="#ffabab" />
       <SkillBox title="Deep Learning" color="#ff677d" />
       <SkillBox title="Computer Vision" color="#a8e6ce" />
       <SkillBox title="NLP" color="#b2dfdb" />
@@ -206,6 +206,7 @@ export default function Home() {
     
           </div>
         </section>
+        <h1 className="text-l"> Copyright 2024 Aarushi Ammavajjala. All rights reserved. </h1>
       </main>
     </div>
   );
