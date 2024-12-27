@@ -40,7 +40,8 @@ export default function Home() {
           <ProjectBox title="AI Researcher" org="Cornell University" color="#a8e6ce" />
           <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#b2dfdb" />
           <ProjectBox title="AI Researcher" org="Cornell University" color="#b3e5fc" />
-          <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#dbc7ff" />
+          <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#ffabab" />
+          <ProjectBox title="Machine Learning Intern" org="Stanford AIMI Research Group" color="#ff677d" />
         </div>
         </section>
       </main>
