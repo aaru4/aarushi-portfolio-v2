@@ -39,7 +39,7 @@ export default function Home() {
   <div className="w-full sm:w-1/3">
     <UCProjectBox
       title="South Forsyth High School"
-      org=""
+      org="NMSQT Semifinalist, AP Scholar with Distinction"
       date="August 2021 - May 2025"
       desc=""
       color="#a8e6ce"
@@ -151,8 +151,14 @@ export default function Home() {
 </a>
 <ProjectBox 
   title="Awards" 
-  org="hackas, how many shall i put?" 
-  date="tbd" 
+  org={
+    "National Center for Women & Information Technology: National Winner (Top 1% of 3500 applicants).<br />" +
+    "Taco Bell Ambition International Seed Funding Recipient<br />" +
+    "10x Hackathon Winner (total participant count: ~3500)<br />" + 
+    "Disney Dreamers Academy <br />" +
+    "1st at Georgia State Technology Competition />" +
+    "4th at Georgia Science and Engineering Fair />" 
+  }  date="tbd" 
   desc="ncwit gwc taco bell ?"
   color="#ff677d"
 />
