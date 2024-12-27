@@ -34,7 +34,8 @@ export default function Home() {
                 />
             </a>
             </section>
-            <section className="flex flex-col gap-6 sm:flex-row sm:gap-8">
+            <section id="experience" className="flex flex-col gap-6 sm:flex-row sm:gap-8">
+          <h1 className="font-bold text-2xl py-3"> Education </h1>
   <div className="w-full sm:w-1/3">
     <UCProjectBox
       title="South Forsyth High School"
@@ -46,7 +47,7 @@ export default function Home() {
   </div>
 
   <div className="w-full sm:w-2/3 px-4">
-    <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-4">
       <SkillBox title="Python" color="#a8e6ce" />
       <SkillBox title="Java" color="#b2dfdb" />
       <SkillBox title="Swift" color="#b3e5fc" />
@@ -159,7 +160,7 @@ export default function Home() {
         </section>
         <section id="projects">
         <h1 className="font-bold text-2xl py-3"> Recent Projects </h1>
-        <div className="flex flex-wrap gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 px-4">
         <a
               href="https://www.youtube.com/watch?v=_bVhGnBFY90"
               target="_blank"
