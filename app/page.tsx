@@ -46,11 +46,11 @@ export default function Home() {
   </div>
 
   <div className="w-2/3">
-    <div className="grid grid-cols-5 gap-8">
+    <div className="grid grid-cols-5 gap-2">
       <SkillBox title="Python" color="#a8e6ce" />
       <SkillBox title="Java" color="#b2dfdb" />
       <SkillBox title="Swift" color="#b3e5fc" />
-      <SkillBox title="Microsoft Office Suite" color="#ffabab" />
+      <SkillBox title="Microsoft Suite" color="#ffabab" />
       <SkillBox title="Deep Learning" color="#ff677d" />
       <SkillBox title="Computer Vision" color="#a8e6ce" />
       <SkillBox title="NLP" color="#b2dfdb" />
