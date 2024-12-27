@@ -61,7 +61,7 @@ export default function Home() {
 </section>
         <section id="experience">
         <h1 className="font-bold text-2xl py-3"> Recent Experiences </h1>
-        <div className="flex flex-wrap grid grid-cols-4 gap-3 sm:grid-cols-3justify-center gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
         <a
               href="https://sites.google.com/view/riarriaga/home?authuser=0"
               target="_blank"
