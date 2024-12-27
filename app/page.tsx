@@ -40,8 +40,7 @@ export default function Home() {
   date="August 2021 - May 2025"
   desc=""
   color="#a8e6ce" />
-  <div className="flex flex-wrap gap-8">
-  // color palette: #a8e6ce, #b2dfdb, #b3e5fc, #ffabab, #ff677d
+  <div className="flex flex-wrap gap-8 rounded-lg shadow-md">
           <SkillBox title="Python" color="#a8e6ce" />
           <SkillBox title="Java" color="#b2dfdb" />
           <SkillBox title="Swift" color="#b3e5fc" />
@@ -57,6 +56,7 @@ export default function Home() {
         <section id="experience">
         <h1 className="font-bold text-2xl py-3"> Research and Work Experiences </h1>
         <div className="flex flex-wrap gap-8">
+
         <ProjectBox 
   title="AI Development Intern" 
   org="United Nations World Assembly of Youth" 
@@ -80,7 +80,7 @@ export default function Home() {
   desc="Designed and implemented a billing system using OCI, APEX, SQL, & PL/SQL; directed FIFO debt management, payment application, and error handling, with delinquency predictions." 
   color="#b3e5fc" 
 />
-
+  // color palette: #a8e6ce, #b2dfdb, #b3e5fc, #ffabab, #ff677d
 <ProjectBox 
   title="Research Intern" 
   org="Stanford Center for Artificial Intelligence in Medicine and Imaging" 
