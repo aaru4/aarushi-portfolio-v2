@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Navbar from './components/header';
+import { IndBox } from './components/IndependentCard';
 import { ProjectBox } from './components/ProjectCard';
 import { SkillBox } from './components/SkillCard';
 
@@ -125,6 +126,25 @@ export default function Home() {
   desc="Developed a transformer-based neural network to automate gastric POCUS and reduce anesthesia-induced aspiration morbidity."
   color="#ff677d"
 />
+          </div>
+        </section>
+        <section id="projects">
+        <h1 className="font-bold text-2xl py-3"> Recent Project </h1>
+        <div className="flex flex-wrap gap-8">
+
+        <IndBox 
+  title="MelaninMed" 
+  org="A Deep Learning and Transformer-Based AI Mobile Application for Racially Equitable Skin Cancer Detection" 
+  color="#a8e6ce"
+/>
+
+<IndBox 
+  title="MelaninMed" 
+  org="A Deep Learning and Transformer-Based AI Mobile Application for Racially Equitable Skin Cancer Detection" 
+  color="#a8e6ce"
+/>
+
+    
           </div>
         </section>
       </main>
