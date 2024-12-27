@@ -40,12 +40,13 @@ export default function Home() {
   date="August 2021 - May 2025"
   desc=""
   color="#a8e6ce" />
-  <div className="flex flex-wrap gap-8 rounded-lg shadow-md">
+  <div className="flex flex-wrap gap-8">
           <SkillBox title="Python" color="#a8e6ce" />
           <SkillBox title="Java" color="#b2dfdb" />
           <SkillBox title="Swift" color="#b3e5fc" />
           <SkillBox title="R" color="#ffabab" />
           <SkillBox title="Deep Learning" color="#ff677d" />
+          </div><div className="flex flex-wrap gap-8">
           <SkillBox title="Computer Vision" color="#a8e6ce" />
           <SkillBox title="NLP" color="#b2dfdb" />
           <SkillBox title="React" color="#b3e5fc" />
