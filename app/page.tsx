@@ -60,16 +60,16 @@ export default function Home() {
 
         <ProjectBox 
   title="AI Development Intern" 
-  org="United Nations World Assembly of Youth" 
-  date="January 2025" 
-  desc="Coordinating AI Development across 140 international NGOs under the United Nations." 
-  color="#a8e6ce" 
+  org="United Nations" 
+  date="January 2025 - Present" 
+  desc="Coordinating AI development across 140+ youth-led international NGOs." 
+  color="#a8e6ce"
 />
 
 <ProjectBox 
-  title="Research Intern" 
+  title="AI Research Intern" 
   org="Stanford Department of Anesthesiology" 
-  date="December 2024-Present" 
+  date="January 2025 - Present"
   desc="Predicting intraoperative hypotension from arterial blood waveforms using deep learning." 
   color="#b2dfdb" 
 />
