@@ -105,20 +105,14 @@ export default function Home() {
   color="#ffabab" 
 />
 </a>
-<a
-              href="https://www.oracle.com/utilities/innovation-lab/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block mt-4"
-              >
-<ProjectBox 
+
+<UCProjectBox 
   title="Development Intern" 
   org="Oracle" 
   date="August 2024 - Present" 
   desc="Designed and implemented a billing system using OCI, APEX, SQL, & PL/SQL; directed FIFO debt management, payment application, and error handling, with delinquency predictions." 
   color="#ff677d"
 />
-</a>
 <a
               href="https://colab.research.google.com/drive/13WmNs8kbJvd3VdkFMPisvM35sUEvxTSn"
               target="_blank"
@@ -134,7 +128,7 @@ export default function Home() {
 />
 </a>
 
-<UCProjectBox 
+<ProjectBox
   title="Development Intern" 
   org="Microsoft" 
   date="July 2023 - April 2024" 
@@ -155,7 +149,7 @@ export default function Home() {
   color="#ffabab"
 />
 </a>
-<ProjectBox 
+<UCProjectBox 
   title="Awards" 
   org="hackas, how many shall i put?" 
   date="tbd" 
