@@ -45,8 +45,8 @@ export default function Home() {
     />
   </div>
 
-  <div className="w-2/3 pl-20">
-    <div className="grid grid-cols-5 gap-7">
+  <div className="w-2/3 pl-5">
+    <div className="grid grid-cols-5 gap-6">
       <SkillBox title="Python" color="#a8e6ce" />
       <SkillBox title="Java" color="#b2dfdb" />
       <SkillBox title="Swift" color="#b3e5fc" />
@@ -106,7 +106,7 @@ export default function Home() {
 />
 </a>
 <a
-              href="https://med.stanford.edu/anesthesia/research.html"
+              href="https://www.oracle.com/utilities/innovation-lab/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-4"
@@ -120,7 +120,7 @@ export default function Home() {
 />
 </a>
 <a
-              href="https://med.stanford.edu/anesthesia/research.html"
+              href="https://colab.research.google.com/drive/13WmNs8kbJvd3VdkFMPisvM35sUEvxTSn"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-4"
@@ -133,12 +133,7 @@ export default function Home() {
   color="#a8e6ce" 
 />
 </a>
-<a
-              href="https://med.stanford.edu/anesthesia/research.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block mt-4"
-              >
+
 <ProjectBox 
   title="Development Intern" 
   org="Microsoft" 
@@ -146,9 +141,8 @@ export default function Home() {
   desc="Utilized Swift, SQL, Dart, and JavaScript to develop JackTag, a health and safety mobile application and NFC wearable that streamlines communication of critical medical information between crisis victims and first responders. Presented to Microsoft and AT&T investors." 
   color="#b2dfdb" 
 />
-</a>
 <a
-              href="https://med.stanford.edu/anesthesia/research.html"
+              href="https://talaria.org/papers"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-4"
@@ -161,31 +155,48 @@ export default function Home() {
   color="#ffabab"
 />
 </a>
-<ProjectBox 
-  title="AI Research Intern" 
-  org="Midwestern University" 
-  date="August 2023 - May 2024" 
-  desc="Developed a highly-accurate transformer-based neural network to automate gastric POCUS and reduce anesthesia-induced aspiration morbidity."
-  color="#ff677d"
-/>
+
           </div>
         </section>
         <section id="projects">
         <h1 className="font-bold text-2xl py-3"> Recent Projects </h1>
         <div className="flex flex-wrap gap-8">
-
+        <a
+              href="https://www.youtube.com/watch?v=_bVhGnBFY90"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4"
+              >
         <IndBox 
   title="MelaninMed" 
-  org="A Deep Learning and Transformer-Based AI Mobile Application for Racially Equitable Skin Cancer Detection" 
+  org="A deep learning powered AI mobile application for racially equitable skin cancer detection." 
   color="#a8e6ce"
 />
-
+</a>
+<a
+              href="https://github.com/aaru4/POCUS-Net/tree/main"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4"
+              >
 <IndBox 
-  title="MelaninMed" 
-  org="A Deep Learning and Transformer-Based AI Mobile Application for Racially Equitable Skin Cancer Detection" 
-  color="#a8e6ce"
+  title="POCUS-Net" 
+  org="A highly-accurate transformer-based neural network to automate gastric POCUS and reduce anesthesia-induced aspiration morbidity." 
+  color="#b2dfdb"
 />
-
+</a>
+<a
+              href="https://aaru7811.wixsite.com/climicideml"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4"
+              >
+<IndBox 
+  title="ClimiCide" 
+  org="A gradient boosting regressor, trained on a custom dataset, to predict increases in climate-change-induced suicides." 
+  color="#b2dfdb"
+/>
+</a>
     
           </div>
         </section>
