@@ -41,16 +41,17 @@ export default function Home() {
   desc=""
   color="#a8e6ce" />
   <div className="flex flex-wrap gap-8">
+  // color palette: #a8e6ce, #b2dfdb, #b3e5fc, #ffabab, #ff677d
           <SkillBox title="Python" color="#a8e6ce" />
           <SkillBox title="Java" color="#b2dfdb" />
           <SkillBox title="Swift" color="#b3e5fc" />
           <SkillBox title="R" color="#ffabab" />
-          <SkillBox title="Deep Learning" color="#b3e5fc" />
-          <SkillBox title="Computer Vision" color="#b3e5fc" />
-          <SkillBox title="NLP" color="#a8e6ce" />
-          <SkillBox title="React" color="#ffabab" />
-          <SkillBox title="Next.js" color="#ff677d" />
-          <SkillBox title="JavaScript/TypeScript" color="#ffabab" />
+          <SkillBox title="Deep Learning" color="#ff677d" />
+          <SkillBox title="Computer Vision" color="#a8e6ce" />
+          <SkillBox title="NLP" color="#b2dfdb" />
+          <SkillBox title="React" color="#b3e5fc" />
+          <SkillBox title="Next.js" color="#ffabab" />
+          <SkillBox title="JavaScript/TypeScript" color="#ff677d" />
           </div>
         </section>
         <section id="experience">
