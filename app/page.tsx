@@ -3,6 +3,7 @@ import Navbar from './components/header';
 import { IndBox } from './components/IndependentCard';
 import { ProjectBox } from './components/ProjectCard';
 import { SkillBox } from './components/SkillCard';
+import { UCProjectBox } from './components/UnclickableCard';
 
 // color palette: #a8e6ce, #b2dfdb, #b3e5fc, #ffabab, #ff677d
 
@@ -36,7 +37,7 @@ export default function Home() {
         <h1 id="education" className="font-bold text-2xl py-3"> Education & Skills </h1>
         <section className="flex gap-8">
   <div className="w-1/3">
-    <ProjectBox
+    <UCProjectBox
       title="South Forsyth High School"
       org=""
       date="August 2021 - May 2025"
@@ -134,7 +135,7 @@ export default function Home() {
 />
 </a>
 
-<ProjectBox 
+<UCProjectBox 
   title="Development Intern" 
   org="Microsoft" 
   date="July 2023 - April 2024" 
@@ -194,7 +195,7 @@ export default function Home() {
 <IndBox 
   title="ClimiCide" 
   org="A gradient boosting regressor, trained on a custom dataset, to predict increases in climate-change-induced suicides." 
-  color="#b2dfdb"
+  color="#b3e5fc"
 />
 </a>
     
