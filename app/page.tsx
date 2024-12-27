@@ -160,7 +160,7 @@ export default function Home() {
         </section>
         <section id="projects">
         <h1 className="font-bold text-2xl py-3"> Recent Projects </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 px-4">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 px-4 mx-auto justify-items-center">
         <a
               href="https://www.youtube.com/watch?v=_bVhGnBFY90"
               target="_blank"
