@@ -79,7 +79,7 @@ export default function Home() {
   org="Stanford Department of Anesthesiology" 
   date="January 2025 - Present"
   desc="Predicting hypotension from arterial blood waveforms using deep learning." 
-  color="#b3e5fc" 
+  color="#ffabab" 
 />
 
 <ProjectBox 
@@ -87,7 +87,7 @@ export default function Home() {
   org="Oracle" 
   date="August 2024 - Present" 
   desc="Designed and implemented a billing system using OCI, APEX, SQL, & PL/SQL; directed FIFO debt management, payment application, and error handling, with delinquency predictions." 
-  color="#ffabab"
+  color="#ff677d"
 />
 
 <ProjectBox 
@@ -95,7 +95,7 @@ export default function Home() {
   org="Stanford Center for Artificial Intelligence in Medicine and Imaging" 
   date="June - July 2024" 
   desc="Developed a comprehensive pulmonary diagnostic tool." 
-  color="#ff677d" 
+  color="#a8e6ce" 
 />
 
 <ProjectBox 
@@ -103,7 +103,7 @@ export default function Home() {
   org="Microsoft" 
   date="July 2023 - April 2024" 
   desc="Utilized Swift, SQL, Dart, and JavaScript to develop JackTag, a health and safety mobile application and NFC wearable; presented to Microsoft and AT&T investors." 
-  color="#a8e6ce" 
+  color="#b2dfdb" 
 />
 
 <ProjectBox 
@@ -111,7 +111,7 @@ export default function Home() {
   org="Cornell University" 
   date="June - August 2023" 
   desc="Developed a graph neural network for binary state neuroimaging recognition."
-  color="#b2dfdb"
+  color="#ffabab"
 />
 
 <ProjectBox 
@@ -119,7 +119,7 @@ export default function Home() {
   org="Midwestern University" 
   date="August 2023 - May 2024" 
   desc="Developed a transformer-based neural network to automate gastric POCUS and reduce anesthesia-induced aspiration morbidity."
-  color="#b3e5fc"
+  color="#ff677d"
 />
           </div>
         </section>
