@@ -8,7 +8,7 @@ interface ProjectCardProps {
   
   export const ProjectBox: React.FC<ProjectCardProps> = ({ title, org, date, desc, color }) => {
     return (
-      <div style={{ ...cardStyles.container, background: `linear-gradient(#ffffff, ${color})`, ...cardHoverStyles.container }}>
+      <div style={{ ...cardStyles.container, background: `linear-gradient(#e3e3e3, ${color})`, ...cardHoverStyles.container }}>
         <h1 style={cardStyles.title}>{title}</h1>
         <p style={cardStyles.org}>{org}</p>
         <p style={cardStyles.date}>{date}</p>

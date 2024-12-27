@@ -99,20 +99,21 @@ export default function Home() {
 />
 
 <ProjectBox 
-  title="Research Intern" 
-  org="Cornell University & TSI" 
-  date="June-August 2023" 
-  desc="Developed a Graph Neural Network for binary state neuroimaging recognition (BrainNetworkTransformer) using Python." 
-  color="#a8e6ce" 
+  title="AI Research Intern" 
+  org="Cornell University" 
+  date="June - August 2023" 
+  desc="Developed a graph neural network for binary state neuroimaging recognition."
+  color="#a8e6ce"
 />
 
-<ProjectBox 
-  title="Research Intern" 
-  org="Midwestern University" 
-  date="August 2023-May 2024" 
+<ProjectBox
+  title="Research Intern"
+  org="Midwestern University"
+  date="August 2023 - May 2024"
   desc="Developed a transformer-based neural network to reduce anesthesia-induced aspiration morbidity." 
-  color="#b2dfdb" 
-/>        </div>
+  color="#b2dfdb"
+    />
+          </div>
         </section>
       </main>
     </div>
