@@ -29,7 +29,7 @@ export default function Home() {
                   alt="LinkedIn Icon"
                   width={40}
                   height={40}
-                  className="rounded hover:bg-[#b3e5fc] transition-opacity-80 duration-200"
+                  className="rounded hover:bg-[#ffabab] transition-opacity-80 duration-200"
                 />
             </a>
         </section>
@@ -45,7 +45,7 @@ export default function Home() {
     />
   </div>
 
-  <div className="w-2/3">
+  <div className="w-2/3 pl-40">
     <div className="grid grid-cols-5 gap-4">
       <SkillBox title="Python" color="#a8e6ce" />
       <SkillBox title="Java" color="#b2dfdb" />
