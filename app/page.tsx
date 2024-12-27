@@ -35,30 +35,32 @@ export default function Home() {
         </section>
         <section id="education">
           <h1 className="font-bold text-2xl py-3"> Education & Skills </h1>
-          <div className="flex flex-wrap gap-8">
-            <div>
-          <ProjectBox 
-  title="South Forsyth High School"
-  org=""
-  date="August 2021 - May 2025"
-  desc=""
-  color="#a8e6ce" />
+          <div className="flex flex-wrap gap-8 w-1/3">
+    <ProjectBox 
+      title="South Forsyth High School"
+      org=""
+      date="August 2021 - May 2025"
+      desc=""
+      color="#a8e6ce" 
+    />
   </div>
-  <div className="flex flex-wrap gap-8">
-          <SkillBox title="Python" color="#a8e6ce" />
-          <SkillBox title="Java" color="#b2dfdb" />
-          <SkillBox title="Swift" color="#b3e5fc" />
-          <SkillBox title="Microsoft Office Suite" color="#ffabab" />
-          <SkillBox title="Deep Learning" color="#ff677d" />
-          </div><div className="flex flex-wrap gap-8">
-          <SkillBox title="Computer Vision" color="#a8e6ce" />
-          <SkillBox title="NLP" color="#b2dfdb" />
-          <SkillBox title="React" color="#b3e5fc" />
-          <SkillBox title="R" color="#ffabab" />
-          <SkillBox title="JavaScript/TypeScript" color="#ff677d" />
-          </div>
-          </div>
-        </section>
+  <div className="w-2/3">
+    <div className="flex flex-wrap gap-8">
+      <SkillBox title="Python" color="#a8e6ce" />
+      <SkillBox title="Java" color="#b2dfdb" />
+      <SkillBox title="Swift" color="#b3e5fc" />
+      <SkillBox title="Microsoft Office Suite" color="#ffabab" />
+      <SkillBox title="Deep Learning" color="#ff677d" />
+    </div>
+    <div className="flex flex-wrap gap-8 mt-4">
+      <SkillBox title="Computer Vision" color="#a8e6ce" />
+      <SkillBox title="NLP" color="#b2dfdb" />
+      <SkillBox title="React" color="#b3e5fc" />
+      <SkillBox title="R" color="#ffabab" />
+      <SkillBox title="JavaScript/TypeScript" color="#ff677d" />
+    </div>
+  </div>
+</section>
         <section id="experience">
         <h1 className="font-bold text-2xl py-3"> Recent Experiences </h1>
         <div className="flex flex-wrap gap-8">
