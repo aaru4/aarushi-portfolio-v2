@@ -17,7 +17,7 @@ export default function Home() {
         </div>
             <h1 className="font-bold text-xl py-3"> Developer </h1>
             <h1 className="text-l"> Studying Computer Science @ South Forsyth High School </h1>
-            <h1 className="text-l"> Contact me: aaru7811 [at] gmail [dot] com </h1>
+            <h1 className="text-l"> Contact: aaru7811 [at] gmail [dot] com </h1>
             <a
               href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
               target="_blank"
@@ -33,9 +33,10 @@ export default function Home() {
                 />
             </a>
         </section>
-        <section id="education">
+        <section id="education" className="flex gap-8">
           <h1 className="font-bold text-2xl py-3"> Education & Skills </h1>
-          <div className="flex flex-wrap gap-8 w-1/3">
+
+  <div className="w-1/3">
     <ProjectBox 
       title="South Forsyth High School"
       org=""
@@ -44,15 +45,14 @@ export default function Home() {
       color="#a8e6ce" 
     />
   </div>
+
   <div className="w-2/3">
-    <div className="flex flex-wrap gap-8">
+    <div className="grid grid-cols-2 gap-8">
       <SkillBox title="Python" color="#a8e6ce" />
       <SkillBox title="Java" color="#b2dfdb" />
       <SkillBox title="Swift" color="#b3e5fc" />
       <SkillBox title="Microsoft Office Suite" color="#ffabab" />
       <SkillBox title="Deep Learning" color="#ff677d" />
-    </div>
-    <div className="flex flex-wrap gap-8 mt-4">
       <SkillBox title="Computer Vision" color="#a8e6ce" />
       <SkillBox title="NLP" color="#b2dfdb" />
       <SkillBox title="React" color="#b3e5fc" />
