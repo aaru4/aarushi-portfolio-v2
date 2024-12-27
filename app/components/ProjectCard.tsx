@@ -48,13 +48,13 @@ interface ProjectCardProps {
     },
     date: {
       fontSize: "14px",
-      color: "#888", 
+      color: "#888",
       marginBottom: "12px",
     },
     desc: {
-      fontSize: "12px", 
-      color: "#444", 
-      lineHeight: "1.5", 
+      fontSize: "12px",
+      color: "#444",
+      lineHeight: "1.5",
     },
   };
   
