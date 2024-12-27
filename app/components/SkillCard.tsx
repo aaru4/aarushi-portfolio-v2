@@ -1,18 +1,12 @@
-interface ProjectCardProps {
+interface SkillCardProps {
     title: string;
-    org: string;
-    desc: string;
-    date: string;
     color: string;
   }
   
-  export const ProjectBox: React.FC<ProjectCardProps> = ({ title, org, date, desc, color }) => {
+  export const SkillBox: React.FC<SkillCardProps> = ({ title, color }) => {
     return (
       <div style={{...cardStyles.container, backgroundColor: color }}>
         <h1 style={cardStyles.title}>{title}</h1>
-        <p style={cardStyles.date}>{date}</p>
-        <p style={cardStyles.org}>{org}</p>
-        <p style={cardStyles.desc}>{desc}</p>
       </div>
     );
   };
@@ -29,18 +23,6 @@ interface ProjectCardProps {
     title: {
       fontSize: "18px",
       marginBottom: "8px",
-      color: "black",
-    },
-    org: {
-      fontSize: "14px",
-      color: "black",
-    },
-    date: {
-      fontSize: "14px",
-      color: "black",
-    },
-    desc: {
-      fontSize: "10px",
       color: "black",
     },
   };
