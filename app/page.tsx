@@ -123,7 +123,7 @@ export default function Home() {
   title="AI Research Intern" 
   org="Stanford Center for Artificial Intelligence in Medicine and Imaging" 
   date="June - July 2024" 
-  desc="1 of 20 selected nationwide. Developed high-accuracy pulmonary diagnostic system.  RadGraph for unsupervised radiology report classifier; used outputted predictions to train a ResNet ultrasound analysis model." 
+  desc="1 of 20 selected nationwide. Developed high-accuracy pulmonary diagnostic system.  RadGraph for unsupervised radiology report classifier; ResNet ultrasound analysis model." 
   color="#a8e6ce" 
 />
 </a>
