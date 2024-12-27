@@ -70,30 +70,30 @@ export default function Home() {
   title="AI Research Intern" 
   org="Stanford Department of Anesthesiology" 
   date="January 2025 - Present"
-  desc="Predicting intraoperative hypotension from arterial blood waveforms using deep learning." 
+  desc="Predicting hypotension from arterial blood waveforms using deep learning." 
   color="#b2dfdb" 
 />
 
 <ProjectBox 
-  title="Development Intern & Programming Project Manager" 
+  title="Development Intern" 
   org="Oracle" 
-  date="August 2024-Present" 
+  date="August 2024 - Present" 
   desc="Designed and implemented a billing system using OCI, APEX, SQL, & PL/SQL; directed FIFO debt management, payment application, and error handling, with delinquency predictions." 
-  color="#b3e5fc" 
+  color="#b3e5fc"
 />
 
 <ProjectBox 
-  title="Research Intern" 
+  title="AI Research Intern" 
   org="Stanford Center for Artificial Intelligence in Medicine and Imaging" 
-  date="June-July 2024" 
-  desc="Developed an unsupervised NLP radiology report classifier and ResNet-101 model for ultrasound analysis, creating a comprehensive pulmonary diagnostic tool." 
+  date="June - July 2024" 
+  desc="Developed a comprehensive pulmonary diagnostic tool." 
   color="#ffabab" 
 />
 
 <ProjectBox 
   title="Development Intern" 
   org="Microsoft and Women of AT&T" 
-  date="July 2023-January 2024" 
+  date="July 2023 - April 2024" 
   desc="Utilized Swift, SQL, Dart, and JavaScript to develop JackTag, a health and safety mobile application and NFC wearable; presented to Microsoft and AT&T investors." 
   color="#ff677d" 
 />
