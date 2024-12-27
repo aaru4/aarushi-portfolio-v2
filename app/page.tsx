@@ -63,7 +63,12 @@ export default function Home() {
         <section id="experience">
         <h1 className="font-bold text-2xl py-3"> Recent Experiences </h1>
         <div className="flex flex-wrap gap-8">
-
+        <a
+              href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4"
+              >
         <ProjectBox 
   title="HCI/AI Research Intern" 
   org="Georgia Institute of Technology" 
@@ -71,6 +76,7 @@ export default function Home() {
   desc=""
   color="#a8e6ce"
 />
+</a>
 
         <ProjectBox 
   title="AI Development Intern" 
