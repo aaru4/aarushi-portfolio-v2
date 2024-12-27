@@ -34,6 +34,7 @@ export default function Home() {
         </section>
         <section id="education">
           <h1 className="font-bold text-2xl py-3"> Education & Skills </h1>
+          <div className="flex flex-wrap gap-8">
           <ProjectBox 
   title="South Forsyth High School"
   org=""
@@ -52,6 +53,7 @@ export default function Home() {
           <SkillBox title="React" color="#b3e5fc" />
           <SkillBox title="R" color="#ffabab" />
           <SkillBox title="JavaScript/TypeScript" color="#ff677d" />
+          </div>
           </div>
         </section>
         <section id="experience">
@@ -108,7 +110,7 @@ export default function Home() {
 
 <ProjectBox 
   title="AI Research Intern" 
-  org="Cornell University" 
+  org="TSI + Cornell University" 
   date="June - August 2023" 
   desc="Developed a graph neural network for binary state neuroimaging recognition."
   color="#ffabab"

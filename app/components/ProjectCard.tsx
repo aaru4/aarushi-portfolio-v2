@@ -48,7 +48,7 @@ interface ProjectCardProps {
     },
     date: {
       fontSize: "14px",
-      color: "#888",
+      color: "#555",
       marginBottom: "12px",
     },
     desc: {
