@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from "react";
 import Navbar from './components/header';
 import { IndBox } from './components/IndependentCard';
 import { ProjectBox } from './components/ProjectCard';
@@ -11,13 +10,10 @@ import { UCProjectBox } from './components/UnclickableCard';
 // color palette: #a8e6ce, #b2dfdb, #b3e5fc, #ffabab, #ff677d
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false)
 
   return (
 <div
-      className={`${
-        darkMode ? "dark" : "" 
-      } grid grid-rows-[auto_1fr] items-left justify-items-left min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]`}
+      className={`grid grid-rows-[auto_1fr] items-left justify-items-left min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]`}
     >
     <Navbar />
         <main className="flex flex-col gap-8 row-start-2 items-left sm:items-start">
@@ -158,11 +154,11 @@ export default function Home() {
   color="#ffabab"
 />
 </a>
-<ProjectBox 
+<ProjectBox
   title="AI Research Intern" 
   org="Midwestern University"
   date="August 2023 - April 2024" 
-  desc="Developed a two-prong neural network to automate gastric POCUS. Segments antrum, classifies content, identifies diameters, calculates operable volume, and outputs aspiration risk."
+  desc="Developed a two-prong neural network to automate gastric point-of-care ultrasound. Segments antrum, classifies content, identifies diameters, calculates operable volume, and outputs aspiration risk."
   color="#ff677d"
 />
           </div>
