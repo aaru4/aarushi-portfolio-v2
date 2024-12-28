@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { useState } from "react";
 import Navbar from './components/header';
 import { IndBox } from './components/IndependentCard';
 import { ProjectBox } from './components/ProjectCard';
@@ -8,13 +9,22 @@ import { UCProjectBox } from './components/UnclickableCard';
 // color palette: #a8e6ce, #b2dfdb, #b3e5fc, #ffabab, #ff677d
 
 export default function Home() {
+  const [darkMode, setDarkMode] = useState(false)
+  const toggleDisplayMode = () =>{
+    setDarkMode(!darkMode) 
+}
+
   return (
-    <div className="grid grid-rows-[auto_1fr] items-left justify-items-left min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <Navbar />
+<div
+      className={`${
+        darkMode ? "dark" : "" 
+      } grid grid-rows-[auto_1fr] items-left justify-items-left min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]`}
+    >
+    <Navbar />
         <main className="flex flex-col gap-8 row-start-2 items-left sm:items-start">
         <section id="home" className="mt-0">
         <div className="inline-block px-2 py-2 rounded bg-gradient-to-r from-[#ffabab] to-[#ff677d]">
-          <h1 className="font-bold text-5xl px-2 py-2">Aarushi Ammavajjala.</h1>
+          <h1 className="font-bold text-5xl px-2 py-2 dark:">Aarushi Ammavajjala.</h1>
         </div>
             <h1 className="font-bold text-xl py-3"> Developer </h1>
             <h1 className="text-l"> Studying Computer Science @ South Forsyth High School </h1>
