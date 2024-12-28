@@ -106,7 +106,7 @@ export default function Home() {
 />
 </a>
 
-<ProjectBox 
+<UCProjectBox 
   title="Development Intern" 
   org="Oracle" 
   date="August 2024 - Present" 
@@ -128,7 +128,7 @@ export default function Home() {
 />
 </a>
 
-<ProjectBox
+<UCProjectBox
   title="Development Intern" 
   org="Microsoft" 
   date="July 2023 - April 2024" 
@@ -149,7 +149,7 @@ export default function Home() {
   color="#ffabab"
 />
 </a>
-<ProjectBox
+<UCProjectBox
   title="AI Research Intern" 
   org="Midwestern University"
   date="August 2023 - April 2024" 
