@@ -159,10 +159,10 @@ export default function Home() {
 />
 </a>
 <ProjectBox 
-  title="Awards" 
-  org="National Center for Women & Information Technology: National Winner (Top 1% of 3500 applicants). Girls Who Code 20 Under 20. 10x Hackathon Winner (total participant count: ~3500). Taco Bell Ambition Accelerator International Seed Grantee. Disney Dreamers Academy."
-  date="" 
-  desc=""
+  title="AI Research Intern" 
+  org="Midwestern University"
+  date="August 2023 - April 2024" 
+  desc="Developed a two-prong neural network to automate gastric POCUS. Segments antrum, classifies content, identifies diameters, calculates operable volume, and outputs aspiration risk."
   color="#ff677d"
 />
           </div>
@@ -190,7 +190,7 @@ export default function Home() {
               >
 <IndBox 
   title="POCUS-Net" 
-  org="A highly-accurate transformer-based neural network to automate gastric POCUS and reduce anesthesia-induced aspiration morbidity." 
+  org="A highly-accurate transformer-based classification model to reduce anesthesia-induced aspiration morbidity." 
   color="#b2dfdb"
 />
 </a>
