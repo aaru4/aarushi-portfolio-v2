@@ -37,7 +37,7 @@ export default function Home() {
             />
           </a>
         </section>
-        <h1 className="font-bold text-2xl py-3"> Education </h1>
+        <h1 className="font-bold text-2xl py-3"> Education & Skills </h1>
         <section id="experience" className="flex flex-col gap-6 sm:flex-row sm:gap-8">
           <div className="w-full sm:w-1/3">
             <UCProjectBox
