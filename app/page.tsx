@@ -12,9 +12,6 @@ import { UCProjectBox } from './components/UnclickableCard';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
-  const toggleDisplayMode = () =>{
-    setDarkMode(!darkMode) 
-}
 
   return (
 <div
