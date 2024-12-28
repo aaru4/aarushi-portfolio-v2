@@ -1,5 +1,3 @@
-import { useMediaQuery } from 'react-responsive';
-
 interface ProjectCardProps {
     title: string;
     org: string;
@@ -8,24 +6,21 @@ interface ProjectCardProps {
     color: string;
   }
   
-  const hexToRgba = (hex: string, alpha: number): string => {
+  function hexToRgba(hex: string, opacity: number) {
     const r = parseInt(hex.slice(1, 3), 16);
     const g = parseInt(hex.slice(3, 5), 16);
     const b = parseInt(hex.slice(5, 7), 16);
-    return `rgba(${r}, ${g}, ${b}, ${alpha})`;
-  };
+    return `rgba(${r}, ${g}, ${b}, ${opacity})`;
+  }
+
   export const ProjectBox: React.FC<ProjectCardProps> = ({ title, org, date, desc, color }) => {
-    const prefersDarkMode = useMediaQuery({ query: '(prefers-color-scheme: dark)' });
-    const alpha = prefersDarkMode ? parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--gradient-dark-alpha')) : parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--gradient-light-alpha'));
-  
     return (
       <div
-        className={`w-[250px] p-6 rounded-lg shadow-lg mx-auto text-center transform transition-transform duration-300 hover:scale-110`}
-        style={{
-          background: `linear-gradient(${hexToRgba(color, alpha)}, ${color})`,
-        }}
-      >
-  
+      className={`w-[250px] p-6 rounded-lg shadow-lg mx-auto text-center transform transition-transform duration-300 hover:scale-110`}
+      style={{
+        background: `linear-gradient(${hexToRgba(color, 0.5)}, ${color})`,
+      }}
+    > 
         <h1 style={cardStyles.title}>{title}</h1>
         <p style={cardStyles.org}>{org}</p>
         <p style={cardStyles.date}>{date}</p>
