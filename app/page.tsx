@@ -19,8 +19,8 @@ export default function Home() {
         <main className="flex flex-col gap-8 row-start-2 items-left sm:items-start">
         <section id="home" className="mt-0">
         <div className="inline-block px-2 py-2 rounded bg-gradient-to-r from-[#ffabab] to-[#ff677d]">
-          <h1 className="font-bold text-5xl px-2 py-2 dark:">Aarushi Ammavajjala.</h1>
-        </div>
+  <h1 className="font-bold text-5xl px-2 py-2">Aarushi Ammavajjala.</h1>
+</div>
             <h1 className="font-bold text-xl py-3"> Developer </h1>
             <h1 className="text-l"> Studying Computer Science @ South Forsyth High School </h1>
             <h1 className="text-l"> Contact: aaru7811 [at] gmail [dot] com </h1>
