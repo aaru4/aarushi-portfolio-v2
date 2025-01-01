@@ -112,7 +112,7 @@ export default function Home() {
               color="#ff677d"
             />
             <a
-              href="https://colab.research.google.com/drive/13WmNs8kbJvd3VdkFMPisvM35sUEvxTSn"
+              href="https://aimi.stanford.edu/education/summer-research-internship"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-4"
