@@ -111,20 +111,14 @@ export default function Home() {
               desc="Designed and implemented a billing system using OCI, APEX, SQL, & PL/SQL; directed FIFO debt management, payment application, and error handling, with delinquency predictions."
               color="#ff677d"
             />
-            <a
-              href="https://aimi.stanford.edu/education/summer-research-internship"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block mt-4"
-            >
-              <ProjectBox
+
+              <UCProjectBox
                 title="AI Research Intern"
                 org="Stanford Center for Artificial Intelligence in Medicine and Imaging"
                 date="June - July 2024"
                 desc="1 of 20 selected nationwide. Developed high-accuracy pulmonary diagnostic system.  RadGraph for unsupervised radiology report classifier; ResNet ultrasound analysis model."
                 color="#a8e6ce"
               />
-            </a>
 
             <UCProjectBox
               title="Development Intern"
