@@ -192,7 +192,7 @@ export default function Home() {
 
           </div>
         </section>
-        <h1 className="text-l"> Copyright 2024 Aarushi Ammavajjala. All rights reserved. </h1>
+        <h1 className="text-l"> Copyright 2025 Aarushi Ammavajjala. All rights reserved. </h1>
       </main>
     </div>
   );
