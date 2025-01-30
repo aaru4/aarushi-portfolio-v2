@@ -68,9 +68,9 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
 
             <UCProjectBox
-              title="HCI/AI Research Intern"
-              org="Georgia Institute of Technology"
-              date="January 2025 - Present"
+              title="Coming Soon"
+              org=""
+              date=""
               desc=""
               color="#a8e6ce"
             />
