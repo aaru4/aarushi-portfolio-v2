@@ -49,7 +49,7 @@ export default function Home() {
           </div>
 
           <div className="w-full sm:w-2/3 px-4">
-            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-2 gap-10 px-6">
+            <div className="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 px-6">
               <SkillBox title="Python" color="#fbceb1" />
               <SkillBox title="Java" color="#b1ddc9" />
               <SkillBox title="Swift" color="#6cd0d0" />
@@ -63,7 +63,7 @@ export default function Home() {
         </section>
         <section id="experience">
           <h1 className="font-bold text-2xl py-3"> Recent Experiences </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
 
             <UCProjectBox
               title="Coming Soon"

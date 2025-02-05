@@ -21,10 +21,14 @@ export const UCProjectBox: React.FC<UCProjectCardProps> = ({ title, org, date, d
         background: `linear-gradient(${hexToRgba(color, 0.5)}, ${color})`,
       }}
     >
-      <h1 style={cardStyles.title}>{title}</h1>
-      <p style={cardStyles.org}>{org}</p>
-      <p style={cardStyles.desc}>{desc}</p>
-      <p style={cardStyles.date}>{date}</p>
+      <div className="flex-grow">
+        <h1 style={cardStyles.title}>{title}</h1>
+        <p style={cardStyles.org}>{org}</p>
+        <p style={cardStyles.desc}>{desc}</p>
+      </div>
+      <div className="mt-auto">
+        <p style={cardStyles.date}>{date}</p>
+      </div>
     </div>
   );
 };
@@ -39,14 +43,14 @@ const cardStyles = {
     transition: "transform 0.3s ease, box-shadow 0.3s ease",
   },
   title: {
-    fontSize: "32px",
+    fontSize: "28px",
     fontWeight: "bold",
     marginBottom: "10px",
     color: "#333",
     letterSpacing: "0.5px",
   },
   org: {
-    fontSize: "28px",
+    fontSize: "24px",
     color: "#555",
     marginBottom: "8px",
   },
@@ -54,6 +58,7 @@ const cardStyles = {
     fontSize: "20px",
     color: "#555",
     marginTop: "8px",
+    fontWeight: "bold",
     marginBottom: "12px",
   },
   desc: {
