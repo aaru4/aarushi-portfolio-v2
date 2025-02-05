@@ -38,7 +38,7 @@ export default function Home() {
           </a>
         </section>
         <h1 className="font-bold text-3xl py-3"> Education & Skills </h1>
-        <section id="education" className="flex flex-col gap-6 md:flex-row sm:gap-8">
+        <section id="education" className="flex flex-col gap-6 sm:gap-8">
           <div className="w-full sm:w-1/3">
             <ECProjectBox
               title="South Forsyth High School"
@@ -65,15 +65,6 @@ export default function Home() {
           <h1 className="font-bold text-3xl py-3"> Recent Experiences </h1>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4">
 
-            <UCProjectBox
-              title="Coming Soon"
-              org=""
-              date=""
-              desc=""
-              color="#"
-            />
-
-       
               <UCProjectBox
                 title="AI Development Intern"
                 org="United Nations"
