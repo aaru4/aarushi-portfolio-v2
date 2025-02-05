@@ -37,7 +37,7 @@ export default function Home() {
             />
           </a>
         </section>
-        <h1 className="font-bold text-4xl py-3"> Education & Skills </h1>
+        <h1 className="font-bold text-4xl py-3 underline decoration-[#ffcbdb]"> Education & Skills </h1>
         <section id="education" className="flex flex-col gap-6 sm:gap-8">
           <div className="w-full sm:w-1/3">
             <ECProjectBox
@@ -49,7 +49,7 @@ export default function Home() {
           </div>
 
           <div className="w-full sm:w-2/3 px-4">
-            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-12">
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-24">
               <SkillBox title="Python" color="#fbceb1" />
               <SkillBox title="Java" color="#b1ddc9" />
               <SkillBox title="Swift" color="#6cd0d0" />
