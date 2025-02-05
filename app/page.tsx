@@ -38,7 +38,7 @@ export default function Home() {
           </a>
         </section>
         <h1 className="font-bold text-3xl py-3"> Education & Skills </h1>
-        <section id="education" className="flex flex-col gap-6 sm:flex-row sm:gap-8">
+        <section id="education" className="flex flex-col gap-6 md:flex-col sm:gap-8">
           <div className="w-full sm:w-1/3">
             <ECProjectBox
               title="South Forsyth High School"
