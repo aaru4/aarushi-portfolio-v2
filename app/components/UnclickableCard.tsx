@@ -51,19 +51,19 @@ const cardStyles = {
   },
   org: {
     fontSize: "24px",
-    color: "#555",
+    color: "#333",
     marginBottom: "8px",
   },
   date: {
     fontSize: "20px",
-    color: "#555",
+    color: "#333",
     marginTop: "8px",
     fontWeight: "bold",
     marginBottom: "12px",
   },
   desc: {
     fontSize: "20px",
-    color: "#444",
+    color: "#333",
     lineHeight: "1.5",
   },
 };

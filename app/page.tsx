@@ -42,14 +42,14 @@ export default function Home() {
             <UCProjectBox
               title="South Forsyth High School"
               org="NMSQT Semifinalist, AP Scholar with Distinction"
-              date="August 2021 - May 2025"
+              date="AUG 2021 - MAY 2025"
               desc=""
               color="#fbceb1"
             />
           </div>
 
           <div className="w-full sm:w-2/3 px-4">
-            <div className="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 px-6">
+            <div className="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 px-6">
               <SkillBox title="Python" color="#fbceb1" />
               <SkillBox title="Java" color="#b1ddc9" />
               <SkillBox title="Swift" color="#6cd0d0" />
