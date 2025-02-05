@@ -30,8 +30,8 @@ export default function Home() {
             <Image
               src="/linkedin.svg"
               alt="LinkedIn Icon"
-              width={40}
-              height={40}
+              width={70}
+              height={70}
               className="rounded hover:bg-[#6cd0d0] transition-opacity-80 duration-200"
             />
           </a>
