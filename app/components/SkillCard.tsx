@@ -5,7 +5,7 @@ interface SkillCardProps {
 
 export const SkillBox: React.FC<SkillCardProps> = ({ title, color }) => {
   return (
-    <div className={`w-[70px]`}
+    <div className={`w-[150px]`}
       style={{ ...cardStyles.container, backgroundColor: color }}>
       <h1 style={cardStyles.title}>{title}</h1>
     </div>
