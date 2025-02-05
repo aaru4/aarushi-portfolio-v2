@@ -39,7 +39,7 @@ const cardStyles = {
     transition: "transform 0.3s ease, box-shadow 0.3s ease",
   },
   title: {
-    fontSize: "20px",
+    fontSize: "28px",
     fontWeight: "bold",
     marginBottom: "10px",
     color: "#333",

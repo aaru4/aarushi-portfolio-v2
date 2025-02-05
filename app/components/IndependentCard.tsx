@@ -14,7 +14,7 @@ function hexToRgba(hex: string, opacity: number) {
 export const IndBox: React.FC<IndCardProps> = ({ title, org, color }) => {
   return (
     <div
-      className={`w-[350px] p-6 rounded-lg shadow-lg mx-auto text-center transform transition-transform duration-300 hover:scale-110`}
+      className={`w-[350px] p-6 rounded-lg shadow-lg mx-auto transform transition-transform duration-300 hover:scale-110`}
       style={{
         background: `linear-gradient(${hexToRgba(color, 0.5)}, ${color})`,
       }}
@@ -32,19 +32,18 @@ const cardStyles = {
     padding: "20px",
     width: "400px",
     margin: "16px auto",
-    textAlign: "center" as const,
     transition: "transform 0.3s ease, box-shadow 0.3s ease",
   },
   title: {
-    fontSize: "20px",
+    fontSize: "28",
     fontWeight: "bold",
     marginBottom: "10px",
     color: "#333",
     letterSpacing: "0.5px",
   },
   org: {
-    fontSize: "16px",
-    color: "#555",
+    fontSize: "20px",
+    color: "#333",
     marginBottom: "8px",
   },
 };
