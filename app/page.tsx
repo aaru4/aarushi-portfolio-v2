@@ -4,7 +4,6 @@ import { IndBox } from './components/IndependentCard';
 import { SkillBox } from './components/SkillCard';
 import { UCProjectBox } from './components/UnclickableCard';
 
-// color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb, #ffcbdb
 // color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb
 
 export default function Home() {
@@ -16,12 +15,12 @@ export default function Home() {
       <Navbar />
       <main className="flex flex-col gap-8 row-start-2 items-left sm:items-start">
         <section id="home" className="mt-0">
-          <div className="inline-block max-w-full px-2 py-2 rounded bg-gradient-to-r from-[#ffcbdb] to-[#ffcbdb]">
+          <div className="inline-block max-w-full px-2 py-2 rounded bg-gradient-to-r from-[#fbceb1] to-[#ffcbdb]">
             <h1 className="font-bold text-5xl px-2 py-2 dark:">Aarushi Ammavajjala.</h1>
           </div>
-          <h1 className="font-bold text-xl py-3"> Developer </h1>
-          <h1 className="text-l"> Studying Computer Science @ South Forsyth High School </h1>
-          <h1 className="text-l"> Contact: aaru7811 [at] gmail [dot] com </h1>
+          <h1 className="font-bold text-3xl py-3"> Developer </h1>
+          <h1 className="text-xl"> Studying Computer Science @ South Forsyth High School </h1>
+          <h1 className="text-xl"> Contact: aaru7811 [at] gmail [dot] com </h1>
           <a
             href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
             target="_blank"
@@ -33,7 +32,7 @@ export default function Home() {
               alt="LinkedIn Icon"
               width={40}
               height={40}
-              className="rounded hover:bg-[#ffcbdb] transition-opacity-80 duration-200"
+              className="rounded hover:bg-[#6cd0d0] transition-opacity-80 duration-200"
             />
           </a>
         </section>
