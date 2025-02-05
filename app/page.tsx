@@ -77,14 +77,14 @@ export default function Home() {
               <UCProjectBox
                 title="AI Development Intern"
                 org="United Nations"
-                date="January 2025 - Present"
+                date="JAN 2025 - PRESENT"
                 desc="Coordinating AI development across 140+ youth-led international NGOs."
                 color="#b1ddc9"
               />
                 <UCProjectBox
                 title="AI Research Intern"
                 org="Stanford Department of Anesthesiology"
-                date="January 2025 - Present"
+                date="JAN 2025 - PRESENT"
                 desc="Predicting hypotension from arterial blood waveforms using deep learning."
                 color="#6cd0d0"
               />
@@ -92,7 +92,7 @@ export default function Home() {
             <UCProjectBox
               title="Development Intern"
               org="Oracle"
-              date="August 2024 - Present"
+              date="AUG 2024 - PRESENT"
               desc="Designed and implemented a billing system using OCI, APEX, SQL, & PL/SQL; directed FIFO debt management, payment application, and error handling, with delinquency predictions."
               color="#ffcbdb"
             />
@@ -100,7 +100,7 @@ export default function Home() {
               <UCProjectBox
                 title="AI Research Intern"
                 org="Stanford Center for Artificial Intelligence in Medicine and Imaging"
-                date="June - July 2024"
+                date="JUNE - JULY 2024"
                 desc="1 of 20 selected nationwide. Developed high-accuracy pulmonary diagnostic system.  RadGraph for unsupervised radiology report classifier; ResNet ultrasound analysis model."
                 color="#fbceb1"
               />
@@ -108,14 +108,14 @@ export default function Home() {
             <UCProjectBox
               title="Development Intern"
               org="Microsoft"
-              date="July 2023 - April 2024"
+              date="JULY 2023 - APR 2024"
               desc="Utilized Swift, SQL, Dart, and JavaScript to develop JackTag, a health and safety mobile application and NFC wearable that streamlines communication of critical medical information between crisis victims and first responders. Presented to Microsoft and AT&T investors."
               color="#b1ddc9"
             />
            <UCProjectBox
                 title="AI Research Intern"
                 org="TSI + Cornell University"
-                date="June - August 2023"
+                date="JUNE - AUG 2023"
                 desc="Developed a graph neural network for binary state neuroimaging recognition. Accepted to TSI (~10% of 850), matched at Cornell University. Published paper and spoke at Talaria International Conference."
                 color="#6cd0d0"
               />
@@ -123,7 +123,7 @@ export default function Home() {
             <UCProjectBox
               title="AI Research Intern"
               org="Midwestern University"
-              date="August 2023 - April 2024"
+              date="AUG 2023 - APR 2024"
               desc="Developed a two-prong neural network to automate gastric point-of-care ultrasound. Segments antrum, classifies content, identifies diameters, calculates operable volume, and outputs aspiration risk."
               color="#ffcbdb"
             />

@@ -46,18 +46,18 @@ const cardStyles = {
     letterSpacing: "0.5px",
   },
   org: {
-    fontSize: "38px",
+    fontSize: "28px",
     color: "#555",
     marginBottom: "8px",
   },
   date: {
-    fontSize: "24px",
+    fontSize: "20px",
     color: "#555",
     marginTop: "8px",
     marginBottom: "12px",
   },
   desc: {
-    fontSize: "24px",
+    fontSize: "20px",
     color: "#444",
     lineHeight: "1.5",
   },
