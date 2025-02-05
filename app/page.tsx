@@ -43,8 +43,7 @@ export default function Home() {
             <ECProjectBox
               title="South Forsyth High School"
               org="NMSQT Semifinalist, AP Scholar with Distinction"
-              date="AUG 2021 - MAY 2025"
-              desc=""
+              date="AUG 2021 - MAY 2025"  
               color="#fbceb1"
             />
           </div>
