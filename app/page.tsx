@@ -37,7 +37,7 @@ export default function Home() {
             />
           </a>
         </section>
-        <h1 className="font-bold text-3xl py-3"> Education & Skills </h1>
+        <h1 className="font-bold text-4xl py-3"> Education & Skills </h1>
         <section id="education" className="flex flex-col gap-6 sm:gap-8">
           <div className="w-full sm:w-1/3">
             <ECProjectBox
@@ -62,7 +62,7 @@ export default function Home() {
           </div>
         </section>
         <section id="experience">
-          <h1 className="font-bold text-3xl py-3"> Recent Experiences </h1>
+          <h1 className="font-bold text-4xl py-3"> Recent Experiences </h1>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4">
 
               <UCProjectBox
@@ -121,7 +121,7 @@ export default function Home() {
           </div>
         </section>
         <section id="projects">
-          <h1 className="font-bold text-3xl py-3"> Recent Projects </h1>
+          <h1 className="font-bold text-4xl py-3"> Recent Projects </h1>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4 mx-auto justify-items-center">
             <a
               href="https://www.youtube.com/watch?v=_bVhGnBFY90"
