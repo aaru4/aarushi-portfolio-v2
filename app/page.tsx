@@ -110,7 +110,7 @@ export default function Home() {
               title="Development Intern"
               org="Microsoft"
               date="JULY 2023 - APR 2024"
-              desc="Utilized Swift, SQL, Dart, and JavaScript to develop JackTag, a health and safety mobile application and NFC wearable that streamlines communication of critical medical information between crisis victims and first responders. Presented to Microsoft and AT&T investors."
+              desc="Utilized Swift, SQL, Dart, and JavaScript to develop JackTag, a mobile application and NFC wearable that streamlines communication of medical information between crisis victims and first responders. Presented to Microsoft/AT&T investors."
               color="#b1ddc9"
             />
            <UCProjectBox
