@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { ECProjectBox } from './components/EducationCard';
 import Navbar from './components/header';
 import { IndBox } from './components/IndependentCard';
 import { SkillBox } from './components/SkillCard';

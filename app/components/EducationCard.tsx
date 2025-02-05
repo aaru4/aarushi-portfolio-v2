@@ -1,7 +1,6 @@
 interface ECProjectCardProps {
     title: string;
     org: string;
-    desc: string;
     date: string;
     color: string;
   }
@@ -13,7 +12,7 @@ interface ECProjectCardProps {
     return `rgba(${r}, ${g}, ${b}, ${opacity})`;
   }
   
-  export const ECProjectBox: React.FC<ECProjectCardProps> = ({ title, org, date, desc, color }) => {
+  export const ECProjectBox: React.FC<ECProjectCardProps> = ({ title, org, date, color }) => {
     return (
       <div
         className={`w-[400px] h-[220px] flex flex-col p-6 rounded-lg shadow-lg mx-auto transform transition-transform duration-300`}
