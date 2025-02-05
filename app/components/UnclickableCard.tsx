@@ -16,15 +16,15 @@ function hexToRgba(hex: string, opacity: number) {
 export const UCProjectBox: React.FC<UCProjectCardProps> = ({ title, org, date, desc, color }) => {
   return (
     <div
-      className={`w-[250px] p-6 rounded-lg shadow-lg mx-auto transform transition-transform duration-300`}
+      className={`w-[250px] h-[350px] flex flex-col  p-6 rounded-lg shadow-lg mx-auto transform transition-transform duration-300`}
       style={{
         background: `linear-gradient(${hexToRgba(color, 0.5)}, ${color})`,
       }}
     >
       <h1 style={cardStyles.title}>{title}</h1>
       <p style={cardStyles.org}>{org}</p>
-      <p style={cardStyles.date}>{date}</p>
       <p style={cardStyles.desc}>{desc}</p>
+      <p style={cardStyles.date}>{date}</p>
     </div>
   );
 };

@@ -15,7 +15,7 @@ export default function Home() {
       <Navbar />
       <main className="flex flex-col gap-8 row-start-2 items-left sm:items-start">
         <section id="home" className="mt-0">
-          <div className="inline-block max-w-full px-2 py-2 rounded bg-gradient-to-r from-[#fbceb1] to-[#ffcbdb]">
+          <div className="inline-block max-w-full px-2 py-2 rounded bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0]">
             <h1 className="font-bold text-5xl px-2 py-2 dark:">Aarushi Ammavajjala.</h1>
           </div>
           <h1 className="font-bold text-3xl py-3"> Developer </h1>
@@ -54,7 +54,6 @@ export default function Home() {
               <SkillBox title="Java" color="#b1ddc9" />
               <SkillBox title="Swift" color="#6cd0d0" />
               <SkillBox title="SQL" color="#ffcbdb" />
-              <SkillBox title="Deep Learning" color="#ffcbdb" />
               <SkillBox title="Computer Vision" color="#fbceb1" />
               <SkillBox title="NLP" color="#b1ddc9" />
               <SkillBox title="R" color="#6cd0d0" />
@@ -87,7 +86,7 @@ export default function Home() {
                 org="Stanford Department of Anesthesiology"
                 date="January 2025 - Present"
                 desc="Predicting hypotension from arterial blood waveforms using deep learning."
-                color="#ffcbdb"
+                color="#6cd0d0"
               />
          
             <UCProjectBox
@@ -118,7 +117,7 @@ export default function Home() {
                 org="TSI + Cornell University"
                 date="June - August 2023"
                 desc="Developed a graph neural network for binary state neuroimaging recognition. Accepted to TSI (~10% of 850), matched at Cornell University. Published paper and spoke at Talaria International Conference."
-                color="#ffcbdb"
+                color="#6cd0d0"
               />
           
             <UCProjectBox
