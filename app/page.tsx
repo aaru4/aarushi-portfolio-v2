@@ -39,7 +39,7 @@ export default function Home() {
         <h1 className="font-bold text-2xl py-3"> Education & Skills </h1>
         <section id="experience" className="flex flex-col gap-6 sm:flex-row sm:gap-8">
           <div className="w-full sm:w-1/3">
-            <UCProjectBox
+            <ECProjectBox
               title="South Forsyth High School"
               org="NMSQT Semifinalist, AP Scholar with Distinction"
               date="AUG 2021 - MAY 2025"
