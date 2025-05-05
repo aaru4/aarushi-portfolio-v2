@@ -32,9 +32,8 @@ export default function Home() {
               <Image
                 src="/email.svg"
                 alt="Email Icon"
-                width={60}
-                height={60}
-                className="rounded hover:bg-[#fbceb1] transition-opacity duration-200"
+                width={63}
+                height={63}
               />
             </a>
             <a
@@ -47,7 +46,6 @@ export default function Home() {
                 alt="LinkedIn Icon"
                 width={60}
                 height={60}
-                className="rounded hover:bg-[#fbceb1] transition-opacity-80 duration-200"
               />
             </a>
           </div>
@@ -57,7 +55,7 @@ export default function Home() {
       {/* Right half: White with circular profile image */}
       <div className="w-full md:w-1/2 h-1/2 md:h-full bg-white flex items-center justify-center">
         <Image
-          src="/profile.jpg"
+          src="/profile2.jpg"
           alt="Picture of Aarushi"
           width={350}
           height={350}
