@@ -30,8 +30,8 @@ export default function Home() {
   <div className="w-full md:w-1/2 bg-white">
   </div>
   <Image
-          src="/linkedin.svg"
-          alt="LinkedIn Icon"
+          src="/profile.svg"
+          alt="Picture of Aarushi"
           width={50}
           height={50}
           className="rounded hover:bg-[#6cd0d0] transition-opacity-80 duration-200"
