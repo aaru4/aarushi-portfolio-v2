@@ -63,56 +63,40 @@ export default function Home() {
 </section>  
 { /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
 <section className="flex flex-col md:flex-row mt-8 md:mt-0 p-6 sm:p-8 md:p-10 items-center justify-center gap-6">
-<div className="relative w-[220px] h-[140px] sm:w-[300px] sm:h-[180px] md:w-[280px] md:h-[160px] rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105">
-  <svg
-    className="absolute top-0 left-0 w-full h-full"
-    viewBox="0 0 100 100"
-    preserveAspectRatio="none"
+<div
+    className="relative w-[220px] h-[140px] sm:w-[300px] sm:h-[180px] md:w-[280px] md:h-[160px] rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4"
+    style={{
+      background: 'linear-gradient(rgba(251, 206, 177, 0.5), #fbceb1)',
+    }}
   >
-    <polygon points="0,0 100,0 0,100" fill="#fbceb1" />
-    <polygon points="100,0 100,100 0,100" fill="#ffcbdb" />
-  </svg>
-
-  <div className="relative z-10 flex flex-col justify-center items-center h-full px-4">
     <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
       Education & Skills
     </h2>
   </div>
-</div>
 
-<div className="relative w-[220px] h-[140px] sm:w-[300px] sm:h-[180px] md:w-[280px] md:h-[160px] rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105">
-  <svg
-    className="absolute top-0 left-0 w-full h-full"
-    viewBox="0 0 100 100"
-    preserveAspectRatio="none"
+  {/* Recent Experiences Box */}
+  <div
+    className="relative w-[220px] h-[140px] sm:w-[300px] sm:h-[180px] md:w-[280px] md:h-[160px] rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4"
+    style={{
+      background: 'linear-gradient(rgba(177, 221, 201, 0.5), #b1ddc9)',
+    }}
   >
-    <polygon points="0,0 100,0 0,100" fill="#6cd0d0" />
-    <polygon points="100,0 100,100 0,100" fill="#ffcbdb" />
-  </svg>
-
-  <div className="relative z-10 flex flex-col justify-center items-center h-full px-4">
     <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
       Recent Experiences
     </h2>
   </div>
-</div>
 
-  <div className="relative w-[220px] h-[140px] sm:w-[300px] sm:h-[180px] md:w-[280px] md:h-[160px] rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105">
-  <svg
-    className="absolute top-0 left-0 w-full h-full"
-    viewBox="0 0 100 100"
-    preserveAspectRatio="none"
+  {/* Recent Projects Box */}
+  <div
+    className="relative w-[220px] h-[140px] sm:w-[300px] sm:h-[180px] md:w-[280px] md:h-[160px] rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4"
+    style={{
+      background: 'linear-gradient(rgba(108, 208, 208, 0.5), #6cd0d0)',
+    }}
   >
-    <polygon points="0,0 100,0 0,100" fill="#fbceb1" />
-    <polygon points="100,0 100,100 0,100" fill="#6cd0d0" />
-  </svg>
-
-  <div className="relative z-10 flex flex-col justify-center items-center h-full px-4">
     <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
       Recent Projects
     </h2>
   </div>
-</div>
 </section>
 
         <h1 className="font-bold text-4xl py-3 underline"> Education & Skills </h1>
