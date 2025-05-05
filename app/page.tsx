@@ -61,12 +61,12 @@ export default function Home() {
       </div>
     </div>
 </section>  
-
+{ /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
 <section className="flex flex-col md:flex-row mt-8 md:mt-0 p-6 sm:p-8 md:p-10 items-center justify-center gap-6">
   <div
     className="w-[300px] h-[180px] sm:w-[400px] sm:h-[220px] flex flex-col p-6 rounded-lg shadow-lg transform transition-transform duration-300 cursor-pointer hover:scale-105 text-white"
     style={{
-      background: `linear-gradient(rgba(251, 206, 177, 0.5), #fbceb1)`,
+      background: `linear-gradient(#b1ddc9, #fbceb1)`,
     }}
   >
     <h2 className="text-xl font-bold text-black  mb-2">Education & Skills</h2>
@@ -86,7 +86,7 @@ export default function Home() {
   <div
     className="w-[300px] h-[180px] sm:w-[400px] sm:h-[220px] flex flex-col p-6 rounded-lg shadow-lg transform transition-transform duration-300 cursor-pointer hover:scale-105 text-white"
     style={{
-      background: `linear-gradient(rgba(108, 208, 208, 0.5), #6cd0d0)`,
+      background: `linear-gradient(#ffcbdb, #6cd0d0)`,
     }}
   >
     <h2 className="text-xl font-bold text-black mb-2">Recent Projects</h2>
