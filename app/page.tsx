@@ -27,7 +27,8 @@ export default function Home() {
       </p>
   </div>
   </div>
-  <div className="w-full md:w-1/2 bg-white"></div>
+  <div className="w-full md:w-1/2 bg-white">
+  </div>
   <Image
           src="/linkedin.svg"
           alt="LinkedIn Icon"
