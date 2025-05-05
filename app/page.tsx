@@ -9,7 +9,7 @@ import { UCProjectBox } from './components/UnclickableCard';
 export default function Home() {
   return (
 <div
-  className={`grid grid-rows-[auto_1fr] items-start justify-items-start min-h-screen p-6 sm:p-8 md:p-10 gap-6 sm:gap-6 font-[family-name:var(--font-geist-sans)]`}
+  className={`grid grid-rows-[auto_1fr] items-start justify-items-start min-h-screen p-6 sm:p-10 md:p-20 gap-16 sm:gap-16 font-[family-name:var(--font-geist-sans)]`}
 >
  {/* <Navbar /> */}
  <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0">
@@ -45,8 +45,8 @@ export default function Home() {
               <Image
                 src="/email.svg"
                 alt="Email Icon"
-                width={50}
-                height={50}
+                width={60}
+                height={60}
                 className="rounded hover:bg-[#fbceb1] transition-opacity duration-200"
               />
             </a>
@@ -59,8 +59,8 @@ export default function Home() {
         <Image
           src="/profile.jpg"
           alt="Picture of Aarushi"
-          width={200}
-          height={200}
+          width={500}
+          height={500}
           className="rounded-full object-cover aspect-square"
         />
       </div>
