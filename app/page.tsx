@@ -9,7 +9,7 @@ import { UCProjectBox } from './components/UnclickableCard';
 export default function Home() {
   return (
 <div
-  className={`grid grid-rows-[auto_1fr] items-start justify-items-start min-h-screen p-6 sm:p-8 md:p-20 gap-12 sm:gap-16 font-[family-name:var(--font-geist-sans)]`}
+  className={`grid grid-rows-[auto_1fr] items-start justify-items-start min-h-screen p-6 sm:p-8 md:p-10 gap-6 sm:gap-6 font-[family-name:var(--font-geist-sans)]`}
 >
  {/* <Navbar /> */}
   <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start">
@@ -26,7 +26,7 @@ export default function Home() {
         <p className="text-base sm:text-lg md:text-xl py-2">
           Studying Computer Science @ South Forsyth High School
         </p>
-        <div>
+        <div className="mt-4 flex gap-4">
         <a
           href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
           target="_blank"
@@ -40,21 +40,18 @@ export default function Home() {
             height={50}
             className="rounded hover:bg-[#fbceb1] transition-opacity-80 duration-200"
           />
+          </a><a
+            href="mailto:aaru7811@gmail.com"
+            className="inline-block mt-4"
+          >
+            <Image
+              src="/email.svg"
+              alt="Email Icon"
+              width={50}
+              height={50}
+              className="rounded hover:bg-[#fbceb1] transition-opacity duration-200"
+            />
           </a>
-        <a
-          href="mailto:aaru7811@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block mt-4"
-        >
-          <Image
-            src="/email.svg"
-            alt="Email Icon"
-            width={50}
-            height={50}
-            className="rounded hover:bg-[#fbceb1] transition-opacity-80 duration-200"
-          />
-        </a>
         </div>
       </div>
     </div>
