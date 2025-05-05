@@ -8,9 +8,7 @@ import { UCProjectBox } from './components/UnclickableCard';
 
 export default function Home() {
   return (
-<div
-  className="grid grid-rows-[auto_1fr] min-h-screen w-full p-0 m-0"
->
+<div className="grid grid-rows-[auto_1fr] min-h-screen w-full p-0 m-0">
 
  {/* <Navbar /> */}
  <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0">
@@ -62,20 +60,18 @@ export default function Home() {
         />
       </div>
     </div>
-</section>      
-<section className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 mt-10">
-  {/* Box 1 */}
+</section>  
+
+<section className="flex flex-col md:flex-row mt-8 md:mt-0 items-center justify-center gap-6">
   <div
     className="w-[300px] h-[180px] sm:w-[400px] sm:h-[220px] flex flex-col p-6 rounded-lg shadow-lg transform transition-transform duration-300 cursor-pointer hover:scale-105 text-white"
     style={{
       background: `linear-gradient(rgba(251, 206, 177, 0.5), #fbceb1)`,
     }}
   >
-    <h2 className="text-xl font-bold mb-2">About Me</h2>
-    <p className="text-sm">Click to learn more about Aarushi's background and journey.</p>
+    <h2 className="text-xl font-bold mb-2">Education & Skills</h2>
   </div>
 
-  {/* Box 2 (middle, larger, shifted down) */}
   <div className="relative md:-mt-6 scale-105">
     <div
       className="w-[300px] h-[180px] sm:w-[400px] sm:h-[220px] flex flex-col p-6 rounded-lg shadow-lg transform transition-transform duration-300 cursor-pointer hover:scale-105 text-white"
@@ -83,22 +79,20 @@ export default function Home() {
         background: `linear-gradient(rgba(177, 221, 201, 0.5), #b1ddc9)`,
       }}
     >
-      <h2 className="text-xl font-bold mb-2">Projects</h2>
-      <p className="text-sm">Explore a curated selection of my best technical work.</p>
+      <h2 className="text-xl font-bold mb-2">Recent Experiences</h2>
     </div>
   </div>
 
-  {/* Box 3 */}
   <div
     className="w-[300px] h-[180px] sm:w-[400px] sm:h-[220px] flex flex-col p-6 rounded-lg shadow-lg transform transition-transform duration-300 cursor-pointer hover:scale-105 text-white"
     style={{
       background: `linear-gradient(rgba(108, 208, 208, 0.5), #6cd0d0)`,
     }}
   >
-    <h2 className="text-xl font-bold mb-2">Contact</h2>
-    <p className="text-sm">Reach out for collaborations, questions, or opportunities.</p>
+    <h2 className="text-xl font-bold mb-2">Recent Projects</h2>
   </div>
 </section>
+
         <h1 className="font-bold text-4xl py-3 underline"> Education & Skills </h1>
         <section id="education" className="flex flex-col gap-6 sm:gap-8">
           <div className="w-full sm:w-1/3">
