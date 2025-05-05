@@ -32,8 +32,8 @@ export default function Home() {
               <Image
                 src="/email.svg"
                 alt="Email Icon"
-                width={63}
-                height={63}
+                width={65}
+                height={60}
               />
             </a>
             <a
@@ -53,7 +53,7 @@ export default function Home() {
       </div>
 
       {/* Right half: White with circular profile image */}
-      <div className="w-full md:w-1/2 md:h-full bg-white flex items-center justify-center">
+      <div className="w-full md:w-1/2 md:h-full mt-8 md:mt-0 bg-white flex items-center justify-center">
         <Image
           src="/profile2.jpg"
           alt="Picture of Aarushi"
