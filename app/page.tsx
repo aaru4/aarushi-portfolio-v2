@@ -84,13 +84,25 @@ export default function Home() {
   </div>
 
   <div
-    className="w-[300px] h-[180px] sm:w-[400px] sm:h-[220px] flex flex-col p-6 rounded-lg shadow-lg transform transition-transform duration-300 cursor-pointer hover:scale-105 text-white"
-    style={{
-      background: `linear-gradient(#ffcbdb, #6cd0d0)`,
-    }}
+  className="relative w-[220px] h-[140px] sm:w-[300px] sm:h-[180px] md:w-[360px] md:h-[220px] rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105"
+>
+  {/* Diagonal background using SVG */}
+  <svg
+    className="absolute top-0 left-0 w-full h-full"
+    viewBox="0 0 100 100"
+    preserveAspectRatio="none"
   >
-    <h2 className="text-xl font-bold text-black mb-2">Recent Projects</h2>
+    <polygon points="0,0 100,0 0,100" fill="#fbceb1" />
+    <polygon points="100,0 100,100 0,100" fill="#b1ddc9" />
+  </svg>
+
+  {/* Content */}
+  <div className="relative z-10 flex flex-col justify-center items-center h-full px-4">
+    <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-black text-center">
+      Recent Experiences
+    </h2>
   </div>
+</div>
 </section>
 
         <h1 className="font-bold text-4xl py-3 underline"> Education & Skills </h1>
