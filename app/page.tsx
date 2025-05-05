@@ -10,33 +10,39 @@ import { UCProjectBox } from './components/UnclickableCard';
 export default function Home() {
 
   return (
-    <div
-      className={`grid grid-rows-[auto_1fr] items-left justify-items-left min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]`}
-    >
-      <Navbar />
-      <main className="flex flex-col gap-8 row-start-2 items-left sm:items-start">
-        <section id="home" className="mt-0">
-          <div className="inline-block max-w-full px-2 py-2 rounded bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0]">
-            <h1 className="font-bold text-5xl px-2 py-2 dark:">Aarushi Ammavajjala.</h1>
-          </div>
-          <h1 className="font-bold text-3xl py-3"> Developer </h1>
-          <h1 className="text-xl"> Studying Computer Science @ South Forsyth High School </h1>
-          <h1 className="text-xl"> Contact: aaru7811 [at] gmail [dot] com </h1>
-          <a
-            href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block mt-4"
-          >
-            <Image
-              src="/linkedin.svg"
-              alt="LinkedIn Icon"
-              width={70}
-              height={70}
-              className="rounded hover:bg-[#6cd0d0] transition-opacity-80 duration-200"
-            />
-          </a>
-        </section>
+<div
+  className={`grid grid-rows-[auto_1fr] items-start justify-items-start min-h-screen p-6 sm:p-8 md:p-20 gap-12 sm:gap-16 font-[family-name:var(--font-geist-sans)]`}
+>
+  <Navbar />
+  <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start">
+    <section id="home" className="mt-0">
+      <div className="inline-block max-w-full px-2 py-2 rounded bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0]">
+        <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl px-2 py-2">
+          Aarushi Ammavajjala.
+        </h1>
+      </div>
+      <h2 className="font-bold text-xl sm:text-2xl md:text-3xl py-3">Developer</h2>
+      <p className="text-base sm:text-lg md:text-xl">
+        Studying Computer Science @ South Forsyth High School
+      </p>
+      <p className="text-base sm:text-lg md:text-xl">
+        Contact: aaru7811 [at] gmail [dot] com
+      </p>
+      <a
+        href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block mt-4"
+      >
+        <Image
+          src="/linkedin.svg"
+          alt="LinkedIn Icon"
+          width={50}
+          height={50}
+          className="rounded hover:bg-[#6cd0d0] transition-opacity-80 duration-200"
+        />
+      </a>
+    </section>
         <h1 className="font-bold text-4xl py-3 underline"> Education & Skills </h1>
         <section id="education" className="flex flex-col gap-6 sm:gap-8">
           <div className="w-full sm:w-1/3">

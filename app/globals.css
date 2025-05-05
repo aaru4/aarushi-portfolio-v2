@@ -11,7 +11,24 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ffffff;
+    --primary: #fbceb1;
+    --secondary: #b1ddc9;
+    --tertiary: #6cd0d0;
+    --quarternary: #ffcbdb;
   }
+}
+
+
+@media screen and (min-width: 620px) {
+
+}
+
+@media screen and (min-width: 960px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
 }
 
 html {
