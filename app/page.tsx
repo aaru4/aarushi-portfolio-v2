@@ -18,7 +18,7 @@ export default function Home() {
     <div className="w-full xl: w-1/2 lg: w-1/2 md:w-1/2 h-1/2 md:h-full flex items-center justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0]">
       <div className="text-center md:text-left px-6">
         <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl py-2">
-          Aarushi Ammavajjala.
+          Aarushi Amavajjala.
         </h1>
         <h2 className="font-bold text-xl sm:text-2xl md:text-3xl py-2">
           Developer
