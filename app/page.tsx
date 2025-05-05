@@ -7,7 +7,6 @@ import { UCProjectBox } from './components/UnclickableCard';
 // color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb
 
 export default function Home() {
-
   return (
 <div
   className={`grid grid-rows-[auto_1fr] items-start justify-items-start min-h-screen p-6 sm:p-8 md:p-20 gap-12 sm:gap-16 font-[family-name:var(--font-geist-sans)]`}
@@ -27,6 +26,7 @@ export default function Home() {
         <p className="text-base sm:text-lg md:text-xl py-2">
           Studying Computer Science @ South Forsyth High School
         </p>
+        <div>
         <a
           href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
           target="_blank"
@@ -40,6 +40,7 @@ export default function Home() {
             height={50}
             className="rounded hover:bg-[#fbceb1] transition-opacity-80 duration-200"
           />
+          </a>
         <a
           href="mailto:aaru7811@gmail.com"
           target="_blank"
@@ -54,6 +55,7 @@ export default function Home() {
             className="rounded hover:bg-[#fbceb1] transition-opacity-80 duration-200"
           />
         </a>
+        </div>
       </div>
     </div>
 
