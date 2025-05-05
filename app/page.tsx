@@ -53,7 +53,7 @@ export default function Home() {
       </div>
 
       {/* Right half: White with circular profile image */}
-      <div className="w-full md:w-1/2 md:h-full mt-8 md:mt-0 bg-white flex items-center justify-center">
+      <div className="w-full md:w-1/2 md:h-full mt-8 md:mt-0 bg-white flex items-center justify-center border-b-4 border-[#6cd0d0]">
         <Image
           src="/profile2.jpg"
           alt="Picture of Aarushi"
