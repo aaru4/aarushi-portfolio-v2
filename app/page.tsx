@@ -8,13 +8,15 @@ import { UCProjectBox } from './components/UnclickableCard';
 
 export default function Home() {
   return (
-<div className="grid grid-rows-[auto_1fr] min-h-screen w-full p-0 m-0"
+<div
+  className="grid grid-rows-[auto_1fr] min-h-screen w-full p-0 m-0"
 >
-{/* <Navbar /> */}
+
+ {/* <Navbar /> */}
  <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0">
   <section id="home" className="m-0 p-0 w-full">
     <div className="flex flex-col md:flex-row h-screen w-full">
-      <div className="w-full md:w-1/2 md:h-full flex items-center rounded-xl justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0]">
+      <div className="w-full md:w-1/2 md:h-full flex items-center justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0]">
         <div className="text-center md:text-left px-6">
           <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl py-2">
             Aarushi Ammavajjala.
@@ -28,7 +30,7 @@ export default function Home() {
           <div className="mt-4 flex gap-4 justify-center md:justify-start">
           <a href="mailto:aaru7811@gmail.com">
               <Image
-                src="/mail-icon.png"
+                src="/envelope-line-icon.png"
                 alt="Email Icon"
                 width={60}
                 height={60}
@@ -40,7 +42,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <Image
-                src="/linkedin.svg"
+                src="/linkedin-square-icon.png"
                 alt="LinkedIn Icon"
                 width={60}
                 height={60}
@@ -62,44 +64,6 @@ export default function Home() {
       </div>
     </div>
 </section>      
-
-<section className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 mt-10">
-  {/* Box 1 */}
-  <div
-    className="w-[300px] h-[180px] sm:w-[400px] sm:h-[220px] flex flex-col p-6 rounded-lg shadow-lg transform transition-transform duration-300 cursor-pointer hover:scale-105 text-white"
-    style={{
-      background: `linear-gradient(rgba(251, 206, 177, 0.5), #fbceb1)`,
-    }}
-  >
-    <h2 className="text-xl font-bold mb-2">About Me</h2>
-    <p className="text-sm">Click to learn more about Aarushi's background and journey.</p>
-  </div>
-
-  {/* Box 2 (middle, larger, shifted down) */}
-  <div className="relative md:-mt-6 scale-105">
-    <div
-      className="w-[300px] h-[180px] sm:w-[400px] sm:h-[220px] flex flex-col p-6 rounded-lg shadow-lg transform transition-transform duration-300 cursor-pointer hover:scale-105 text-white"
-      style={{
-        background: `linear-gradient(rgba(177, 221, 201, 0.5), #b1ddc9)`,
-      }}
-    >
-      <h2 className="text-xl font-bold mb-2">Projects</h2>
-      <p className="text-sm">Explore a curated selection of my best technical work.</p>
-    </div>
-  </div>
-
-  {/* Box 3 */}
-  <div
-    className="w-[300px] h-[180px] sm:w-[400px] sm:h-[220px] flex flex-col p-6 rounded-lg shadow-lg transform transition-transform duration-300 cursor-pointer hover:scale-105 text-white"
-    style={{
-      background: `linear-gradient(rgba(108, 208, 208, 0.5), #6cd0d0)`,
-    }}
-  >
-    <h2 className="text-xl font-bold mb-2">Contact</h2>
-    <p className="text-sm">Reach out for collaborations, questions, or opportunities.</p>
-  </div>
-</section>
-
 
         <h1 className="font-bold text-4xl py-3 underline"> Education & Skills </h1>
         <section id="education" className="flex flex-col gap-6 sm:gap-8">
