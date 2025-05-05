@@ -74,8 +74,8 @@ export default function Home() {
   </svg>
 
   <div className="relative z-10 flex flex-col justify-center items-center h-full px-4">
-    <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-black text-center">
-      Recent Experiences
+    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
+      Education & Skills
     </h2>
   </div>
 </div>
@@ -91,7 +91,7 @@ export default function Home() {
   </svg>
 
   <div className="relative z-10 flex flex-col justify-center items-center h-full px-4">
-    <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-black text-center">
+    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
       Recent Experiences
     </h2>
   </div>
@@ -108,8 +108,8 @@ export default function Home() {
   </svg>
 
   <div className="relative z-10 flex flex-col justify-center items-center h-full px-4">
-    <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-black text-center">
-      Recent Experiences
+    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
+      Recent Projects
     </h2>
   </div>
 </div>
