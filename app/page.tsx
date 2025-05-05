@@ -62,14 +62,14 @@ export default function Home() {
     </div>
 </section>  
 
-<section className="flex flex-col md:flex-row mt-8 md:mt-0 items-center justify-center gap-6">
+<section className="flex flex-col md:flex-row mt-8 md:mt-0 p-6 sm:p-8 md:p-10 items-center justify-center gap-6">
   <div
     className="w-[300px] h-[180px] sm:w-[400px] sm:h-[220px] flex flex-col p-6 rounded-lg shadow-lg transform transition-transform duration-300 cursor-pointer hover:scale-105 text-white"
     style={{
       background: `linear-gradient(rgba(251, 206, 177, 0.5), #fbceb1)`,
     }}
   >
-    <h2 className="text-xl font-bold mb-2">Education & Skills</h2>
+    <h2 className="text-xl font-bold text-black  mb-2">Education & Skills</h2>
   </div>
 
   <div className="relative md:-mt-6 scale-105">
@@ -79,7 +79,7 @@ export default function Home() {
         background: `linear-gradient(rgba(177, 221, 201, 0.5), #b1ddc9)`,
       }}
     >
-      <h2 className="text-xl font-bold mb-2">Recent Experiences</h2>
+      <h2 className="text-xl font-bold text-black mb-2">Recent Experiences</h2>
     </div>
   </div>
 
@@ -89,7 +89,7 @@ export default function Home() {
       background: `linear-gradient(rgba(108, 208, 208, 0.5), #6cd0d0)`,
     }}
   >
-    <h2 className="text-xl font-bold mb-2">Recent Projects</h2>
+    <h2 className="text-xl font-bold text-black mb-2">Recent Projects</h2>
   </div>
 </section>
 
