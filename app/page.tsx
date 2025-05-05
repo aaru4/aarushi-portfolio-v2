@@ -9,8 +9,9 @@ import { UCProjectBox } from './components/UnclickableCard';
 export default function Home() {
   return (
 <div
-  className={`grid grid-rows-[auto_1fr] items-start justify-items-start min-h-screen p-6 sm:p-10 md:p-20 gap-16 sm:gap-16 font-[family-name:var(--font-geist-sans)]`}
+  className="grid grid-rows-[auto_1fr] min-h-screen w-full p-0 m-0"
 >
+
  {/* <Navbar /> */}
  <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0">
   <section id="home" className="m-0 p-0 w-full">
@@ -24,7 +25,7 @@ export default function Home() {
             Developer
           </h2>
           <p className="text-base sm:text-lg md:text-xl py-2">
-            Studying Computer Science @ South Forsyth High School
+            Studying Computer Science @ Georgia Institute of Technology
           </p>
           <div className="mt-4 flex gap-4 justify-center md:justify-start">
           <a href="mailto:aaru7811@gmail.com">
@@ -65,9 +66,6 @@ export default function Home() {
       </div>
     </div>
 </section>      
-<p className="text-base sm:text-lg md:text-xl">
-        Contact: aaru7811 [at] gmail [dot] com
-      </p>
 
         <h1 className="font-bold text-4xl py-3 underline"> Education & Skills </h1>
         <section id="education" className="flex flex-col gap-6 sm:gap-8">
