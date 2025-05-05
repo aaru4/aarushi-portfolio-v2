@@ -30,9 +30,9 @@ export default function Home() {
           <div className="mt-4 flex gap-4 justify-center md:justify-start">
           <a href="mailto:aaru7811@gmail.com">
               <Image
-                src="/email.svg"
+                src="/envelope-line-icon.jpg"
                 alt="Email Icon"
-                width={65}
+                width={60}
                 height={60}
               />
             </a>
@@ -42,7 +42,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <Image
-                src="/linkedin.svg"
+                src="/linkedin-square-icon.jpg"
                 alt="LinkedIn Icon"
                 width={60}
                 height={60}
