@@ -14,48 +14,53 @@ export default function Home() {
 >
  {/* <Navbar /> */}
   <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start">
-    <section id="home" className="mt-0">
-    <div className="flex flex-col md:flex-row h-screen">
-  <div className="w-full md:w-1/2 flex items-center justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0]">
-    <div className="v-screen">
-    <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl px-4 py-4">
-      Aarushi Ammavajjala.
-    </h1>
-    <h2 className="font-bold text-xl sm:text-2xl md:text-3xl py-3">Developer</h2>
-      <p className="text-base sm:text-lg md:text-xl">
-        Studying Computer Science @ South Forsyth High School
-      </p>
-  </div>
-  </div>
-  <div className="w-full md:w-1/2 bg-white">
-  </div>
-  <Image
-          src="/profile.jpg"
-          alt="Picture of Aarushi"
-          width={200}
-          height={200}
-          className="rounded-full"
-        />
-</div>
+  <section id="home" className="m-0 p-0">
+  <div className="flex flex-col md:flex-row h-screen">
+    {/* Left (gradient) half */}
+    <div className="w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0]">
+      <div className="text-center md:text-left px-6">
+        <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl py-2">
+          Aarushi Ammavajjala.
+        </h1>
+        <h2 className="font-bold text-xl sm:text-2xl md:text-3xl py-2">
+          Developer
+        </h2>
+        <p className="text-base sm:text-lg md:text-xl py-2">
+          Studying Computer Science @ South Forsyth High School
+        </p>
+        <a
+          href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-4"
+        >
+          <Image
+            src="/linkedin.svg"
+            alt="LinkedIn Icon"
+            width={50}
+            height={50}
+            className="rounded hover:bg-[#6cd0d0] transition-opacity-80 duration-200"
+          />
+        </a>
+      </div>
+    </div>
 
-      <p className="text-base sm:text-lg md:text-xl">
+    {/* Right (white) half with circular profile image */}
+    <div className="w-full md:w-1/2 h-1/2 md:h-full bg-white flex items-center justify-center">
+      <Image
+        src="/profile.jpg"
+        alt="Picture of Aarushi"
+        width={200}
+        height={200}
+        className="rounded-full object-cover aspect-square"
+      />
+    </div>
+  </div>
+</section>      
+<p className="text-base sm:text-lg md:text-xl">
         Contact: aaru7811 [at] gmail [dot] com
       </p>
-      <a
-        href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-block mt-4"
-      >
-        <Image
-          src="/linkedin.svg"
-          alt="LinkedIn Icon"
-          width={50}
-          height={50}
-          className="rounded hover:bg-[#6cd0d0] transition-opacity-80 duration-200"
-        />
-      </a>
-    </section>
+
         <h1 className="font-bold text-4xl py-3 underline"> Education & Skills </h1>
         <section id="education" className="flex flex-col gap-6 sm:gap-8">
           <div className="w-full sm:w-1/3">
