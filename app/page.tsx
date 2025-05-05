@@ -30,7 +30,7 @@ export default function Home() {
           <div className="mt-4 flex gap-4 justify-center md:justify-start">
           <a href="mailto:aaru7811@gmail.com">
               <Image
-                src="/envelope-line-icon.jpg"
+                src="/envelope-line-icon.png"
                 alt="Email Icon"
                 width={60}
                 height={60}
@@ -42,7 +42,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <Image
-                src="/linkedin-square-icon.jpg"
+                src="/linkedin-square-icon.png"
                 alt="LinkedIn Icon"
                 width={60}
                 height={60}
@@ -53,7 +53,7 @@ export default function Home() {
       </div>
 
       {/* Right half: White with circular profile image */}
-      <div className="w-full md:w-1/2 md:h-full mt-8 md:mt-0 bg-white flex items-center justify-center border-b-4 border-[#6cd0d0]">
+      <div className="w-full md:w-1/2 md:h-full mt-8 md:mt-0 bg-white flex items-center justify-center">
         <Image
           src="/profile2.jpg"
           alt="Picture of Aarushi"
