@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { ECProjectBox } from './components/EducationCard';
-import Navbar from './components/header';
 import { IndBox } from './components/IndependentCard';
 import { SkillBox } from './components/SkillCard';
 import { UCProjectBox } from './components/UnclickableCard';
@@ -13,12 +12,12 @@ export default function Home() {
 <div
   className={`grid grid-rows-[auto_1fr] items-start justify-items-start min-h-screen p-6 sm:p-8 md:p-20 gap-12 sm:gap-16 font-[family-name:var(--font-geist-sans)]`}
 >
-  <Navbar />
+ {/* <Navbar /> */}
   <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start">
     <section id="home" className="mt-0">
     <div className="flex flex-col md:flex-row h-screen">
-  {/* Left/Top Section */}
   <div className="w-full md:w-1/2 flex items-center justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0]">
+    <div className="v-screen">
     <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl px-4 py-4">
       Aarushi Ammavajjala.
     </h1>
@@ -26,6 +25,7 @@ export default function Home() {
       <p className="text-base sm:text-lg md:text-xl">
         Studying Computer Science @ South Forsyth High School
       </p>
+  </div>
   </div>
   <div className="w-full md:w-1/2 bg-white"></div>
   <Image
