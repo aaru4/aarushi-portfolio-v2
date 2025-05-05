@@ -12,61 +12,59 @@ export default function Home() {
   className={`grid grid-rows-[auto_1fr] items-start justify-items-start min-h-screen p-6 sm:p-8 md:p-10 gap-6 sm:gap-6 font-[family-name:var(--font-geist-sans)]`}
 >
  {/* <Navbar /> */}
-  <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start">
-  <section id="home" className="m-0 p-0">
-  <div className="flex flex-col md:flex-row h-screen">
-    <div className="w-full xl: w-1/2 lg: w-1/2 md:w-1/2 h-1/2 md:h-full flex items-center justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0]">
-      <div className="text-center md:text-left px-6">
-        <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl py-2">
-          Aarushi Amavajjala.
-        </h1>
-        <h2 className="font-bold text-xl sm:text-2xl md:text-3xl py-2">
-          Developer
-        </h2>
-        <p className="text-base sm:text-lg md:text-xl py-2">
-          Studying Computer Science @ South Forsyth High School
-        </p>
-        <div className="mt-4 flex gap-4">
-        <a
-          href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block mt-4"
-        >
-          <Image
-            src="/linkedin.svg"
-            alt="LinkedIn Icon"
-            width={50}
-            height={50}
-            className="rounded hover:bg-[#fbceb1] transition-opacity-80 duration-200"
-          />
-          </a><a
-            href="mailto:aaru7811@gmail.com"
-            className="inline-block mt-4"
-          >
-            <Image
-              src="/email.svg"
-              alt="Email Icon"
-              width={50}
-              height={50}
-              className="rounded hover:bg-[#fbceb1] transition-opacity duration-200"
-            />
-          </a>
+ <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0">
+  <section id="home" className="m-0 p-0 w-full">
+    <div className="flex flex-col md:flex-row h-screen w-full">
+      {/* Left half: Ombre background */}
+      <div className="w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0]">
+        <div className="text-center md:text-left px-6">
+          <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl py-2">
+            Aarushi Ammavajjala.
+          </h1>
+          <h2 className="font-bold text-xl sm:text-2xl md:text-3xl py-2">
+            Developer
+          </h2>
+          <p className="text-base sm:text-lg md:text-xl py-2">
+            Studying Computer Science @ South Forsyth High School
+          </p>
+          <div className="mt-4 flex gap-4 justify-center md:justify-start">
+            <a
+              href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/linkedin.svg"
+                alt="LinkedIn Icon"
+                width={50}
+                height={50}
+                className="rounded hover:bg-[#fbceb1] transition-opacity-80 duration-200"
+              />
+            </a>
+            <a href="mailto:aaru7811@gmail.com">
+              <Image
+                src="/email.svg"
+                alt="Email Icon"
+                width={50}
+                height={50}
+                className="rounded hover:bg-[#fbceb1] transition-opacity duration-200"
+              />
+            </a>
+          </div>
         </div>
       </div>
-    </div>
 
-    {/* Right (white) half with circular profile image */}
-    <div className="w-full md:w-1/2 h-1/2 md:h-full bg-white flex items-center justify-center">
-      <Image
-        src="/profile.jpg"
-        alt="Picture of Aarushi"
-        width={200}
-        height={200}
-        className="rounded-full object-cover aspect-square"
-      />
+      {/* Right half: White with circular profile image */}
+      <div className="w-full md:w-1/2 h-1/2 md:h-full bg-white flex items-center justify-center">
+        <Image
+          src="/profile.jpg"
+          alt="Picture of Aarushi"
+          width={200}
+          height={200}
+          className="rounded-full object-cover aspect-square"
+        />
+      </div>
     </div>
-  </div>
 </section>      
 <p className="text-base sm:text-lg md:text-xl">
         Contact: aaru7811 [at] gmail [dot] com
