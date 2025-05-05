@@ -63,40 +63,50 @@ export default function Home() {
 </section>  
 { /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
 <section className="flex flex-col md:flex-row mt-8 md:mt-0 p-6 sm:p-8 md:p-10 items-center justify-center gap-6">
-  <div
-    className="w-[300px] h-[180px] sm:w-[400px] sm:h-[220px] flex flex-col p-6 rounded-lg shadow-lg transform transition-transform duration-300 cursor-pointer hover:scale-105 text-white"
-    style={{
-      background: `linear-gradient(#b1ddc9, #fbceb1)`,
-    }}
-  >
-    <h2 className="text-xl font-bold text-black  mb-2">Education & Skills</h2>
-  </div>
-
-  <div className="relative md:-mt-6 scale-105">
-    <div
-      className="w-[300px] h-[180px] sm:w-[400px] sm:h-[220px] flex flex-col p-6 rounded-lg shadow-lg transform transition-transform duration-300 cursor-pointer hover:scale-105 text-white"
-      style={{
-        background: `linear-gradient(rgba(177, 221, 201, 0.5), #b1ddc9)`,
-      }}
-    >
-      <h2 className="text-xl font-bold text-black mb-2">Recent Experiences</h2>
-    </div>
-  </div>
-
-  <div
-  className="relative w-[220px] h-[140px] sm:w-[300px] sm:h-[180px] md:w-[360px] md:h-[220px] rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105"
->
-  {/* Diagonal background using SVG */}
+<div className="relative w-[220px] h-[140px] sm:w-[300px] sm:h-[180px] md:w-[280px] md:h-[160px] rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105">
   <svg
     className="absolute top-0 left-0 w-full h-full"
     viewBox="0 0 100 100"
     preserveAspectRatio="none"
   >
     <polygon points="0,0 100,0 0,100" fill="#fbceb1" />
-    <polygon points="100,0 100,100 0,100" fill="#b1ddc9" />
+    <polygon points="100,0 100,100 0,100" fill="#ffcbdb" />
   </svg>
 
-  {/* Content */}
+  <div className="relative z-10 flex flex-col justify-center items-center h-full px-4">
+    <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-black text-center">
+      Recent Experiences
+    </h2>
+  </div>
+</div>
+
+<div className="relative w-[220px] h-[140px] sm:w-[300px] sm:h-[180px] md:w-[280px] md:h-[160px] rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105">
+  <svg
+    className="absolute top-0 left-0 w-full h-full"
+    viewBox="0 0 100 100"
+    preserveAspectRatio="none"
+  >
+    <polygon points="0,0 100,0 0,100" fill="#6cd0d0" />
+    <polygon points="100,0 100,100 0,100" fill="#ffcbdb" />
+  </svg>
+
+  <div className="relative z-10 flex flex-col justify-center items-center h-full px-4">
+    <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-black text-center">
+      Recent Experiences
+    </h2>
+  </div>
+</div>
+
+  <div className="relative w-[220px] h-[140px] sm:w-[300px] sm:h-[180px] md:w-[280px] md:h-[160px] rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105">
+  <svg
+    className="absolute top-0 left-0 w-full h-full"
+    viewBox="0 0 100 100"
+    preserveAspectRatio="none"
+  >
+    <polygon points="0,0 100,0 0,100" fill="#fbceb1" />
+    <polygon points="100,0 100,100 0,100" fill="#6cd0d0" />
+  </svg>
+
   <div className="relative z-10 flex flex-col justify-center items-center h-full px-4">
     <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-black text-center">
       Recent Experiences
