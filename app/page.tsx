@@ -9,7 +9,7 @@ import { UCProjectBox } from './components/UnclickableCard';
 
 export default function Home() {
   return (
-<div className="grid grid-rows-[auto_1fr] min-h-screen w-screen p-0 m-0">
+<div className="grid grid-rows-[auto_1fr] overflow-x-hidden min-h-screen w-screen p-0 m-0">
   <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0 w-screen grow">
   <div>
   <section id="home" className="m-0 p-0 w-full">
@@ -66,8 +66,8 @@ export default function Home() {
 <section className="w-full bg-white py-6 px-2 sm:px-2 md:px-10 sticky top-0 z-50 shadow-sm">
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
-    <div className="w-full mb-0 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
-      <div className="rounded-lg py-1 px-2 bg-gradient-to-br from-[#ffcbdb] to-[#ffcbdb90] shadow-md">
+    <div className="w-full mb-0.5 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
+      <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#ffcbdb] to-[#ffcbdb90] shadow-md">
         <Link href="#education" passHref>
           <a className="text-lg sm:text-xl md:text-2xl text-black tracking-wide">
             Education & Skills
@@ -76,8 +76,8 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="w-full mb-0 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-[#e89ea0]">
-      <div className="rounded-lg py-1 px-2 bg-gradient-to-br from-[#fbceb180] to-[#fbceb1] shadow-md">
+    <div className="w-full mb-0.5 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-[#e89ea0]">
+      <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#fbceb180] to-[#fbceb1] shadow-md">
         <Link href="#exp" passHref>
         <a className="text-lg sm:text-xl md:text-2xl text-black tracking-wide">
             Recent Experiences
@@ -86,8 +86,8 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="w-full mb-2 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-[#87bfb3]">
-      <div className="rounded-lg py-1 px-2 bg-gradient-to-br from-[#b1ddc980] to-[#b1ddc9] shadow-md">
+    <div className="w-full mb-0.5 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-[#87bfb3]">
+      <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#b1ddc980] to-[#b1ddc9] shadow-md">
          <Link href="#proj" passHref>
          <a className="text-lg sm:text-xl md:text-2xl text-black tracking-wide">
             Recent Projects
@@ -163,7 +163,7 @@ export default function Home() {
 
         <section id="exp">
         <div className="flex items-center justify-center w-full">
-  <div className="bg-white p-3 pb-6 rounded-lg">
+  <div className="bg-white p-3 pb-12 rounded-lg">
     <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Recent Experience
     </h1>
