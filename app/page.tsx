@@ -64,40 +64,38 @@ export default function Home() {
 { /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
 <section className="flex flex-col md:flex-row mt-8 md:mt-0 p-6 sm:p-8 md:p-10 items-center justify-center gap-6">
 <div className="w-full md:w-1/2 flex flex-col gap-6 items-center md:items-start">
-<div
-    className="relative w-[220px] h-[140px] sm:w-[300px] sm:h-[180px] md:w-[280px] md:h-[160px] rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4"
-    style={{
-      background: 'linear-gradient(rgba(251, 206, 177, 0.5), #fbceb1)',
-    }}
-  >
-    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
-      Education & Skills
-    </h2>
-  </div>
+    <div
+      className="relative w-full sm:w-[90%] md:w-[80%] lg:w-[60%] h-auto rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4"
+      style={{
+        background: 'linear-gradient(rgba(251, 206, 177, 0.5), #fbceb1)',
+      }}
+    >
+      <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
+        Education & Skills
+      </h2>
+    </div>
 
-  {/* Recent Experiences Box */}
-  <div
-    className="relative w-[220px] h-[140px] sm:w-[300px] sm:h-[180px] md:w-[280px] md:h-[160px] rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4"
-    style={{
-      background: 'linear-gradient(rgba(177, 221, 201, 0.5), #b1ddc9)',
-    }}
-  >
-    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
-      Recent Experiences
-    </h2>
-  </div>
+    <div
+      className="relative w-full sm:w-[90%] md:w-[80%] lg:w-[60%] h-auto rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4"
+      style={{
+        background: 'linear-gradient(rgba(177, 221, 201, 0.5), #b1ddc9)',
+      }}
+    >
+      <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
+        Recent Experiences
+      </h2>
+    </div>
 
-  {/* Recent Projects Box */}
-  <div
-    className="relative w-[220px] h-[140px] sm:w-[300px] sm:h-[180px] md:w-[280px] md:h-[160px] rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4"
-    style={{
-      background: 'linear-gradient(rgba(108, 208, 208, 0.5), #6cd0d0)',
-    }}
-  >
-    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
-      Recent Projects
-    </h2>
-  </div>
+    <div
+      className="relative w-full sm:w-[90%] md:w-[80%] lg:w-[60%] h-auto rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4"
+      style={{
+        background: 'linear-gradient(rgba(108, 208, 208, 0.5), #6cd0d0)',
+      }}
+    >
+      <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
+        Recent Projects
+      </h2>
+    </div>
   </div>
 </section>
 
@@ -126,7 +124,7 @@ export default function Home() {
           </div>
         </section>
         <section id="experience">
-          <h1 className="font-bold text-4xl py-3 underline"> Recent Experiences </h1>
+          <h1 className="font-bold text-3xl py-3 underline"> Recent Experiences </h1>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4">
 
               <UCProjectBox
@@ -185,7 +183,7 @@ export default function Home() {
           </div>
         </section>
         <section id="projects">
-          <h1 className="font-bold text-4xl py-3 underline"> Recent Projects </h1>
+          <h1 className="font-bold text-3xl py-3 underline"> Recent Projects </h1>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4 mx-auto justify-items-center">
             <a
               href="https://www.youtube.com/watch?v=_bVhGnBFY90"
