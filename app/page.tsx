@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { ECProjectBox } from './components/EducationCard';
 import { IndBox } from './components/IndependentCard';
 import { SkillBox } from './components/SkillCard';
@@ -73,9 +74,11 @@ export default function Home() {
       <div
         className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb80] to-[#ffcbdb] shadow-md"
       >
-        <h2 className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
-          Education & Skills
-        </h2>
+        <Link href="#education" passHref>
+          <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
+            Education & Skills
+          </a>
+          </Link>
       </div>
     </div>
 
@@ -104,38 +107,44 @@ export default function Home() {
     </div>
 
   </nav>
+</section >
+<h1 id="education" className="font-bold text-3xl py-3 underline decoration-[#ffcbdb] decoration-4 underline-offset-4 text-center">
+  <span className="bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1] bg-clip-text text-transparent">
+    Education & Skills
+  </span>
+</h1>
+
+<section className="flex flex-col gap-6 sm:gap-8 w-full px-4">
+  <div className="w-full">
+    <ECProjectBox
+      title="Georgia Institute of Technology"
+      org="Computer Science"
+      color="#fbceb1"
+    />
+  </div>
+  <div className="w-full">
+    <ECProjectBox
+      title="South Forsyth High School"
+      org="NMSQT Finalist, AP Scholar with Distinction"  
+      color="#fbceb1"
+    />
+  </div>
+
+  {/* Skills Grid */}
+  <div className="w-full">
+    <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4 sm:gap-6">
+      <SkillBox title="Python" color="#fbceb1" />
+      <SkillBox title="Java" color="#b1ddc9" />
+      <SkillBox title="Swift" color="#6cd0d0" />
+      <SkillBox title="SQL" color="#ffcbdb" />
+      <SkillBox title="Computer Vision" color="#fbceb1" />
+      <SkillBox title="NLP" color="#b1ddc9" />
+      <SkillBox title="R" color="#6cd0d0" />
+      <SkillBox title="JavaScript" color="#ffcbdb" />
+    </div>
+  </div>
 </section>
 
-      <h1 className="font-bold text-3xl py-3 underline"> Education & Skills </h1>
-        <section id="education" className="flex flex-col gap-6 sm:gap-8">
-          <div className="w-full sm:w-1/3">
-            <ECProjectBox
-              title="Georgia Institute of Technology"
-              org="Computer Science"
-              color="#fbceb1"
-            />
-          </div>
-          <div className="w-full sm:w-1/3">
-            <ECProjectBox
-              title="South Forsyth High School"
-              org="NMSQT Finalist, AP Scholar with Distinction"  
-              color="#fbceb1"
-            />
-          </div>
-
-          <div className="w-full sm:w-2/3 px-4">
-            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-x-28">
-              <SkillBox title="Python" color="#fbceb1" />
-              <SkillBox title="Java" color="#b1ddc9" />
-              <SkillBox title="Swift" color="#6cd0d0" />
-              <SkillBox title="SQL" color="#ffcbdb" />
-              <SkillBox title="Computer Vision" color="#fbceb1" />
-              <SkillBox title="NLP" color="#b1ddc9" />
-              <SkillBox title="R" color="#6cd0d0" />
-              <SkillBox title="JavaScript" color="#ffcbdb" />
-            </div>
-          </div>
-        </section>
         <section id="experience">
           <h1 className="font-bold text-3xl py-3 underline"> Recent Experiences </h1>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4">
