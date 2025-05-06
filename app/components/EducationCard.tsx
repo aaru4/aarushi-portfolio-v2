@@ -10,23 +10,22 @@ interface ECProjectCardProps {
     const b = parseInt(hex.slice(5, 7), 16);
     return `rgba(${r}, ${g}, ${b}, ${opacity})`;
   }
-  
   export const ECProjectBox: React.FC<ECProjectCardProps> = ({ title, org, color }) => {
     return (
       <div
-        className={`w-[400px] h-[220px] flex flex-col p-6 rounded-lg shadow-lg mx-auto transform transition-transform duration-300`}
+        className="w-full rounded-xl shadow-md p-6 transform transition-transform duration-300 hover:scale-105"
         style={{
-          background: `linear-gradient(${hexToRgba(color, 0.5)}, ${color})`,
+          background: `linear-gradient(to bottom right, ${hexToRgba(color, 0.5)}, ${color})`,
+          border: `2px solid ${hexToRgba(color, 0.6)}`,
         }}
       >
-        <div className="flex-grow">
-          <h1 style={cardStyles.title}>{title}</h1>
-          <p style={cardStyles.org}>{org}</p>
+        <div className="text-left">
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">{title}</h1>
+          <p className="text-lg sm:text-xl text-gray-700">{org}</p>
         </div>
       </div>
     );
   };
-  
   const cardStyles = {
     container: {
       borderRadius: "12px",
