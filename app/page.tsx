@@ -77,9 +77,9 @@ export default function Home() {
     </div>
 
     <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
-      <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#ffcbdb] to-[#ffcbdb90] shadow-md">
+      <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#fbceb180] to-[#fbceb1] shadow-md">
         <Link href="#exp" passHref>
-          <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
+        <a className="text-lg sm:text-xl md:text-2xl text-black tracking-wide">
             Recent Experiences
           </a>
         </Link>
@@ -87,9 +87,9 @@ export default function Home() {
     </div>
 
     <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
-      <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#ffcbdb] to-[#ffcbdb90] shadow-md">
+      <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#b1ddc980] to-[#b1ddc9] shadow-md">
          <Link href="#proj" passHref>
-          <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
+         <a className="text-lg sm:text-xl md:text-2xl text-black tracking-wide">
             Recent Projects
           </a>
         </Link>
@@ -109,7 +109,7 @@ export default function Home() {
     <ECProjectBox
       title="Georgia Institute of Technology"
       org="B.S. in Computer Science"
-      color="#ffcbdb"
+      color="#fbceb1"
     />
   </div>
   <div className="w-full px-2">
