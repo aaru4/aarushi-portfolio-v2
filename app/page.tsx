@@ -121,7 +121,7 @@ export default function Home() {
   </div>
 
   <div className="w-full">
-  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 gap-3 sm:gap-4">
+  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 gap-3 gap-x-2 sm:gap-4">
     {/* Languages */}
     <SkillBox title="Python" color="#fbceb1" />
     <SkillBox title="Java" color="#fbceb1" />
@@ -163,7 +163,7 @@ export default function Home() {
 
         <section id="exp">
         <div className="flex items-center justify-center w-full">
-  <div className="bg-white p-3 py-6 rounded-lg">
+  <div className="bg-white p-3 pb-6 rounded-lg">
     <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Recent Experience
     </h1>
@@ -242,7 +242,7 @@ export default function Home() {
 
         <section id="proj">
         <div className="flex items-center justify-center w-full">
-  <div id="proj" className="bg-white p-3 py-6 rounded-lg">
+  <div id="proj" className="bg-white p-3 pb-6 rounded-lg">
     <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Recent Projects
     </h1>
