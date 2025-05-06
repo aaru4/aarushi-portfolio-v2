@@ -104,7 +104,7 @@ export default function Home() {
     </h1>
   </div>
 </div>
-<section className="flex flex-col gap-6 sm:gap-8 py-4 w-full px-4">
+<section className="flex flex-col gap-6 sm:gap-8 py-6 w-full px-4">
   <div className="w-full px-2">
     <ECProjectBox
       title="Georgia Institute of Technology"
@@ -163,13 +163,13 @@ export default function Home() {
 
         <section id="exp">
         <div className="flex items-center justify-center w-full">
-  <div id="proj" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 py-4 rounded-lg">
+  <div id="proj" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 py-6 rounded-lg">
     <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Recent Experience
     </h1>
   </div>
 </div>  
-<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 py-4 px-4">
+<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 py-6 px-4">
               <UCProjectBox
                 title="AI Development Intern"
                 org="Georgia Institute of Technology"
@@ -242,13 +242,13 @@ export default function Home() {
 
         <section id="proj">
         <div className="flex items-center justify-center w-full">
-  <div id="proj" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 py-4 rounded-lg">
+  <div id="proj" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 py-6 rounded-lg">
     <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Recent Projects
     </h1>
   </div>
 </div>    
-<div className="grid py-7 grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4 mx-auto justify-items-center">
+<div className="grid py-6 grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4 mx-auto justify-items-center">
           <a
               href="https://github.com/aaru4/mediScript"
               target="_blank"
