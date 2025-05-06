@@ -162,14 +162,14 @@ export default function Home() {
 </section>
 
         <section id="exp">
-        <div className="flex items-center justify-center w-full py-6">
-  <div id="education" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 rounded-lg">
+        <div className="flex items-center justify-center w-full">
+  <div id="proj" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 py-4 rounded-lg">
     <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
-      Recent Experiences
+      Recent Experience
     </h1>
   </div>
-</div>
-<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 py-8 px-4">
+</div>  
+<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 py-4 px-4">
               <UCProjectBox
                 title="AI Development Intern"
                 org="Georgia Institute of Technology"
@@ -247,7 +247,8 @@ export default function Home() {
       Recent Projects
     </h1>
   </div>
-</div>    <div className="grid py-7 grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4 mx-auto justify-items-center">
+</div>    
+<div className="grid py-7 grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4 mx-auto justify-items-center">
           <a
               href="https://github.com/aaru4/mediScript"
               target="_blank"
