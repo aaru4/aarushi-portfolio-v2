@@ -63,7 +63,7 @@ export default function Home() {
 </section>  
 </div>
 { /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
-<section className="w-full bg-white py-6 px-4 sm:px-4 md:px-10 sticky top-0 z-50 shadow-sm">
+<section className="w-full bg-white py-6 px-2 sm:px-2 md:px-10 sticky top-0 z-50 shadow-sm">
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
     <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
