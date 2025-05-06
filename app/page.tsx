@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { ECProjectBox } from './EducationCard';
-import { IndBox } from './IndependentCard';
-import { SkillBox } from './SkillCard';
-import { UCProjectBox } from './UnclickableCard';
+import { ECProjectBox } from './components/EducationCard';
+import { IndBox } from './components/IndependentCard';
+import { SkillBox } from './components/SkillCard';
+import { UCProjectBox } from './components/UnclickableCard';
 
 
 // color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb
