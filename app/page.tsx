@@ -169,7 +169,7 @@ export default function Home() {
     </h1>
   </div>
 </div>  
-<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 place-items-center gap-6 pt-6 px-4">
+<div className="w-screen grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 place-items-center gap-6 pt-6 px-6">
               <UCProjectBox
                 title="AI Development Intern"
                 org="Georgia Institute of Technology"

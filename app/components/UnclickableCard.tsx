@@ -16,7 +16,7 @@ function hexToRgba(hex: string, opacity: number) {
 export const UCProjectBox: React.FC<UCProjectCardProps> = ({ title, org, date, desc, color }) => {
   return (
     <div
-      className={`w-[400px] h-[360px] flex flex-col p-6 rounded-lg shadow-lg mx-auto transform transition-transform duration-300`}
+      className={`w-full h-[360px] flex flex-col p-6 rounded-lg shadow-lg mx-auto transform transition-transform duration-300`}
       style={{
         background: `linear-gradient(${hexToRgba(color, 0.5)}, ${color})`,
       }}
