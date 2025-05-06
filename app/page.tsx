@@ -246,7 +246,7 @@ export default function Home() {
           <h1 className="font-bold text-3xl py-3 underline"> Recent Projects </h1>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4 mx-auto justify-items-center">
             <a
-              href="https://www.youtube.com/watch?v=_bVhGnBFY90"
+              href="https://www.youtube.com/watch?v=-zZfaS5J5Wc"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-4"
