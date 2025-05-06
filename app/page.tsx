@@ -17,7 +17,7 @@ export default function Home() {
     <div className="w-screen md:w-1/2 h-1/2 md:h-full flex items-center justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0] p-6 sm:p-8 md:p-10">
     <div className="text-center md:text-left px-6">
           <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl py-2">
-            Aarushi Aavajjala.
+            Aarushi Ammavajjala.
           </h1>
           <h2 className="font-bold text-xl sm:text-2xl md:text-3xl py-2">
             Developer
@@ -90,7 +90,7 @@ export default function Home() {
     <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-green-300">
       <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#b1ddc980] to-[#b1ddc9] shadow-md">
         <Link href="#proj" passHref>
-          <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">cale
+          <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
             Recent Projects
           </a>
         </Link>
@@ -99,10 +99,12 @@ export default function Home() {
 
   </nav>
 </section >
-<div className="bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1] p-[2px] rounded-lg">
-  <h1 className="font-bold text-3xl text-center py-3 bg-white inline-block rounded-lg">
-    Education & Skills
-  </h1>
+<div className="flex items-center justify-center min-h-screen">
+  <div id="education" className="bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1] p-8 rounded-lg">
+    <h1 className="font-bold text-3xl text-center py-3 bg-white inline-block rounded-lg">
+      Education & Skills
+    </h1>
+  </div>
 </div>
 <section className="flex flex-col gap-6 sm:gap-8 w-full px-4">
   <div className="w-full">
