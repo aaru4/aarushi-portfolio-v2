@@ -16,14 +16,18 @@ export const SkillBox: React.FC<SkillCardProps> = ({ title, color }) => {
 
 const cardStyles = {
   container: {
-    borderRadius: "8px",
-    boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
-    padding: "12px",
-    margin: "8px",
+    borderRadius: "12px",
+    boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.1)",
+    padding: "20px",
+    margin: "16px auto",
     textAlign: "center" as const,
+    transition: "transform 0.3s ease, box-shadow 0.3s ease",
   },
   title: {
-    fontSize: "16px",
-    color: "black",
+    fontSize: "24px",
+    fontWeight: "bold",
+    marginBottom: "10px",
+    color: "#333",
+    letterSpacing: "0.5px",
   },
 };
