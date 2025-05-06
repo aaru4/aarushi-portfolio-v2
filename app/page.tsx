@@ -68,7 +68,7 @@ export default function Home() {
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
     <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
-      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb80] to-[#ffcbfb] shadow-md">
+      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb70] to-[#ffcbfb1] shadow-md">
       <Link href="#education" passHref>
           <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
             Education & Skills
@@ -100,13 +100,13 @@ export default function Home() {
   </nav>
 </section >
 <div className="flex items-center justify-center w-full">
-  <div id="education" className="bg-gradient-to-r from-[#ffcbdb] to-[#fc9dba] p-4 rounded-lg">
-    <h1 className="font-bold text-1xl text-center py-3 bg-clip-text text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
+  <div id="education" className="bg-gradient-to-r from-[#ffcbdb] to-[#fc9dba] p-3 rounded-lg">
+    <h1 className="text-2xl text-center bg-clip-text text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Education & Skills
     </h1>
   </div>
 </div>
-<section className="flex flex-col gap-6 sm:gap-8 w-full px-4">
+<section className="flex flex-col gap-6 sm:gap-8 py-4 w-full px-4">
   <div className="w-full">
     <ECProjectBox
       title="Georgia Institute of Technology"
