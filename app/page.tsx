@@ -17,7 +17,7 @@ export default function Home() {
     <div className="w-screen md:w-1/2 h-1/2 md:h-full flex items-center justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0] p-6 sm:p-8 md:p-10">
     <div className="text-center md:text-left px-6">
           <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl py-2">
-            Aarushi Ammmavajjala.
+            Aarushi Amavajjala.
           </h1>
           <h2 className="font-bold text-xl sm:text-2xl md:text-3xl py-2">
             Developer
@@ -100,8 +100,8 @@ export default function Home() {
   </nav>
 </section >
 <div className="flex items-center justify-center w-full">
-  <div id="education" className="bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1] p-4 rounded-lg">
-    <h1 className="font-bold text-3xl text-center py-3 bg-clip-text text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
+  <div id="education" className="bg-gradient-to-r from-[#ffcbdb] to-[#f56491] p-4 rounded-lg">
+    <h1 className="font-bold text-1xl text-center py-3 bg-clip-text text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Education & Skills
     </h1>
   </div>
@@ -122,9 +122,8 @@ export default function Home() {
     />
   </div>
 
-  {/* Skills Grid */}
   <div className="w-full">
-    <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4 sm:gap-6">
+    <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 gap-4 sm:gap-6">
       <SkillBox title="Python" color="#fbceb1" />
       <SkillBox title="Java" color="#b1ddc9" />
       <SkillBox title="Swift" color="#6cd0d0" />
