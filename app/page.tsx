@@ -99,9 +99,9 @@ export default function Home() {
 
   </nav>
 </section >
-<div className="flex items-center justify-center">
-  <div id="education" className="bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1] p-8 rounded-lg">
-    <h1 className="font-bold text-3xl text-center py-3 bg-clip-text text-transparent bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
+<div className="flex items-center justify-center w-full">
+  <div id="education" className="bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1] p-4 rounded-lg">
+    <h1 className="font-bold text-3xl text-center py-3 bg-clip-text text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Education & Skills
     </h1>
   </div>
