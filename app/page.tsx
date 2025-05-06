@@ -68,12 +68,8 @@ export default function Home() {
 <section className="w-full bg-white py-6 px-4 sm:px-8 md:px-12">
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
-    <div
-      className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.15] cursor-pointer border-b-4 border-transparent hover:border-pink-400"
-    >
-      <div
-        className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb80] to-[#ffcbdb] shadow-md"
-      >
+    <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.15] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
+      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb80] to-[#ffcbdb] shadow-md">
         <Link href="#education" passHref>
           <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
             Education & Skills
@@ -82,12 +78,8 @@ export default function Home() {
       </div>
     </div>
 
-    <div
-      className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.15] cursor-pointer border-b-4 border-transparent hover:border-orange-300"
-    >
-      <div
-        className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#fbceb180] to-[#fbceb1] shadow-md"
-      >
+    <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.15] cursor-pointer border-b-4 border-transparent hover:border-orange-300">
+      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#fbceb180] to-[#fbceb1] shadow-md">
         <Link href="#exp" passHref>
           <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
             Recent Experiences
@@ -96,12 +88,8 @@ export default function Home() {
       </div>
     </div>
 
-    <div
-      className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.15] cursor-pointer border-b-4 border-transparent hover:border-green-300"
-    >
-      <div
-        className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#b1ddc980] to-[#b1ddc9] shadow-md"
-      >
+    <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.15] cursor-pointer border-b-4 border-transparent hover:border-green-300">
+      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#b1ddc980] to-[#b1ddc9] shadow-md">
         <Link href="#proj" passHref>
           <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">cale
             Recent Projects
@@ -114,14 +102,13 @@ export default function Home() {
 </section >
 <h1
   id="education"
-  className="font-extrabold text-4xl sm:text-5xl py-4 text-center bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1] bg-clip-text text-transparent"
->
+  className="font-extrabold text-4xl sm:text-5xl py-4 text-center bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1] bg-clip-text text-transparent">
   <span className="text-3xl sm:text-4xl underline decoration-[#ffcbdb] decoration-4 underline-offset-8">
     Education & Skills
   </span>
 </h1>
 <section className="flex flex-col gap-6 sm:gap-8 w-full px-4">
-  <div className="w-full">
+  <div className="w-screen">
     <ECProjectBox
       title="Georgia Institute of Technology"
       org="Computer Science"
