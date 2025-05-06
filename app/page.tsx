@@ -98,13 +98,13 @@ export default function Home() {
   </nav>
 </section >
 <div className="flex items-center justify-center w-full">
-  <div id="education" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 rounded-lg">
+  <div id="education" className="bg-white p-3 rounded-lg">
     <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Education & Skills
     </h1>
   </div>
 </div>
-<section className="flex flex-col gap-6 sm:gap-8 px-4 w-full px-4">
+<section className="flex flex-col gap-6 sm:gap-8 py-4 w-full px-4">
   <div className="w-full px-2">
     <ECProjectBox
       title="Georgia Institute of Technology"
