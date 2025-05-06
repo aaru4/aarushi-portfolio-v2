@@ -1,12 +1,11 @@
-import Link from 'next/link'; // Import Link component from Next.js
 
-export default function About() {
+const ExpPage = () => {
   return (
     <div>
-      <h1>Exp Page</h1>
-      <p>
-        <Link href="/">Back to Homepage</Link>
-      </p>
+      <h1>Welcome to the Experimental Page!</h1>
+      <p>This is the content of the experimental page.</p>
     </div>
   );
-}
+};
+
+export default ExpPage;
