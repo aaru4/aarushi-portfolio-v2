@@ -67,8 +67,8 @@ export default function Home() {
     <div
       className="relative w-full sm:w-[90%] md:w-[80%] lg:w-[60%] h-auto rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4"
       style={{
-        background: 'linear-gradient(rgba(251, 206, 177, 0.5), #fbceb1)',
-      }}
+        background: 'linear-gradient(rgba(255, 203, 219, 0.5), #ffcbdb)',
+           }}
     >
       <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
         Education & Skills
@@ -78,7 +78,7 @@ export default function Home() {
     <div
       className="relative w-full sm:w-[90%] md:w-[80%] lg:w-[60%] h-auto rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4"
       style={{
-        background: 'linear-gradient(rgba(177, 221, 201, 0.5), #b1ddc9)',
+        background: 'linear-gradient(rgba(251, 206, 177, 0.5), #fbceb1)',
       }}
     >
       <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
@@ -89,7 +89,7 @@ export default function Home() {
     <div
       className="relative w-full sm:w-[90%] md:w-[80%] lg:w-[60%] h-auto rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4"
       style={{
-        background: 'linear-gradient(rgba(108, 208, 208, 0.5), #6cd0d0)',
+        background: 'linear-gradient(rgba(177, 221, 201, 0.5), #b1ddc9)',
       }}
     >
       <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
