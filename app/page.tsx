@@ -14,7 +14,7 @@ export default function Home() {
  <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0">
   <div>
   <section id="home" className="m-0 p-0 w-full">
-    <div className="flex flex-col md:flex-row h-screen w-full">
+    <div className="flex flex-col md:flex-row min-h-screen w-full">
      <div className="w-full md:w-1/2 md:h-full flex items-center rounded-xl justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0] p-6 sm:p-8 md:p-10">
         <div className="text-center md:text-left px-6">
           <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl py-2">
@@ -63,7 +63,7 @@ export default function Home() {
     </div>
 </section>  
 </div>
-{ /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
+
 <div>
 <section className="flex flex-col lg:flex-row mt-8 md:mt-0 p-6 sm:p-8 md:p-10 items-center justify-between gap-6">
   <div
@@ -72,7 +72,7 @@ export default function Home() {
       background: 'linear-gradient(rgba(255, 203, 219, 0.5), #ffcbdb)',
     }}
   >
-    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
+    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-black text-center">
       Education & Skills
     </h2>
   </div>
@@ -83,7 +83,7 @@ export default function Home() {
       background: 'linear-gradient(rgba(251, 206, 177, 0.5), #fbceb1)',
     }}
   >
-    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
+    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-black text-center">
       Recent Experiences
     </h2>
   </div>
@@ -94,14 +94,14 @@ export default function Home() {
       background: 'linear-gradient(rgba(177, 221, 201, 0.5), #b1ddc9)',
     }}
   >
-    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
+    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-black text-center">
       Recent Projects
     </h2>
   </div>
 </section>
 </div>
 
-        <h1 className="font-bold text-4xl py-3 underline"> Education & Skills </h1>
+        <h1 className="font-bold text-3xl py-3 underline"> Education & Skills </h1>
         <section id="education" className="flex flex-col gap-6 sm:gap-8">
           <div className="w-full sm:w-1/3">
             <ECProjectBox
