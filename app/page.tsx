@@ -176,7 +176,6 @@ export default function Home() {
     </h1>
   </div>
 </div>
-<section>
 <Swiper
   spaceBetween={24}
   slidesPerView={1}
@@ -190,6 +189,20 @@ modules={[Pagination]}
   className="px-4 py-6"
 >
   <SwiperSlide>
+  <UCProjectBox
+                title="AI Development Intern"
+                org="Georgia Institute of Technology"
+                date="AUG 2025"
+                desc="Computational creativity & AI-powered game generation. More coming soon."
+                color="#fbceb1"
+              />
+            <UCProjectBox
+                title="STEM@GTRI Intern"
+                org="Georgia Tech Research Institute"
+                date="JUNE - JULY 2025"
+                desc="Details coming soon."
+                color="#b1ddc9"
+              />
     <UCProjectBox
       title="AI Development Intern"
       org="United Nations"
