@@ -67,7 +67,7 @@ export default function Home() {
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
     <div className="w-full mb-0 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
-      <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#ffcbdb] to-[#ffcbdb90] shadow-md">
+      <div className="rounded-lg py-1 px-2 bg-gradient-to-br from-[#ffcbdb] to-[#ffcbdb90] shadow-md">
         <Link href="#education" passHref>
           <a className="text-lg sm:text-xl md:text-2xl text-black tracking-wide">
             Education & Skills
@@ -77,7 +77,7 @@ export default function Home() {
     </div>
 
     <div className="w-full mb-0 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-[#e89ea0]">
-      <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#fbceb180] to-[#fbceb1] shadow-md">
+      <div className="rounded-lg py-1 px-2 bg-gradient-to-br from-[#fbceb180] to-[#fbceb1] shadow-md">
         <Link href="#exp" passHref>
         <a className="text-lg sm:text-xl md:text-2xl text-black tracking-wide">
             Recent Experiences
@@ -87,7 +87,7 @@ export default function Home() {
     </div>
 
     <div className="w-full mb-2 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-[#87bfb3]">
-      <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#b1ddc980] to-[#b1ddc9] shadow-md">
+      <div className="rounded-lg py-1 px-2 bg-gradient-to-br from-[#b1ddc980] to-[#b1ddc9] shadow-md">
          <Link href="#proj" passHref>
          <a className="text-lg sm:text-xl md:text-2xl text-black tracking-wide">
             Recent Projects
