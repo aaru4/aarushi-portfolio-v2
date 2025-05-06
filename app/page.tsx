@@ -112,12 +112,14 @@ export default function Home() {
 
   </nav>
 </section >
-<h1 id="education" className="font-bold text-3xl py-3 underline decoration-[#ffcbdb] decoration-4 underline-offset-4 text-center">
-  <span className="bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1] bg-clip-text text-transparent">
+<h1
+  id="education"
+  className="font-extrabold text-4xl sm:text-5xl py-4 text-center bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1] bg-clip-text text-transparent"
+>
+  <span className="text-3xl sm:text-4xl underline decoration-[#ffcbdb] decoration-4 underline-offset-8">
     Education & Skills
   </span>
 </h1>
-
 <section className="flex flex-col gap-6 sm:gap-8 w-full px-4">
   <div className="w-full">
     <ECProjectBox
