@@ -17,7 +17,7 @@ export default function Home() {
     <div className="w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0] p-6 sm:p-8 md:p-10">
     <div className="text-center md:text-left px-6">
           <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl py-2">
-            Aarushi Amavajjala.
+            Aarushi Ammavajjala.
           </h1>
           <h2 className="font-bold text-xl sm:text-2xl md:text-3xl py-2">
             Developer
@@ -64,7 +64,7 @@ export default function Home() {
 </div>
 { /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
 
-<section className="w-full bg-white shadow-md py-6 px-4 sm:px-8 md:px-12">
+<section className="w-full bg-white py-6 px-4 sm:px-8 md:px-12">
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
     <div
@@ -85,7 +85,7 @@ export default function Home() {
       <div
         className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#fbceb180] to-[#fbceb1] shadow-md"
       >
-        <h2 className="text-lg sm:text-2xl md:text-3xl font-semibold text-black tracking-wide uppercase">
+        <h2 className="text-lg sm:text-2xl md:text-3xl font-semibold text-black tracking-wide">
           Recent Experiences
         </h2>
       </div>
@@ -97,7 +97,7 @@ export default function Home() {
       <div
         className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#b1ddc980] to-[#b1ddc9] shadow-md"
       >
-        <h2 className="text-lg sm:text-2xl md:text-3xl font-semibold text-black tracking-wide uppercase">
+        <h2 className="text-lg sm:text-2xl md:text-3xl font-semibold text-black tracking-wide">
           Recent Projects
         </h2>
       </div>
