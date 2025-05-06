@@ -9,7 +9,7 @@ import { UCProjectBox } from './components/UnclickableCard';
 
 export default function Home() {
   return (
-<div className="grid grid-rows-[auto_1fr] overflow-x-hidden min-h-screen w-screen p-0 m-0">
+<div className="grid grid-rows-[auto_1fr] min-h-screen w-screen p-0 m-0">
   <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0 w-screen grow">
   <div>
   <section id="home" className="m-0 p-0 w-full">
@@ -63,8 +63,8 @@ export default function Home() {
 </section>  
 </div>
 { /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
-<section className="w-full bg-white py-3 px-2 sm:px-2 md:px-10 sticky top-0 z-50 shadow-sm">
-  <nav className="flex flex-col lg:flex-row items-center justify-between gap-3">
+<section className="w-full bg-white py-6 px-2 sm:px-2 md:px-10 sticky top-0 z-50 shadow-sm">
+  <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
     <div className="w-full mb-0.5 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
       <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#ffcbdb] to-[#ffcbdb90] shadow-md">
