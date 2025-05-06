@@ -1,6 +1,3 @@
-import 'swiper/css';
-import 'swiper/css/pagination';
-
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -24,7 +21,7 @@ export default function Home() {
     <div className="w-screen md:w-1/2 h-1/2 md:h-full flex items-center justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0] p-6 sm:p-8 md:p-10">
     <div className="text-center md:text-left px-6">
           <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl py-2">
-            Aarushi Ammavajjala.
+            Aarushi Avajjala.
           </h1>
           <h2 className="font-bold text-xl sm:text-2xl md:text-3xl py-2">
             Developer
@@ -178,8 +175,11 @@ export default function Home() {
     </h1>
   </div>
 </div>
-<ExperienceCarousel />
+<div className="mt-6 px-4">
+          <ExperienceCarousel />
+        </div>
         </section>
+
         <section id="proj">
           <h1 className="font-bold text-3xl py-3 underline"> Recent Projects </h1>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4 mx-auto justify-items-center">
