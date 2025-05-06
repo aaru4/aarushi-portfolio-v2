@@ -50,8 +50,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center bg-white mt-8 md:mt-0">
-      <Image
+      <div className="w-full md:w-1/2 h-auto md:h-full flex items-center justify-center bg-white py-8 px-4">
+        <Image
           src="/profile2.jpg"
           alt="Picture of Aarushi"
           width={350}
