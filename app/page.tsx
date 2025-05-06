@@ -68,9 +68,9 @@ export default function Home() {
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
     <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
-      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb80] to-[#ffcbdb] shadow-md">
+      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb] to-[#fc9dba] shadow-md">
         <Link href="#education" passHref>
-          <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
+          <a className="text-xl sm:text-xl md:text-xl text-black tracking-wide">
             Education & Skills
           </a>
           </Link>
