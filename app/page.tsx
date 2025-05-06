@@ -76,8 +76,8 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-orange-300">
-      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#fbceb180] to-[#fbceb1] shadow-md">
+    <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
+      <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#ffcbdb] to-[#ffcbdb90] shadow-md">
         <Link href="#exp" passHref>
           <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
             Recent Experiences
@@ -86,9 +86,9 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-green-300">
-      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#b1ddc980] to-[#b1ddc9] shadow-md">
-        <Link href="#proj" passHref>
+    <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
+      <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#ffcbdb] to-[#ffcbdb90] shadow-md">
+         <Link href="#proj" passHref>
           <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
             Recent Projects
           </a>
@@ -121,7 +121,7 @@ export default function Home() {
   </div>
 
   <div className="w-full">
-  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 gap-4 sm:gap-6">
+  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 gap-3 sm:gap-6">
     {/* Languages */}
     <SkillBox title="Python" color="#fbceb1" />
     <SkillBox title="Java" color="#fbceb1" />
@@ -163,13 +163,13 @@ export default function Home() {
 
         <section id="exp">
         <div className="flex items-center justify-center w-full">
-  <div id="education" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 py-4 rounded-lg">
+  <div id="education" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 py-7 rounded-lg">
     <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Recent Experiences
     </h1>
   </div>
 </div>
-<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 py-8 px-4">
+<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 py-12 px-4">
               <UCProjectBox
                 title="AI Development Intern"
                 org="Georgia Institute of Technology"
@@ -247,7 +247,7 @@ export default function Home() {
       Recent Projects
     </h1>
   </div>
-</div>    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4 mx-auto justify-items-center">
+</div>    <div className="grid py-7 grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4 mx-auto justify-items-center">
           <a
               href="https://github.com/aaru4/mediScript"
               target="_blank"
