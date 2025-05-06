@@ -15,8 +15,8 @@ export default function Home() {
   <div>
   <section id="home" className="m-0 p-0 w-full">
     <div className="flex flex-col md:flex-row h-screen w-full">
-     <div className="w-full md:w-1/2 md:h-full flex items-center rounded-xl justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0] p-6 sm:p-8 md:p-10">
-        <div className="text-center md:text-left px-6">
+    <div className="w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0] p-6 sm:p-8 md:p-10">
+    <div className="text-center md:text-left px-6">
           <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl py-2">
             Aarushi Ammavajjala.
           </h1>
@@ -51,8 +51,8 @@ export default function Home() {
         </div>
       </div>
 
-     <div className="w-full md:w-1/2 flex items-center bg-white justify-center mt-8 md:mt-0">
-        <Image
+      <div className="w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center bg-white mt-8 md:mt-0">
+      <Image
           src="/profile2.jpg"
           alt="Picture of Aarushi"
           width={350}
