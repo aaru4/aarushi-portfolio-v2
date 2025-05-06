@@ -66,7 +66,7 @@ export default function Home() {
 <section className="w-full bg-white py-6 px-2 sm:px-2 md:px-10 sticky top-0 z-50 shadow-sm">
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
-    <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
+    <div className="w-full mb-2 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
       <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#ffcbdb] to-[#ffcbdb90] shadow-md">
         <Link href="#education" passHref>
           <a className="text-lg sm:text-xl md:text-2xl text-black tracking-wide">
@@ -76,7 +76,7 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-[#e89ea0]">
+    <div className="w-full mb-2 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-[#e89ea0]">
       <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#fbceb180] to-[#fbceb1] shadow-md">
         <Link href="#exp" passHref>
         <a className="text-lg sm:text-xl md:text-2xl text-black tracking-wide">
@@ -86,7 +86,7 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-[#87bfb3]">
+    <div className="w-full mb-2 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-[#87bfb3]">
       <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#b1ddc980] to-[#b1ddc9] shadow-md">
          <Link href="#proj" passHref>
          <a className="text-lg sm:text-xl md:text-2xl text-black tracking-wide">
@@ -121,7 +121,7 @@ export default function Home() {
   </div>
 
   <div className="w-full">
-  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 gap-3 sm:gap-6">
+  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 gap-3 sm:gap-4">
     {/* Languages */}
     <SkillBox title="Python" color="#fbceb1" />
     <SkillBox title="Java" color="#fbceb1" />
@@ -162,14 +162,14 @@ export default function Home() {
 </section>
 
         <section id="exp">
-        <div className="flex items-center justify-center w-full">
-  <div id="education" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 py-7 rounded-lg">
+        <div className="flex items-center justify-center w-full py-6">
+  <div id="education" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 rounded-lg">
     <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Recent Experiences
     </h1>
   </div>
 </div>
-<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 py-12 px-4">
+<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 py-8 px-4">
               <UCProjectBox
                 title="AI Development Intern"
                 org="Georgia Institute of Technology"
@@ -242,7 +242,7 @@ export default function Home() {
 
         <section id="proj">
         <div className="flex items-center justify-center w-full">
-  <div id="education" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 py-4 rounded-lg">
+  <div id="proj" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 py-4 rounded-lg">
     <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Recent Projects
     </h1>
