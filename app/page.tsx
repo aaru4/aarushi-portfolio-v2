@@ -62,6 +62,7 @@ export default function Home() {
     </div>
 </section>  
 { /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
+<div>
 <section className="flex flex-wrap mt-8 md:mt-0 p-6 sm:p-8 md:p-10 items-center justify-center gap-6">
   <div
     className="w-full md:w-1/3 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4 py-6"
@@ -96,7 +97,7 @@ export default function Home() {
     </h2>
   </div>
 </section>
-
+</div>
 
         <h1 className="font-bold text-4xl py-3 underline"> Education & Skills </h1>
         <section id="education" className="flex flex-col gap-6 sm:gap-8">
