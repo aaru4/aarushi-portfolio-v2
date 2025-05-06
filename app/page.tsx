@@ -242,7 +242,7 @@ export default function Home() {
 
         <section id="proj">
         <div className="flex items-center justify-center w-full">
-  <div id="proj" className="bg-white p-3 pb-6 pt-3 rounded-lg">
+  <div id="proj" className="bg-white p-3 pb-6 pt-6 rounded-lg">
     <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Recent Projects
     </h1>
