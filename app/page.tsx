@@ -69,7 +69,7 @@ export default function Home() {
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
     <div
-      className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-105 cursor-pointer border-b-4 border-transparent hover:border-pink-400"
+      className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-115 cursor-pointer border-b-4 border-transparent hover:border-pink-400"
     >
       <div
         className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb80] to-[#ffcbdb] shadow-md"
@@ -83,26 +83,30 @@ export default function Home() {
     </div>
 
     <div
-      className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-105 cursor-pointer border-b-4 border-transparent hover:border-orange-300"
+      className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-115 cursor-pointer border-b-4 border-transparent hover:border-orange-300"
     >
       <div
         className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#fbceb180] to-[#fbceb1] shadow-md"
       >
-        <h2 className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
-          Recent Experiences
-        </h2>
+        <Link href="#exp" passHref>
+          <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
+            Recent Experiences
+          </a>
+          </Link>
       </div>
     </div>
 
     <div
-      className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-105 cursor-pointer border-b-4 border-transparent hover:border-green-300"
+      className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-115 cursor-pointer border-b-4 border-transparent hover:border-green-300"
     >
       <div
         className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#b1ddc980] to-[#b1ddc9] shadow-md"
       >
-        <h2 className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
-          Recent Projects
-        </h2>
+        <Link href="#proj" passHref>
+          <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
+            Recent Projects
+          </a>
+        </Link>
       </div>
     </div>
 
