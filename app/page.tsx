@@ -66,7 +66,7 @@ export default function Home() {
 <section className="w-full bg-white py-6 px-2 sm:px-2 md:px-10 sticky top-0 z-50 shadow-sm">
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
-    <div className="w-full mb-2 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
+    <div className="w-full mb-0 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
       <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#ffcbdb] to-[#ffcbdb90] shadow-md">
         <Link href="#education" passHref>
           <a className="text-lg sm:text-xl md:text-2xl text-black tracking-wide">
@@ -76,7 +76,7 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="w-full mb-2 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-[#e89ea0]">
+    <div className="w-full mb-0 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-[#e89ea0]">
       <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#fbceb180] to-[#fbceb1] shadow-md">
         <Link href="#exp" passHref>
         <a className="text-lg sm:text-xl md:text-2xl text-black tracking-wide">
