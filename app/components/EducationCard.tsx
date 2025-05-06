@@ -14,7 +14,7 @@ interface ECProjectCardProps {
   export const ECProjectBox: React.FC<ECProjectCardProps> = ({ title, org, color }) => {
     return (
       <div
-        className="w-screen rounded-xl shadow-md p-6 transform transition-transform duration-300 hover:scale-105"
+        className="w-full rounded-xl shadow-md p-6 transform transition-transform duration-300"
         style={{
           background: `linear-gradient(to bottom right, ${hexToRgba(color, 0.5)}, ${color})`,
           border: `2px solid ${hexToRgba(color, 0.6)}`,
