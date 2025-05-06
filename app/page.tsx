@@ -18,7 +18,7 @@ export default function Home() {
       <div className="w-full md:w-1/2 flex items-center justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0] p-6 sm:p-8 md:p-10 min-h-[50vh] md:min-h-screen">
         <div className="text-center md:text-left px-6">
           <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl py-2">
-            Aarushi Amavajjala.
+            Aarushi Ammavajjala.
           </h1>
           <h2 className="font-bold text-xl sm:text-2xl md:text-3xl py-2">
             Developer
