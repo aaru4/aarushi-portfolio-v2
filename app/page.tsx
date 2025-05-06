@@ -69,7 +69,7 @@ export default function Home() {
       background: 'linear-gradient(rgba(255, 203, 219, 0.5), #ffcbdb)',
     }}
   >
-    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
+    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-black text-center">
       Education & Skills
     </h2>
   </div>
@@ -80,7 +80,7 @@ export default function Home() {
       background: 'linear-gradient(rgba(251, 206, 177, 0.5), #fbceb1)',
     }}
   >
-    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
+    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-black text-center">
       Recent Experiences
     </h2>
   </div>
@@ -91,7 +91,7 @@ export default function Home() {
       background: 'linear-gradient(rgba(177, 221, 201, 0.5), #b1ddc9)',
     }}
   >
-    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
+    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-black text-center">
       Recent Projects
     </h2>
   </div>
