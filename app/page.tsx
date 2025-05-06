@@ -51,7 +51,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center bg-white mt-8 md:mt-0">
+      <div className="w-full md:w-1/2 h-1/2 md:h-full flex items-center border border-red-500 justify-center bg-white mt-8 md:mt-0">
       <Image
           src="/profile2.jpg"
           alt="Picture of Aarushi"
