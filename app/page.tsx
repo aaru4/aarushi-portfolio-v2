@@ -62,42 +62,41 @@ export default function Home() {
     </div>
 </section>  
 { /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
-<section className="flex flex-col md:flex-row mt-8 md:mt-0 p-6 sm:p-8 md:p-10 items-center justify-center gap-6">
-<div className="w-full md:w-1/2 flex flex-col gap-6 items-center md:items-start">
-    <div
-      className="relative w-full sm:w-[90%] md:w-[80%] lg:w-[60%] h-auto rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4"
-      style={{
-        background: 'linear-gradient(rgba(255, 203, 219, 0.5), #ffcbdb)',
-           }}
-    >
-      <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
-        Education & Skills
-      </h2>
-    </div>
+<section className="flex flex-wrap mt-8 md:mt-0 p-6 sm:p-8 md:p-10 items-center justify-center gap-6">
+  <div
+    className="w-full md:w-1/3 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4 py-6"
+    style={{
+      background: 'linear-gradient(rgba(255, 203, 219, 0.5), #ffcbdb)',
+    }}
+  >
+    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
+      Education & Skills
+    </h2>
+  </div>
 
-    <div
-      className="relative w-full sm:w-[90%] md:w-[80%] lg:w-[60%] h-auto rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4"
-      style={{
-        background: 'linear-gradient(rgba(251, 206, 177, 0.5), #fbceb1)',
-      }}
-    >
-      <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
-        Recent Experiences
-      </h2>
-    </div>
+  <div
+    className="w-full md:w-1/3 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4 py-6"
+    style={{
+      background: 'linear-gradient(rgba(251, 206, 177, 0.5), #fbceb1)',
+    }}
+  >
+    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
+      Recent Experiences
+    </h2>
+  </div>
 
-    <div
-      className="relative w-full sm:w-[90%] md:w-[80%] lg:w-[60%] h-auto rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4"
-      style={{
-        background: 'linear-gradient(rgba(177, 221, 201, 0.5), #b1ddc9)',
-      }}
-    >
-      <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
-        Recent Projects
-      </h2>
-    </div>
+  <div
+    className="w-full md:w-1/3 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4 py-6"
+    style={{
+      background: 'linear-gradient(rgba(177, 221, 201, 0.5), #b1ddc9)',
+    }}
+  >
+    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
+      Recent Projects
+    </h2>
   </div>
 </section>
+
 
         <h1 className="font-bold text-4xl py-3 underline"> Education & Skills </h1>
         <section id="education" className="flex flex-col gap-6 sm:gap-8">
