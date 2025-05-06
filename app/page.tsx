@@ -99,7 +99,7 @@ export default function Home() {
 </section >
 <div className="flex items-center justify-center w-full">
   <div id="education" className="bg-white p-3 rounded-lg">
-    <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
+    <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-white">
       Education & Skills
     </h1>
   </div>
@@ -300,7 +300,7 @@ export default function Home() {
 
           </div>
         </section>
-        <h1 className="text-l"> Copyright 2025 Aarushi Ammavajjala. All rights reserved. </h1>
+        <h1 className="text-l px-2"> Copyright 2025 Aarushi Ammavajjala. All rights reserved. </h1>
       </main>
     </div>
   );
