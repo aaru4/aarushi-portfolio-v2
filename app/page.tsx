@@ -1,15 +1,11 @@
-import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ECProjectBox } from './components/EducationCard';
 import { IndBox } from './components/IndependentCard';
 import { SkillBox } from './components/SkillCard';
+import { UCProjectBox } from './components/UnclickableCard';
 
 // color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb
-
-const ExperienceCarousel = dynamic(() => import('./components/Carousel'), {
-  ssr: false,
-});
 
 export default function Home() {
   return (
@@ -18,7 +14,7 @@ export default function Home() {
   <div>
   <section id="home" className="m-0 p-0 w-full">
     <div className="flex flex-col md:flex-row h-screen w-screen">
-    <div className="w-screen md:w-1/2 h-1/2 md:h-full flex items-center justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0] p-6 sm:p-8 md:p-10">
+    <div className="w-screen md:w-1/2 h-1/2 md:h-full flex items-center rounded-xl justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0] p-6 sm:p-8 md:p-10">
     <div className="text-center md:text-left px-6">
           <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl py-2">
             Aarushi Avajjala.
@@ -72,7 +68,7 @@ export default function Home() {
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
     <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
-      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb] to-[#ffcbfb80] shadow-md">
+      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb] to-[#ffcbdb90] shadow-md">
       <Link href="#education" passHref>
           <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
             Education & Skills
@@ -175,10 +171,77 @@ export default function Home() {
     </h1>
   </div>
 </div>
-<div className="mt-6 px-4">
-          <ExperienceCarousel />
-        </div>
+<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4">
+              <UCProjectBox
+                title="AI Development Intern"
+                org="Georgia Institute of Technology"
+                date="AUG 2025"
+                desc="Computational creativity & AI-powered game generation. More coming soon."
+                color="#fbceb1"
+              />
+            <UCProjectBox
+                title="STEM@GTRI Intern"
+                org="Georgia Tech Research Institute"
+                date="JUNE - JULY 2025"
+                desc="Details coming soon."
+                color="#b1ddc9"
+              />
+              <UCProjectBox
+                title="AI Development Intern"
+                org="United Nations WAY"
+                date="JAN 2025 - PRESENT"
+                desc="Coordinating AI development across 140+ youth-led international NGOs."
+                color="#6cd0d0"
+              />
+                <UCProjectBox
+                title="AI Research Intern"
+                org="Stanford Department of Anesthesiology"
+                date="JAN 2025 - PRESENT"
+                desc="Predicting hypotension from arterial blood waveforms using deep learning."
+                color="#ffcbdb"
+              />
+         
+            <UCProjectBox
+              title="Development Intern"
+              org="Oracle"
+              date="AUG 2024 - PRESENT"
+              desc="Designed and implemented a billing system using OCI, APEX, SQL, & PL/SQL; directed FIFO debt management, payment application, and error handling, with delinquency predictions."
+              color="#fbceb1"
+            />
+
+              <UCProjectBox
+                title="AI Research Intern"
+                org="Stanford Center for Artificial Intelligence in Medicine and Imaging"
+                date="JUNE - JULY 2024"
+                desc="1 of 20 selected nationwide. Developed high-accuracy pulmonary diagnostic system.  RadGraph for unsupervised radiology report classifier; ResNet ultrasound analysis model."
+                color="#b1ddc9"
+              />
+
+            <UCProjectBox
+              title="Development Intern"
+              org="Microsoft"
+              date="JULY 2023 - APR 2024"
+              desc="Utilized Swift, SQL, Dart, and JavaScript to develop JackTag, a mobile application and NFC wearable that streamlines communication of medical information between crisis victims and first responders. Presented to Microsoft/AT&T investors."
+              color="#6cd0d0"
+            />
+           <UCProjectBox
+                title="AI Research Intern"
+                org="TSI + Cornell University"
+                date="JUNE - AUG 2023"
+                desc="Developed a graph neural network for binary state neuroimaging recognition. Accepted to TSI (~10% of 850), matched at Cornell University. Published paper and spoke at Talaria International Conference."
+                color="#ffcbdb"
+              />
+          
+            <UCProjectBox
+              title="AI Research Intern"
+              org="Midwestern University"
+              date="AUG 2023 - APR 2024"
+              desc="Developed a two-prong neural network to automate gastric point-of-care ultrasound. Segments antrum, classifies content, identifies diameters, calculates operable volume, and outputs aspiration risk."
+              color="#fbceb1"
+            />
+          </div>
         </section>
+
 
         <section id="proj">
           <h1 className="font-bold text-3xl py-3 underline"> Recent Projects </h1>
