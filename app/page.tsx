@@ -63,17 +63,16 @@ export default function Home() {
 </section>  
 </div>
 { /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
-
-<section className="w-full bg-white py-6 px-4 sm:px-8 md:px-12">
+<section className="w-full bg-white py-6 px-4 sm:px-8 md:px-12 sticky top-0 z-50 shadow-md">
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
     <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
       <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb] to-[#ffcbdb90] shadow-md">
-      <Link href="#education" passHref>
+        <Link href="#education" passHref>
           <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
             Education & Skills
           </a>
-          </Link>
+        </Link>
       </div>
     </div>
 
@@ -83,7 +82,7 @@ export default function Home() {
           <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
             Recent Experiences
           </a>
-          </Link>
+        </Link>
       </div>
     </div>
 
@@ -96,7 +95,6 @@ export default function Home() {
         </Link>
       </div>
     </div>
-
   </nav>
 </section >
 <div className="flex items-center justify-center w-full">
