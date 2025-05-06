@@ -27,6 +27,7 @@ interface ECProjectCardProps {
       </div>
     );
   };
+  /*
   const cardStyles = {
     container: {
       borderRadius: "12px",
@@ -56,4 +57,4 @@ interface ECProjectCardProps {
       marginBottom: "12px",
     }
   };
-  
+  */
