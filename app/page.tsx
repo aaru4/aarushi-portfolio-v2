@@ -63,7 +63,7 @@ export default function Home() {
 </section>  
 </div>
 { /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
-<section className="w-full bg-white py-6 px-4 sm:px-8 md:px-12 sticky top-0 z-50 shadow-sm">
+<section className="w-full bg-white py-6 px-4 sm:px-4 md:px-10 sticky top-0 z-50 shadow-sm">
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
     <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
@@ -99,7 +99,7 @@ export default function Home() {
 </section >
 <div className="flex items-center justify-center w-full">
   <div id="education" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 rounded-lg">
-    <h1 className="text-2xl text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
+    <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Education & Skills
     </h1>
   </div>
@@ -164,12 +164,12 @@ export default function Home() {
         <section id="exp">
         <div className="flex items-center justify-center w-full">
   <div id="education" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 py-4 rounded-lg">
-    <h1 className="text-2xl text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
+    <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Recent Experiences
     </h1>
   </div>
 </div>
-<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 py-4 px-4">
+<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 py-8 px-4">
               <UCProjectBox
                 title="AI Development Intern"
                 org="Georgia Institute of Technology"
@@ -241,12 +241,13 @@ export default function Home() {
         </section>
 
         <section id="proj">
-        <div id="education" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 py-4 rounded-lg">
-    <h1 className="text-2xl text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
+        <div className="flex items-center justify-center w-full">
+  <div id="education" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 py-4 rounded-lg">
+    <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Recent Projects
     </h1>
   </div>
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4 mx-auto justify-items-center">
+</div>    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4 mx-auto justify-items-center">
           <a
               href="https://github.com/aaru4/mediScript"
               target="_blank"
