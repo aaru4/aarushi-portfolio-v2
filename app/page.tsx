@@ -106,13 +106,19 @@ export default function Home() {
   </nav>
 </section>
 
-        <h1 className="font-bold text-3xl py-3 underline"> Education & Skills </h1>
+      <h1 className="font-bold text-3xl py-3 underline"> Education & Skills </h1>
         <section id="education" className="flex flex-col gap-6 sm:gap-8">
           <div className="w-full sm:w-1/3">
             <ECProjectBox
+              title="Georgia Institute of Technology"
+              org="Computer Science"
+              color="#fbceb1"
+            />
+          </div>
+          <div className="w-full sm:w-1/3">
+            <ECProjectBox
               title="South Forsyth High School"
-              org="NMSQT Semifinalist, AP Scholar with Distinction"
-              date="AUG 2021 - MAY 2025"  
+              org="NMSQT Finalist, AP Scholar with Distinction"  
               color="#fbceb1"
             />
           </div>

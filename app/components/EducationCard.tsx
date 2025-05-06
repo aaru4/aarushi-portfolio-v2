@@ -1,7 +1,6 @@
 interface ECProjectCardProps {
     title: string;
     org: string;
-    date: string;
     color: string;
   }
   
@@ -12,7 +11,7 @@ interface ECProjectCardProps {
     return `rgba(${r}, ${g}, ${b}, ${opacity})`;
   }
   
-  export const ECProjectBox: React.FC<ECProjectCardProps> = ({ title, org, date, color }) => {
+  export const ECProjectBox: React.FC<ECProjectCardProps> = ({ title, org, color }) => {
     return (
       <div
         className={`w-[400px] h-[220px] flex flex-col p-6 rounded-lg shadow-lg mx-auto transform transition-transform duration-300`}
@@ -23,9 +22,6 @@ interface ECProjectCardProps {
         <div className="flex-grow">
           <h1 style={cardStyles.title}>{title}</h1>
           <p style={cardStyles.org}>{org}</p>
-        </div>
-        <div className="mt-auto">
-          <p style={cardStyles.date}>{date}</p>
         </div>
       </div>
     );
