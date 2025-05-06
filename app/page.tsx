@@ -14,8 +14,8 @@ export default function Home() {
  <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0">
   <div>
   <section id="home" className="m-0 p-0 w-full">
-    <div className="flex flex-col md:flex-row min-h-screen w-full">
-      <div className="w-full md:w-1/2 flex items-center justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0] p-6 sm:p-8 md:p-10 min-h-[50vh] md:min-h-screen">
+    <div className="flex flex-col md:flex-row h-screen w-full">
+     <div className="w-full md:w-1/2 md:h-full flex items-center rounded-xl justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0] p-6 sm:p-8 md:p-10">
         <div className="text-center md:text-left px-6">
           <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl py-2">
             Aarushi Ammavajjala.
@@ -63,7 +63,6 @@ export default function Home() {
     </div>
 </section>  
 </div>
-
 { /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
 <div>
 <section className="flex flex-col lg:flex-row mt-8 md:mt-0 p-6 sm:p-8 md:p-10 items-center justify-between gap-6">
