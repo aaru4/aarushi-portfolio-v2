@@ -12,6 +12,7 @@ export default function Home() {
 
  {/* <Navbar /> */}
  <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0">
+  <div>
   <section id="home" className="m-0 p-0 w-full">
     <div className="flex flex-col md:flex-row h-screen w-full">
      <div className="w-full md:w-1/2 md:h-full flex items-center rounded-xl justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0] p-6 sm:p-8 md:p-10">
@@ -61,38 +62,39 @@ export default function Home() {
       </div>
     </div>
 </section>  
+</div>
 { /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
 <div>
-<section className="flex flex-wrap mt-8 md:mt-0 p-6 sm:p-8 md:p-10 items-center justify-center gap-6">
+<section className="flex flex-col lg:flex-row mt-8 md:mt-0 p-6 sm:p-8 md:p-10 items-center justify-between gap-6">
   <div
-    className="w-full md:w-1/3 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4 py-6"
+    className="w-full lg:w-1/3 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4 py-6"
     style={{
       background: 'linear-gradient(rgba(255, 203, 219, 0.5), #ffcbdb)',
     }}
   >
-    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-black text-center">
+    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
       Education & Skills
     </h2>
   </div>
 
   <div
-    className="w-full md:w-1/3 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4 py-6"
+    className="w-full lg:w-1/3 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4 py-6"
     style={{
       background: 'linear-gradient(rgba(251, 206, 177, 0.5), #fbceb1)',
     }}
   >
-    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-black text-center">
+    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
       Recent Experiences
     </h2>
   </div>
 
   <div
-    className="w-full md:w-1/3 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4 py-6"
+    className="w-full lg:w-1/3 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4 py-6"
     style={{
       background: 'linear-gradient(rgba(177, 221, 201, 0.5), #b1ddc9)',
     }}
   >
-    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-black text-center">
+    <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
       Recent Projects
     </h2>
   </div>
