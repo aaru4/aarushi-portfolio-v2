@@ -68,7 +68,7 @@ export default function Home() {
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
     <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
-      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb80] to-[#ffcbfb] shadow-md">
+      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb] to-[#ffcbfb] shadow-md">
       <Link href="#education" passHref>
           <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
             Education & Skills
@@ -107,14 +107,14 @@ export default function Home() {
   </div>
 </div>
 <section className="flex flex-col gap-6 sm:gap-8 px-4 w-full px-4">
-  <div className="w-full px-4">
+  <div className="w-full px-2">
     <ECProjectBox
       title="Georgia Institute of Technology"
       org="B.S. in Computer Science"
       color="#ffcbdb"
     />
   </div>
-  <div className="w-full px-4">
+  <div className="w-full px-2">
     <ECProjectBox
       title="South Forsyth High School"
       org="NMSQT Finalist, AP Scholar with Distinction"  
@@ -125,40 +125,40 @@ export default function Home() {
   <div className="w-full">
   <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 gap-4 sm:gap-6">
     {/* Languages */}
-    <SkillBox title="Python" color="#ffcbdb" />
-    <SkillBox title="Java" color="#ffcbdb" />
-    <SkillBox title="Swift" color="#ffcbdb" />
-    <SkillBox title="SQL" color="#ffcbdb" />
-    <SkillBox title="R" color="#ffcbdb" />
-    <SkillBox title="JavaScript" color="#ffcbdb" />
-    <SkillBox title="HTML" color="#ffcbdb" />
-    <SkillBox title="CSS" color="#ffcbdb" />
-    <SkillBox title="MATLAB" color="#ffcbdb" />
+    <SkillBox title="Python" color="#fbceb1" />
+    <SkillBox title="Java" color="#fbceb1" />
+    <SkillBox title="Swift" color="#fbceb1" />
+    <SkillBox title="SQL" color="#fbceb1" />
+    <SkillBox title="R" color="#fbceb1" />
+    <SkillBox title="JavaScript" color="#fbceb1" />
+    <SkillBox title="HTML" color="#fbceb1" />
+    <SkillBox title="CSS" color="#fbceb1" />
+    <SkillBox title="MATLAB" color="#fbceb1" />
     
     {/* AI & Machine Learning */}
-    <SkillBox title="TensorFlow" color="#b1ddc9" />
-    <SkillBox title="PyTorch" color="#b1ddc9" />
-    <SkillBox title="scikit-learn" color="#b1ddc9" />
-    <SkillBox title="OpenCV" color="#b1ddc9" />
-    <SkillBox title="SpaCy" color="#b1ddc9" />
-    <SkillBox title="RadGraph" color="#b1ddc9" />
+    <SkillBox title="TensorFlow" color="#ffcbdb" />
+    <SkillBox title="PyTorch" color="#ffcbdb" />
+    <SkillBox title="scikit-learn" color="#ffcbdb" />
+    <SkillBox title="OpenCV" color="#ffcbdb" />
+    <SkillBox title="SpaCy" color="#ffcbdb" />
+    <SkillBox title="RadGraph" color="#ffcbdb" />
 
     {/* Data Analysis */}
-    <SkillBox title="Pandas" color="#6cd0d0" />
-    <SkillBox title="NumPy" color="#6cd0d0" />
-    <SkillBox title="Matplotlib" color="#6cd0d0" />
-    <SkillBox title="Tableau" color="#6cd0d0" />
-    <SkillBox title="AWS" color="#6cd0d0" />
-    <SkillBox title="Firebase" color="#6cd0d0" />
-    <SkillBox title="OCI" color="#6cd0d0" />
-    <SkillBox title="APEX" color="#6cd0d0" />
-    <SkillBox title="Microsoft Suite" color="#6cd0d0" />
+    <SkillBox title="Pandas" color="#b1ddc9" />
+    <SkillBox title="NumPy" color="#b1ddc9" />
+    <SkillBox title="Matplotlib" color="#b1ddc9" />
+    <SkillBox title="Tableau" color="#b1ddc9" />
+    <SkillBox title="AWS" color="#b1ddc9" />
+    <SkillBox title="Firebase" color="#b1ddc9" />
+    <SkillBox title="OCI" color="#b1ddc9" />
+    <SkillBox title="APEX" color="#b1ddc9" />
+    <SkillBox title="Microsoft Suite" color="#b1ddc9" />
 
     {/* General Skills */}
-    <SkillBox title="Computer Vision" color="#fbceb1" />
-    <SkillBox title="NLP" color="#fbceb1" />
-    <SkillBox title="Web Development" color="#fbceb1" />
-    <SkillBox title="App Development" color="#fbceb1" />
+    <SkillBox title="Computer Vision" color="#6cd0d0" />
+    <SkillBox title="NLP" color="#6cd0d0" />
+    <SkillBox title="Web Development" color="#6cd0d0" />
+    <SkillBox title="App Development" color="#6cd0d0" />
   </div>
     </div>
 </section>
