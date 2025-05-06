@@ -50,7 +50,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full md:w-1/2 md:h-full mt-8 md:mt-0 bg-white flex items-center justify-center">
+     <div className="w-full md:w-1/2 flex items-center bg-white justify-center mt-8 md:mt-0">
         <Image
           src="/profile2.jpg"
           alt="Picture of Aarushi"
@@ -63,6 +63,7 @@ export default function Home() {
 </section>  
 { /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
 <section className="flex flex-col md:flex-row mt-8 md:mt-0 p-6 sm:p-8 md:p-10 items-center justify-center gap-6">
+<div className="w-full md:w-1/2 flex flex-col gap-6 items-center md:items-start">
 <div
     className="relative w-[220px] h-[140px] sm:w-[300px] sm:h-[180px] md:w-[280px] md:h-[160px] rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4"
     style={{
@@ -96,6 +97,7 @@ export default function Home() {
     <h2 className="text-lg sm:text-2xl md:text-4xl font-bold text-black text-center">
       Recent Projects
     </h2>
+  </div>
   </div>
 </section>
 
