@@ -169,7 +169,7 @@ export default function Home() {
     </h1>
   </div>
 </div>  
-<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 pt-6 px-4">
+<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 place-items-center gap-6 pt-6 px-4">
               <UCProjectBox
                 title="AI Development Intern"
                 org="Georgia Institute of Technology"
@@ -248,7 +248,7 @@ export default function Home() {
     </h1>
   </div>
 </div>    
-<div className="grid py-6 grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4 mx-auto justify-items-center">
+<div className="grid py-6 grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 px-4 place-items-center mx-auto justify-items-center">
           <a
               href="https://github.com/aaru4/mediScript"
               target="_blank"
