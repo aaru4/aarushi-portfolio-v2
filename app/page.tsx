@@ -68,9 +68,9 @@ export default function Home() {
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
     <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
-      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb] to-[#fc9dba] shadow-md">
-        <Link href="#education" passHref>
-          <a className="text-xl sm:text-xl md:text-xl text-black tracking-wide">
+      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb80] to-[#ffcbfb] shadow-md">
+      <Link href="#education" passHref>
+          <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
             Education & Skills
           </a>
           </Link>
@@ -100,7 +100,7 @@ export default function Home() {
   </nav>
 </section >
 <div className="flex items-center justify-center w-full">
-  <div id="education" className="bg-gradient-to-r from-[#ffcbdb] to-[#f56491] p-4 rounded-lg">
+  <div id="education" className="bg-gradient-to-r from-[#ffcbdb] to-[#fc9dba] p-4 rounded-lg">
     <h1 className="font-bold text-1xl text-center py-3 bg-clip-text text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Education & Skills
     </h1>
@@ -123,21 +123,44 @@ export default function Home() {
   </div>
 
   <div className="w-full">
-    <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 gap-4 sm:gap-6">
-      <SkillBox title="Python" color="#fbceb1" />
-      <SkillBox title="Java" color="#b1ddc9" />
-      <SkillBox title="Swift" color="#6cd0d0" />
-      <SkillBox title="SQL" color="#ffcbdb" />
-      <SkillBox title="Computer Vision" color="#fbceb1" />
-      <SkillBox title="NLP" color="#b1ddc9" />
-      <SkillBox title="R" color="#6cd0d0" />
-      <SkillBox title="JavaScript" color="#ffcbdb" />
-      <SkillBox title="Web Development" color="#fbceb1" />
-      <SkillBox title="App Development" color="#b1ddc9" />
-      <SkillBox title="R" color="#6cd0d0" />
-      <SkillBox title="JavaScript" color="#ffcbdb" />
-    </div>
+  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 gap-4 sm:gap-6">
+    {/* Languages */}
+    <SkillBox title="Python" color="#ffcbdb" />
+    <SkillBox title="Java" color="#ffcbdb" />
+    <SkillBox title="Swift" color="#ffcbdb" />
+    <SkillBox title="SQL" color="#ffcbdb" />
+    <SkillBox title="R" color="#ffcbdb" />
+    <SkillBox title="JavaScript" color="#ffcbdb" />
+    <SkillBox title="HTML" color="#ffcbdb" />
+    <SkillBox title="CSS" color="#ffcbdb" />
+    <SkillBox title="MATLAB" color="#ffcbdb" />
+    
+    {/* AI & Machine Learning */}
+    <SkillBox title="TensorFlow" color="#b1ddc9" />
+    <SkillBox title="PyTorch" color="#b1ddc9" />
+    <SkillBox title="scikit-learn" color="#b1ddc9" />
+    <SkillBox title="OpenCV" color="#b1ddc9" />
+    <SkillBox title="SpaCy" color="#b1ddc9" />
+    <SkillBox title="RadGraph" color="#b1ddc9" />
+
+    {/* Data Analysis */}
+    <SkillBox title="Pandas" color="#6cd0d0" />
+    <SkillBox title="NumPy" color="#6cd0d0" />
+    <SkillBox title="Matplotlib" color="#6cd0d0" />
+    <SkillBox title="Tableau" color="#6cd0d0" />
+    <SkillBox title="AWS" color="#6cd0d0" />
+    <SkillBox title="Firebase" color="#6cd0d0" />
+    <SkillBox title="OCI" color="#6cd0d0" />
+    <SkillBox title="APEX" color="#6cd0d0" />
+    <SkillBox title="Microsoft Suite" color="#6cd0d0" />
+
+    {/* General Skills */}
+    <SkillBox title="Computer Vision" color="#fbceb1" />
+    <SkillBox title="NLP" color="#fbceb1" />
+    <SkillBox title="Web Development" color="#fbceb1" />
+    <SkillBox title="App Development" color="#fbceb1" />
   </div>
+    </div>
 </section>
 
         <section id="exp">
