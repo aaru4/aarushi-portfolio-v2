@@ -10,7 +10,7 @@ export default function Home() {
   return (
 <div className="grid grid-rows-[auto_1fr] min-h-screen w-full p-0 m-0">
 
- {/* <Navbar /> */}
+{/* <Navbar /> */}
  <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0">
   <div>
   <section id="home" className="m-0 p-0 w-full">
