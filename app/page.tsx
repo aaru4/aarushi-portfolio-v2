@@ -8,7 +8,7 @@ import { UCProjectBox } from './components/UnclickableCard';
 
 export default function Home() {
   return (
-<div className="grid grid-rows-[auto_1fr] min-h-screen w-full p-0 m-0">
+<div className="grid grid-rows-[auto_1fr] min-h-screen w-screen p-0 m-0">
 
  {/* <Navbar /> */}
  <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0">
@@ -64,42 +64,48 @@ export default function Home() {
 </section>  
 </div>
 { /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
-<div>
-<section className="flex flex-col lg:flex-row mt-8 md:mt-0 p-6 sm:p-8 md:p-10 items-center justify-between gap-6">
-  <div
-    className="w-full lg:w-1/3 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4 py-6"
-    style={{
-      background: 'linear-gradient(rgba(255, 203, 219, 0.5), #ffcbdb)',
-    }}
-  >
-    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-black text-center">
-      Education & Skills
-    </h2>
-  </div>
 
-  <div
-    className="w-full lg:w-1/3 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4 py-6"
-    style={{
-      background: 'linear-gradient(rgba(251, 206, 177, 0.5), #fbceb1)',
-    }}
-  >
-    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-black text-center">
-      Recent Experiences
-    </h2>
-  </div>
+<section className="w-full bg-white shadow-md py-6 px-4 sm:px-8 md:px-12">
+  <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
+    
+    <div
+      className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-105 cursor-pointer border-b-4 border-transparent hover:border-pink-400"
+    >
+      <div
+        className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb80] to-[#ffcbdb] shadow-md"
+      >
+        <h2 className="text-lg sm:text-2xl md:text-3xl font-semibold text-black tracking-wide uppercase">
+          Education & Skills
+        </h2>
+      </div>
+    </div>
 
-  <div
-    className="w-full lg:w-1/3 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 cursor-pointer hover:scale-105 flex flex-col justify-center items-center px-4 py-6"
-    style={{
-      background: 'linear-gradient(rgba(177, 221, 201, 0.5), #b1ddc9)',
-    }}
-  >
-    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-black text-center">
-      Recent Projects
-    </h2>
-  </div>
+    <div
+      className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-105 cursor-pointer border-b-4 border-transparent hover:border-orange-300"
+    >
+      <div
+        className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#fbceb180] to-[#fbceb1] shadow-md"
+      >
+        <h2 className="text-lg sm:text-2xl md:text-3xl font-semibold text-black tracking-wide uppercase">
+          Recent Experiences
+        </h2>
+      </div>
+    </div>
+
+    <div
+      className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-105 cursor-pointer border-b-4 border-transparent hover:border-green-300"
+    >
+      <div
+        className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#b1ddc980] to-[#b1ddc9] shadow-md"
+      >
+        <h2 className="text-lg sm:text-2xl md:text-3xl font-semibold text-black tracking-wide uppercase">
+          Recent Projects
+        </h2>
+      </div>
+    </div>
+
+  </nav>
 </section>
-</div>
 
         <h1 className="font-bold text-3xl py-3 underline"> Education & Skills </h1>
         <section id="education" className="flex flex-col gap-6 sm:gap-8">
