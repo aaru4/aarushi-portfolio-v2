@@ -132,6 +132,10 @@ export default function Home() {
       <SkillBox title="NLP" color="#b1ddc9" />
       <SkillBox title="R" color="#6cd0d0" />
       <SkillBox title="JavaScript" color="#ffcbdb" />
+      <SkillBox title="Web Development" color="#fbceb1" />
+      <SkillBox title="App Development" color="#b1ddc9" />
+      <SkillBox title="R" color="#6cd0d0" />
+      <SkillBox title="JavaScript" color="#ffcbdb" />
     </div>
   </div>
 </section>
