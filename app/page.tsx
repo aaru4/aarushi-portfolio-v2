@@ -99,7 +99,7 @@ export default function Home() {
 </section >
 <div className="flex items-center justify-center w-full">
   <div id="education" className="bg-white p-3 rounded-lg">
-    <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-white">
+    <h1 className="text-4xl font-bold text-center underline text-black">
       Education & Skills
     </h1>
   </div>
