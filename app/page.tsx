@@ -169,7 +169,7 @@ export default function Home() {
     </h1>
   </div>
 </div>  
-<div className="w-screen grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 place-items-center gap-6 pt-6 px-6">
+<div className="w-screen grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 place-items-center gap-6 pt-6 px-6">
               <UCProjectBox
                 title="AI Development Intern"
                 org="Georgia Institute of Technology"
@@ -202,7 +202,7 @@ export default function Home() {
             <UCProjectBox
               title="Development Intern"
               org="Oracle"
-              date="AUG 2024 - PRESENT"
+              date="AUG 2024 - MAY 2025"
               desc="Designed and implemented a billing system using OCI, APEX, SQL, & PL/SQL; directed FIFO debt management, payment application, and error handling, with delinquency predictions."
               color="#fbceb1"
             />
@@ -248,7 +248,7 @@ export default function Home() {
     </h1>
   </div>
 </div>    
-<div className="grid py-6 grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 px-4 place-items-center mx-auto justify-items-center">
+<div className="w-screen grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 place-items-center gap-6 pt-6 px-6">
           <a
               href="https://github.com/aaru4/mediScript"
               target="_blank"
