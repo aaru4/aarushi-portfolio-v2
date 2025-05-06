@@ -68,7 +68,7 @@ export default function Home() {
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-6">
     
     <div className="w-full lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-[1.10] cursor-pointer border-b-4 border-transparent hover:border-pink-400">
-      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb70] to-[#ffcbfb] shadow-md">
+      <div className="rounded-lg py-6 px-4 bg-gradient-to-br from-[#ffcbdb80] to-[#ffcbfb] shadow-md">
       <Link href="#education" passHref>
           <a className="text-lg sm:text-2xl md:text-3xl text-black tracking-wide">
             Education & Skills
@@ -101,20 +101,20 @@ export default function Home() {
 </section >
 <div className="flex items-center justify-center w-full">
   <div id="education" className="bg-gradient-to-r from-[#ffcbdb] to-[#fc9dba] p-3 rounded-lg">
-    <h1 className="text-2xl text-center bg-clip-text text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
+    <h1 className="text-2xl text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Education & Skills
     </h1>
   </div>
 </div>
 <section className="flex flex-col gap-6 sm:gap-8 px-4 w-full px-4">
-  <div className="w-full">
+  <div className="w-full px-4">
     <ECProjectBox
       title="Georgia Institute of Technology"
       org="B.S. in Computer Science"
       color="#ffcbdb"
     />
   </div>
-  <div className="w-full">
+  <div className="w-full px-4">
     <ECProjectBox
       title="South Forsyth High School"
       org="NMSQT Finalist, AP Scholar with Distinction"  
@@ -123,7 +123,7 @@ export default function Home() {
   </div>
 
   <div className="w-full">
-  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 xl:grid-cols-6 gap-4 sm:gap-6">
+  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 gap-4 sm:gap-6">
     {/* Languages */}
     <SkillBox title="Python" color="#ffcbdb" />
     <SkillBox title="Java" color="#ffcbdb" />
@@ -164,8 +164,14 @@ export default function Home() {
 </section>
 
         <section id="exp">
-          <h1 className="font-bold text-3xl py-3 underline"> Recent Experiences </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4">
+        <div className="flex items-center justify-center w-full">
+  <div id="education" className="bg-gradient-to-r from-[#ffcbdb] to-[#fc9dba] p-3 rounded-lg">
+    <h1 className="text-2xl text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
+      Recent Experiences
+    </h1>
+  </div>
+</div>
+ <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 px-4">
 
               <UCProjectBox
                 title="AI Development Intern"
