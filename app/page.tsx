@@ -17,7 +17,7 @@ export default function Home() {
     <div className="w-screen md:w-1/2 h-1/2 md:h-full flex items-center rounded-xl justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0] p-6 sm:p-8 md:p-10">
     <div className="text-center md:text-left px-6">
           <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl py-2">
-            Aarushi Avajjala.
+            Aarushi Ammavajjala.
           </h1>
           <h2 className="font-bold text-xl sm:text-2xl md:text-3xl py-2">
             Developer
@@ -100,7 +100,7 @@ export default function Home() {
   </nav>
 </section >
 <div className="flex items-center justify-center w-full">
-  <div id="education" className="bg-gradient-to-r from-[#ffcbdb] to-[#fc9dba] p-3 rounded-lg">
+  <div id="education" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 rounded-lg">
     <h1 className="text-2xl text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Education & Skills
     </h1>
@@ -165,9 +165,9 @@ export default function Home() {
 
         <section id="exp">
         <div className="flex items-center justify-center w-full">
-  <div id="education" className="bg-gradient-to-r from-[#ffcbdb] to-[#fc9dba] p-3 rounded-lg">
+  <div id="education" className="bg-gradient-to-r from-[#6cd0d080] to-[#6cd0d0] p-3 py-4 rounded-lg">
     <h1 className="text-2xl text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
-      Recent Experiences
+      Recent Experiencees
     </h1>
   </div>
 </div>
@@ -176,7 +176,7 @@ export default function Home() {
                 title="AI Development Intern"
                 org="Georgia Institute of Technology"
                 date="AUG 2025"
-                desc="Computational creativity & AI-powered game generation. More coming soon."
+                desc="Computational creativity & AI-powered game generation. More details coming soon."
                 color="#fbceb1"
               />
             <UCProjectBox
@@ -190,14 +190,14 @@ export default function Home() {
                 title="AI Development Intern"
                 org="United Nations WAY"
                 date="JAN 2025 - PRESENT"
-                desc="Coordinating AI development across 140+ youth-led international NGOs."
+                desc="Details coming soon."
                 color="#6cd0d0"
               />
                 <UCProjectBox
                 title="AI Research Intern"
                 org="Stanford Department of Anesthesiology"
                 date="JAN 2025 - PRESENT"
-                desc="Predicting hypotension from arterial blood waveforms using deep learning."
+                desc="Predicting hypotension from arterial blood waveforms using deep learning. More details coming soon."
                 color="#ffcbdb"
               />
          
@@ -241,7 +241,6 @@ export default function Home() {
             />
           </div>
         </section>
-
 
         <section id="proj">
           <h1 className="font-bold text-3xl py-3 underline"> Recent Projects </h1>
