@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { ECProjectBox } from './components/EducationCard';
-import { IndBox } from './components/IndependentCard';
-import { SkillBox } from './components/SkillCard';
-import { UCProjectBox } from './components/UnclickableCard';
+import { ECProjectBox } from '../components/EducationCard';
+import { IndBox } from '../components/IndependentCard';
+import { SkillBox } from '../components/SkillCard';
+import { UCProjectBox } from '../components/UnclickableCard';
+
 
 // color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb
 
@@ -12,6 +13,7 @@ export default function Home() {
 <div className="grid grid-rows-[auto_1fr] min-h-screen w-screen p-0 m-0">
   <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0 w-screen grow">
   <div>
+  <Link href="/about">Go to About Page</Link>
   <section id="home" className="m-0 p-0 w-full">
     <div className="flex flex-col md:flex-row h-screen w-screen">
     <div className="w-screen md:w-1/2 h-1/2 md:h-full flex items-center rounded-xl justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0] p-6 sm:p-8 md:p-10">
