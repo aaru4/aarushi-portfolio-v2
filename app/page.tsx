@@ -1,6 +1,5 @@
 import { Linkedin, Mail } from 'lucide-react';
 import Image from 'next/image';
-import Link from 'next/link';
 import { ECProjectBox } from './components/EducationCard';
 import Navbar from './components/header';
 import { IndBox } from './components/IndependentCard';
@@ -16,7 +15,6 @@ export default function Home() {
     <Navbar></Navbar>
   </div>
   <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0 w-screen grow">
-  <div>
   <section id="home" className="m-0 p-0 w-full">
     <div className="flex flex-col md:flex-row h-screen w-screen">
 
@@ -31,23 +29,22 @@ export default function Home() {
           <p className="text-base sm:text-lg md:text-xl py-2">
             Studying Computer Science @ Georgia Institute of Technology
           </p>
-          <div className="mt-4 hover:scale-110 flex gap-4 justify-center md:justify-start">
+          <div className="mt-4 flex gap-4 justify-center md:justify-start">
               <a href="mailto:aaru7811@gmail.com">
-                <Mail size={40} color="#000" className="hover:text-[#ffcbdb] transition-colors duration-300" />
+                <Mail size={40} color="#000" className="hover:text-[#ffcbdb] hover:scale-110 transition-colors duration-300" />
               </a>
               <a
                 href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Linkedin size={40} color="#000" className="hover:text-[#6cd0d0] transition-colors duration-300" />
+                <Linkedin size={40} color="#000" className="hover:text-[#6cd0d0] hover:scale-110 transition-colors duration-300" />
               </a>
             </div>
 
         </div>
       </div>
       <div className="w-full md:w-1/2 h-auto md:h-full flex flex-col items-center justify-center bg-white py-8 px-4">
-          {/* Desktop Navbar - Inside white section */}
           <div className="hidden md:block mb-4 w-full">
             <Navbar />
           </div>
@@ -61,8 +58,8 @@ export default function Home() {
         </div>
     </div>
 </section>  
+{ /*
 </div>
-{ /* color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb */ }
 <section className="w-full bg-white py-3 px-2 sm:px-2 md:px-10 sticky top-0 z-50 shadow-sm">
   <nav className="flex flex-col lg:flex-row items-center justify-between gap-3">
     
@@ -96,7 +93,8 @@ export default function Home() {
       </div>
     </div>
   </nav>
-</section >
+</section > */ }
+
 <div className="flex items-center justify-center w-full">
   <div id="education" className="bg-white p-3 rounded-lg">
     <h1 className="text-4xl font-bold text-center underline text-black">
@@ -104,12 +102,13 @@ export default function Home() {
     </h1>
   </div>
 </div>
-<section className="flex flex-col gap-6 sm:gap-8 py-6 w-full px-4">
+<section className="flex flex-col gap-6 sm:gap-8 py-6 w-full border px-4">
   <div className="w-full px-2">
     <ECProjectBox
       title="Georgia Institute of Technology"
       org="B.S. in Computer Science"
       color="#fbceb1"
+      borderColor="#e0b594"
     />
   </div>
   <div className="w-full px-2">

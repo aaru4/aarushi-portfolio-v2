@@ -41,7 +41,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="w-full md:w-full bg-white py-3 px-4 md:px-12 sticky top-0 z-50 shadow-sm">
+    <nav className="w-full md:w-full bg-white py-3 px-4 sticky top-0 z-50">
       <div className="flex items-center justify-end gap-6 sm:gap-10">
         {navItems.map((item) => (
           <div

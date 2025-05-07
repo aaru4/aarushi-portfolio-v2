@@ -2,6 +2,7 @@ interface ECProjectCardProps {
     title: string;
     org: string;
     color: string;
+    borderColor?: string;
   }
   
   function hexToRgba(hex: string, opacity: number) {
@@ -11,13 +12,13 @@ interface ECProjectCardProps {
     return `rgba(${r}, ${g}, ${b}, ${opacity})`;
   }
 
-  export const ECProjectBox: React.FC<ECProjectCardProps> = ({ title, org, color }) => {
+  export const ECProjectBox: React.FC<ECProjectCardProps> = ({ title, org, color, borderColor }) => {
     return (
       <div
         className="w-full rounded-xl shadow-md p-6 transform transition-transform duration-300"
         style={{
           background: `linear-gradient(to bottom right, ${hexToRgba(color, 0.5)}, ${color})`,
-          border: `2px solid ${hexToRgba(color, 0.6)}`,
+          border: `2px solid ${borderColor}`,
         }}
       >
         <div className="text-left">
