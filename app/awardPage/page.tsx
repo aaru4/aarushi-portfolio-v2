@@ -118,13 +118,41 @@ const awardPage = () => {
                         />
                     </div>
                     <div className="border-l-2 border-[#000000] pl-4">
-
                         <ACProjectBox
                             title="21x Future Business Leaders of America (FBLA) Awards"
                             org="National, State, and Regional"
-
                         />
                     </div>
+                    <div className="border-l-2 border-[#000000] pl-4">
+  <ACProjectBox
+    title="State Winner in Georgia River of Words Poetry Contest"
+    org="Top 4% of 2,000+"
+  />
+</div>
+<div className="border-l-2 border-[#000000] pl-4">
+  <ACProjectBox
+    title="Gold Key, 2× Silver Key, and Honorable Mention in Scholastic Art & Writing Awards"
+    org="Top 7% of 340,000+"
+  />
+</div>
+<div className="border-l-2 border-[#000000] pl-4">
+  <ACProjectBox
+    title="7 Creative Writing Publications"
+    org="The Disruptive Quarterly, A Celebration of Poets, World Hindu Council of America, Bow Seat Gallery, YOU-th Magazine"
+  />
+</div>
+<div className="border-l-2 border-[#000000] pl-4">
+  <ACProjectBox
+    title="National High School Poetry Contest Finalist"
+    org="Top 2% of 15,000+"
+  />
+</div>
+<div className="border-l-2 border-[#000000] pl-4">
+  <ACProjectBox
+    title="1st Place in Bow Seat Ocean Awareness International Writing Contest"
+    org="Top 0.025% of 4,000+"
+  />
+</div>
                 </div>
             </div>
         </div>
