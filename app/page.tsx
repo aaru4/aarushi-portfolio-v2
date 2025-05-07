@@ -44,14 +44,14 @@ export default function Home() {
       </div>
       <div className="w-full md:w-1/2 h-auto md:h-full flex flex-col items-center justify-center bg-white py-2 px-4">
           <div className="hidden md:block mb-4 w-full">
-            <Navbar />
+            <Navbar></Navbar>
           </div>
           <Image
             src="/profile2.jpg"
             alt="Picture of Aarushi"
-            width={350}
-            height={350}
-            className="rounded-full object-cover aspect-square"
+            width={300}
+            height={300}
+            className="rounded-full object-cover py-3 aspect-square"
           />
         </div>
     </div>

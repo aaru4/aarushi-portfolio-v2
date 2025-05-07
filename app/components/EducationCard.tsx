@@ -18,7 +18,7 @@ interface ECProjectCardProps {
         className="w-full rounded-xl shadow-md p-6 transform transition-transform duration-300"
         style={{
           background: `linear-gradient(to bottom right, ${hexToRgba(color, 0.5)}, ${color})`,
-          border: `5px solid ${borderColor}`,
+          border: `3px solid ${borderColor}`,
         }}
       >
         <div className="text-left">
