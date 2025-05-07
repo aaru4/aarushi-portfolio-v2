@@ -8,6 +8,14 @@ const awardPage = () => {
         <Navbar />
       </div>
 
+      <div className="flex items-center justify-center w-full">
+        <div id="education" className="bg-white p-3 rounded-lg">
+          <h1 className="text-4xl font-bold text-center underline text-black">
+            Awards
+          </h1>
+        </div>
+      </div>
+
       <div className="flex items-center justify-center w-full px-4">
         <div
           className="w-full max-w-5xl p-6 rounded-xl bg-white shadow-xl space-y-4"

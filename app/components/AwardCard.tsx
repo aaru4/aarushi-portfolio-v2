@@ -39,16 +39,16 @@ interface ACProjectCardProps {
       transition: "transform 0.3s ease, box-shadow 0.3s ease",
     },
     title: {
-      fontSize: "24px",
+      fontSize: "18px",
       fontWeight: "bold",
-      marginBottom: "10px",
+      marginBottom: "4px",
       color: "#333",
       letterSpacing: "0.5px",
     },
     org: {
-      fontSize: "18px",
+      fontSize: "13px",
       color: "#333",
-      marginBottom: "8px",
+      marginBottom: "4px",
     },
   };
   
