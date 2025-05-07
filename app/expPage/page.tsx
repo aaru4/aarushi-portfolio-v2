@@ -9,7 +9,7 @@ const ExpPage = () => {
       </div>
       <section id="exp">
         <div className="flex items-center justify-center w-full">
-  <div className="bg-white p-3 pb-12 rounded-lg">
+  <div className="bg-white p-3 rounded-lg">
     <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Recent Experience
     </h1>
@@ -29,7 +29,7 @@ const ExpPage = () => {
                 date="JUNE - JULY 2025"
                 desc="Details coming soon."
                 color="#b1ddc9"
-                borderColor="#7fe3b4"
+                borderColor="#33e896"
               />
               <UCProjectBox
                 title="AI Development Intern"
@@ -37,7 +37,7 @@ const ExpPage = () => {
                 date="JAN 2025 - PRESENT"
                 desc="Details coming soon."
                 color="#6cd0d0"
-                borderColor="#4bd6d6"
+                borderColor="#22d6d6"
               />
                 <UCProjectBox
                 title="AI Research Intern"
@@ -45,7 +45,7 @@ const ExpPage = () => {
                 date="JAN 2025 - PRESENT"
                 desc="Predicting hypotension from arterial blood waveforms using deep learning. More details coming soon."
                 color="#ffcbdb"
-                borderColor="fa98b6"
+                borderColor="#fa98b6"
               />
          
             <UCProjectBox
@@ -54,7 +54,7 @@ const ExpPage = () => {
               date="AUG 2024 - MAY 2025"
               desc="Designed and implemented a billing system using OCI, APEX, SQL, & PL/SQL; directed FIFO debt management, payment application, and error handling, with delinquency predictions."
               color="#fbceb1"
-              borderColor="e0b594"
+              borderColor="#e0b594"
             />
 
               <UCProjectBox
@@ -63,7 +63,7 @@ const ExpPage = () => {
                 date="JUNE - JULY 2024"
                 desc="1 of 20 selected nationwide. Developed high-accuracy pulmonary diagnostic system.  RadGraph for unsupervised radiology report classifier; ResNet ultrasound analysis model."
                 color="#b1ddc9"
-                borderColor="#7fe3b4"
+                borderColor="#33e896"
               />
 
             <UCProjectBox
@@ -72,7 +72,7 @@ const ExpPage = () => {
               date="JULY 2023 - APR 2024"
               desc="Utilized Swift, SQL, Dart, and JavaScript to develop JackTag, a mobile application and NFC wearable that streamlines communication of medical information between crisis victims and first responders. Presented to Microsoft/AT&T investors."
               color="#6cd0d0"
-              borderColor="#4bd6d6"
+              borderColor="#22d6d6"
             />
 
            <UCProjectBox
