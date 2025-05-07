@@ -1,1 +1,5 @@
-Aarushi Ammavajjala's Portfolio
+Aarushi Ammavajjala's Portfolio.
+
+View at aarushi.xyz.
+
+Thank you!
