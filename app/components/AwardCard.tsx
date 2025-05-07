@@ -9,7 +9,7 @@ interface ACProjectCardProps {
         className={`w-full flex flex-col p-3 rounded-lg shadow-lg mx-auto transform transition-transform duration-300`}
         style={{
           background: `white`,
-          border: `3px solid black`,
+          border: `2px solid black`,
         }}
       >
         <div className="flex-grow">

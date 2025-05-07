@@ -18,19 +18,19 @@ const awardPage = () => {
 
       <div
          className="flex py-6 items-center justify-center w-full px-4"
-        style={{ background: 'linear-gradient(to bottom, #fbceb1, #ffcbdb)' }}
-        >  
+           >  
         <div
           className="w-full max-w-5xl p-6 rounded-xl shadow-xl space-y-4 border border-black"
+          style={{ background: 'linear-gradient(to bottom, #fbceb1, #ffcbdb)' }}
         >
 
-<div className="border-l-4 border-[#86b0a0] pl-4">
+<div className="border-l-4 border-[#000000] pl-4">
           <ACProjectBox
             title="National Winner (NCWIT Aspirations in Computing Award)"
             org="Top 1% of 4,000+"
           />
           </div>
-          <div className="border-l-4 border-[#86b0a0] pl-4">
+          <div className="border-l-4 border-[#000000] pl-4">
 
           <ACProjectBox
             title="National Girls Who Code 20 Under 20 Winner"
@@ -55,13 +55,13 @@ const awardPage = () => {
             
           />
           <ACProjectBox
-            title="National Honorable Mention (NCWIT Aspirations in Computing Award)" 
+            title="National Honorable Mention & Georgia Affiliate Winner (NCWIT Aspirations in Computing Award)" 
             org="Top 10% of 4,000+"
         
           />
           <ACProjectBox
-            title="International Taco Bell Ambition Accelerator Finalist"
-            org="Seed Funding Grantee"
+            title="1st Honors at Georgia Science and Engineering Fair; 1st at Northwest Regional Science Fair"
+            org="Top 10% in State"
          
           />
         </div>
