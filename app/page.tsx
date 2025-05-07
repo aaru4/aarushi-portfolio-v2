@@ -1,4 +1,4 @@
-import { Linkedin, Mail } from 'lucide-react';
+import { Linkedin, Send } from 'lucide-react';
 import Image from 'next/image';
 import { ECProjectBox } from './components/EducationCard';
 import Navbar from './components/header';
@@ -31,7 +31,7 @@ export default function Home() {
           </p>
           <div className="mt-4 flex gap-4 justify-center md:justify-start">
               <a href="mailto:aaru7811@gmail.com">
-                <Mail size={40} color="#000" className="hover:text-[#ffcbdb] hover:scale-110 transition-colors duration-300" />
+                <Send size={40} color="#000" className="hover:text-[#ffcbdb] hover:scale-110 transition-colors duration-300" />
               </a>
               <a
                 href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
@@ -44,7 +44,7 @@ export default function Home() {
 
         </div>
       </div>
-      <div className="w-full md:w-1/2 h-auto md:h-full flex flex-col items-center justify-center bg-white py-8 px-4">
+      <div className="w-full md:w-1/2 h-auto md:h-full flex flex-col items-center justify-center bg-white py-2 px-4">
           <div className="hidden md:block mb-4 w-full">
             <Navbar />
           </div>
