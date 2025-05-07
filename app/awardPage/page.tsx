@@ -23,7 +23,7 @@ const awardPage = () => {
                     className="w-full max-w-5xl p-6 rounded-xl shadow-xl space-y-4"
                     style={{ background: 'linear-gradient(to bottom, #fbceb1, #ffcbdb)' }}
                 >
-
+<h2 className="text-xl font-semibold">Technical Achievements</h2>
                     <div className="border-l-2 border-[#000000] pl-4">
                         <ACProjectBox
                             title="National Winner (NCWIT Aspirations in Computing Award)"
@@ -89,6 +89,18 @@ const awardPage = () => {
                     </div>
                     <div className="border-l-2 border-[#000000] pl-4">
                         <ACProjectBox
+                            title="National American Computer Science League Finalist"
+                        />
+                    </div>
+                    <div className="border-l-2 border-[#000000] pl-4">
+                        <ACProjectBox
+                            title="1st & 2nd place in Lanier Technology Competition"
+                        />
+                    </div>
+
+                    <h2 className="text-xl font-semibold">Academic Achievements</h2>
+                    <div className="border-l-2 border-[#000000] pl-4">
+                        <ACProjectBox
                             title="16x Science Olympiad Awards"
                             org="National, State, and Regional"
                         />
@@ -101,58 +113,47 @@ const awardPage = () => {
 
                         />
                     </div>
-                    <div className="border-l-2 border-[#000000] pl-4">
-                        <ACProjectBox
-                            title="National American Computer Science League Finalist"
-                        />
-                    </div>
-                    <div className="border-l-2 border-[#000000] pl-4">
-                        <ACProjectBox
-                            title="1st & 2nd place in Lanier Technology Competition"
-                        />
-                    </div>
+                   
                     <div className="border-l-2 border-[#000000] pl-4">
                         <ACProjectBox
                             title="Scholarship Winner"
                             org="Russ & Marilyn Cooper, Rotary Club, Sawnee EMC, U.S. JCI Senate, GVRA"
                         />
                     </div>
+                    <h2 className="text-xl font-semibold">Creative Achievements</h2>
                     <div className="border-l-2 border-[#000000] pl-4">
                         <ACProjectBox
-                            title="21x Future Business Leaders of America (FBLA) Awards"
-                            org="National, State, and Regional"
+                            title="1st Place in Bow Seat Ocean Awareness International Writing Contest"
+                            org="Top 0.025% of 4,000+"
                         />
                     </div>
                     <div className="border-l-2 border-[#000000] pl-4">
-  <ACProjectBox
-    title="State Winner in Georgia River of Words Poetry Contest"
-    org="Top 4% of 2,000+"
-  />
-</div>
-<div className="border-l-2 border-[#000000] pl-4">
-  <ACProjectBox
-    title="Gold Key, 2× Silver Key, and Honorable Mention in Scholastic Art & Writing Awards"
-    org="Top 7% of 340,000+"
-  />
-</div>
-<div className="border-l-2 border-[#000000] pl-4">
-  <ACProjectBox
-    title="7 Creative Writing Publications"
-    org="The Disruptive Quarterly, A Celebration of Poets, World Hindu Council of America, Bow Seat Gallery, YOU-th Magazine"
-  />
-</div>
-<div className="border-l-2 border-[#000000] pl-4">
-  <ACProjectBox
-    title="National High School Poetry Contest Finalist"
-    org="Top 2% of 15,000+"
-  />
-</div>
-<div className="border-l-2 border-[#000000] pl-4">
-  <ACProjectBox
-    title="1st Place in Bow Seat Ocean Awareness International Writing Contest"
-    org="Top 0.025% of 4,000+"
-  />
-</div>
+                        <ACProjectBox
+                            title="Gold Key, 2× Silver Key, and Honorable Mention in Scholastic Art & Writing Awards"
+                            org="Top 7% of 340,000+"
+                        />
+                    </div>
+                    <div className="border-l-2 border-[#000000] pl-4">
+                        <ACProjectBox
+                            title="State Winner in Georgia River of Words Poetry Contest"
+                            org="Top 4% of 2,000+"
+                        />
+                    </div>
+
+
+                    <div className="border-l-2 border-[#000000] pl-4">
+                        <ACProjectBox
+                            title="National High School Poetry Contest Finalist"
+                            org="Top 2% of 15,000+"
+                        />
+                    </div>
+                    <div className="border-l-2 border-[#000000] pl-4">
+                        <ACProjectBox
+                            title="7 Creative Writing Publications"
+                            org="The Disruptive Quarterly, A Celebration of Poets, World Hindu Council of America, Bow Seat Gallery, YOU-th Magazine"
+                        />
+                    </div>
+
                 </div>
             </div>
         </div>
