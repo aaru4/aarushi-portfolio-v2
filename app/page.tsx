@@ -1,10 +1,11 @@
+import { Linkedin, Mail } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ECProjectBox } from './components/EducationCard';
+import Navbar from './components/header';
 import { IndBox } from './components/IndependentCard';
 import { SkillBox } from './components/SkillCard';
 import { UCProjectBox } from './components/UnclickableCard';
-import Navbar from './components/header';
 
 // color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb
 
@@ -31,27 +32,18 @@ export default function Home() {
             Studying Computer Science @ Georgia Institute of Technology
           </p>
           <div className="mt-4 flex gap-4 justify-center md:justify-start">
-          <a href="mailto:aaru7811@gmail.com">
-              <Image
-                src="/mail-icon.png"
-                alt="Email Icon"
-                width={60}
-                height={60}
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/linkedin.svg"
-                alt="LinkedIn Icon"
-                width={60}
-                height={60}
-              />
-            </a>
-          </div>
+  <a href="mailto:aaru7811@gmail.com">
+    <Mail size={40} color="#000" className="hover:text-[#ffcbdb] transition-colors duration-300" />
+  </a>
+  <a
+    href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Linkedin size={40} color="#000" className="hover:text-[#6cd0d0] transition-colors duration-300" />
+  </a>
+</div>
+
         </div>
       </div>
 
