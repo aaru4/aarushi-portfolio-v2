@@ -15,9 +15,9 @@ interface ACProjectCardProps {
   export const ACProjectBox: React.FC<ACProjectCardProps> = ({ title, org, color, borderColor }) => {
     return (
       <div
-        className={`w-full flex flex-col p-6 rounded-lg shadow-lg mx-auto transform transition-transform duration-300`}
+        className={`w-full flex flex-col p-3 rounded-lg shadow-lg mx-auto transform transition-transform duration-300`}
         style={{
-          background: `linear-gradient(${hexToRgba(color, 0.5)}, ${color})`,
+          background: `linear-gradient(white, ${hexToRgba(color, 0.5)})`,
           border: `3px solid ${borderColor}`,
         }}
       >
@@ -33,7 +33,7 @@ interface ACProjectCardProps {
     container: {
       borderRadius: "12px",
       boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.1)",
-      padding: "20px",
+      padding: "8px",
       maxWidth: "250px",
       margin: "16px auto",
       transition: "transform 0.3s ease, box-shadow 0.3s ease",

@@ -16,7 +16,7 @@ const awardPage = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center w-full px-4">
+      <div className="flex py-6 items-center justify-center w-full px-4">
         <div
           className="w-full max-w-5xl p-6 rounded-xl shadow-xl space-y-4"
           style={{
@@ -31,18 +31,18 @@ const awardPage = () => {
           />
           <ACProjectBox
             title="National Girls Who Code 20 Under 20 Winner"
-            color="#b1ddc9"
+            color="#ffffff"
             borderColor="#86b0a0"
           />
           <ACProjectBox
-            title="AI Development Intern"
-            org="United Nations WAY"
+            title="Nationwide Disney Dreamers Academy: Leadership Makeover Recipient" 
+            org="Top 0.06% of 10,000+"
             color="#6cd0d0"
             borderColor="#519e9e"
           />
           <ACProjectBox
-            title="AI Research Intern"
-            org="Stanford Department of Anesthesiology"
+            title="International Taco Bell Ambition Accelerator Finalist"
+            org="Seed Funding Grantee"
             color="#ffcbdb"
             borderColor="#fa98b6"
           />
