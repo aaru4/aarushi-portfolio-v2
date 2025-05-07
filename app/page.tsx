@@ -12,7 +12,7 @@ export default function Home() {
   return (
 <div className="grid grid-rows-[auto_1fr] min-h-screen w-screen p-0 m-0">
 <div className="block w-full">
-    <Navbar />
+    <Navbar></Navbar>
   </div>
   <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0 w-screen grow">
   <div>
@@ -54,7 +54,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-<div>
+
 
       <div className="w-full md:w-1/2 h-auto md:h-full flex items-center justify-center bg-white py-8 px-4">
         <Image
@@ -64,7 +64,7 @@ export default function Home() {
           height={350}
           className="rounded-full object-cover aspect-square"
         />
-      </div>
+    
       </div>
     </div>
 </section>  
