@@ -1,4 +1,4 @@
-import { BarChart, Code, Cpu, Folder } from 'lucide-react'; // Import icons
+import { BarChart, Code, Cpu, Folder } from 'lucide-react';
 import { ECProjectBox } from '../components/EducationCard';
 import { SkillBox } from '../components/SkillCard';
 import Navbar from '../components/header';
@@ -6,7 +6,7 @@ import Navbar from '../components/header';
 const eduPage = () => {
   return (
     <div>
-      <div className="hidden md:block mb-4 w-full">
+      <div className="block mb-4 w-full">
         <Navbar />
       </div>
 

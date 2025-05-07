@@ -4,7 +4,7 @@ import { IndBox } from '../components/IndependentCard';
 const projPage = () => {
     return (
       <div>
-        <div className="hidden md:block mb-4 w-full">
+        <div className="block mb-4 w-full">
             <Navbar></Navbar>
         </div>
         <section id="proj">
