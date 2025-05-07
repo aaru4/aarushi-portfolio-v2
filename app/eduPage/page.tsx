@@ -48,10 +48,7 @@ const eduPage = () => {
               <Code size={48} color="#000000" />
             </div>
             <span className="mt-2 text-sm font-semibold text-black">Languages</span>
-            <div className="mt-3 flex flex-wrap items-center justify-center transition-all duration-300 z-10
-                opacity-0 group-hover:opacity-100 
-                absolute sm:absolute sm:top-full sm:left-1/2 sm:transform sm:-translate-x-1/2 
-                relative sm:relative sm:z-10">
+            <div className="relative group flex flex-col items-center min-h-[300px] sm:min-h-0">
               <SkillBox title="Languages" color="#ffffff" border="#fbceb1" />
               <SkillBox title="Python" color="#fbceb1" />
               <SkillBox title="Java" color="#fbceb1" />
@@ -73,10 +70,7 @@ const eduPage = () => {
               <Cpu size={48} color="#000000" />
             </div>
             <span className="mt-2 text-sm font-semibold text-black">AI & ML</span>
-            <div className="mt-3 flex flex-wrap items-center justify-center transition-all duration-300 z-10
-                opacity-0 group-hover:opacity-100 
-                absolute sm:absolute sm:top-full sm:left-1/2 sm:transform sm:-translate-x-1/2 
-                relative sm:relative sm:z-10">
+            <div className="relative group flex flex-col items-center min-h-[300px] sm:min-h-0">
               <SkillBox title="AI & ML" color="#ffffff" border="#ffcbdb" />
               <SkillBox title="TensorFlow" color="#ffcbdb" />
               <SkillBox title="PyTorch" color="#ffcbdb" />
@@ -93,10 +87,7 @@ const eduPage = () => {
               <BarChart size={48} color="#000000" />
             </div>
             <span className="mt-2 text-sm font-semibold text-black">Data Analysis</span>
-            <div className="mt-3 flex flex-wrap items-center justify-center transition-all duration-300 z-10
-                opacity-0 group-hover:opacity-100 
-                absolute sm:absolute sm:top-full sm:left-1/2 sm:transform sm:-translate-x-1/2 
-                relative sm:relative sm:z-10">
+            <div className="relative group flex flex-col items-center min-h-[300px] sm:min-h-0">
               <SkillBox title="Data Analysis" color="#ffffff" border="#b1ddc9" />
               <SkillBox title="Pandas" color="#b1ddc9" />
               <SkillBox title="NumPy" color="#b1ddc9" />
@@ -116,10 +107,7 @@ const eduPage = () => {
               <Folder size={48} color="#000000" />
             </div>
             <span className="mt-2 text-sm font-semibold text-black">General Skills</span>
-            <div className="mt-3 flex flex-wrap items-center justify-center transition-all duration-300 z-10
-                opacity-0 group-hover:opacity-100 
-                absolute sm:absolute sm:top-full sm:left-1/2 sm:transform sm:-translate-x-1/2 
-                relative sm:relative sm:z-10">
+            <div className="relative group flex flex-col items-center min-h-[300px] sm:min-h-0">
               <SkillBox title="Skills" color="#ffffff" border="#6cd0d0" />
               <SkillBox title="Computer Vision" color="#6cd0d0" />
               <SkillBox title="NLP" color="#6cd0d0" />
