@@ -16,7 +16,7 @@ const projPage = () => {
   </div>
 </div>    
 
-<div className="w-screen grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 place-items-center gap-6 pt-6 px-6">
+<div className="w-screen pb-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 place-items-center gap-6 pt-6 px-6">
           <a
               href="https://github.com/aaru4/mediScript"
               target="_blank"

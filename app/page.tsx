@@ -52,6 +52,8 @@ export default function Home() {
             className="rounded-full object-cover py-3 aspect-square"
           />
         </div>
+        <h1 className="text-l justify-center text-center p-6"> Copyright 2025 Aarushi Ammavajjala. All rights reserved. </h1>
+
     </div>
 </section>  
 { /*
@@ -232,8 +234,7 @@ export default function Home() {
           </div>
         </section>
 */ }
-       <h1 className="text-l px-2"> Copyright 2025 Aarushi Ammavajjala. All rights reserved. </h1>
-      </main>
+             </main>
     </div>
   );
 }
