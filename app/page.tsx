@@ -13,8 +13,6 @@ export default function Home() {
 <div className="grid grid-rows-[auto_1fr] min-h-screen w-screen p-0 m-0">
   <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0 w-screen grow">
   <div>
-  <Link href="/expPage">Go to Experimental Page</Link>
-  <Navbar></Navbar>
   <section id="home" className="m-0 p-0 w-full">
     <div className="flex flex-col md:flex-row h-screen w-screen">
     <div className="w-screen md:w-1/2 h-1/2 md:h-full flex items-center rounded-xl justify-center bg-gradient-to-r from-[#b1ddc9] to-[#6cd0d0] p-6 sm:p-8 md:p-10">
@@ -52,6 +50,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+<div>
+<Navbar></Navbar>
 
       <div className="w-full md:w-1/2 h-auto md:h-full flex items-center justify-center bg-white py-8 px-4">
         <Image
@@ -61,6 +61,7 @@ export default function Home() {
           height={350}
           className="rounded-full object-cover aspect-square"
         />
+      </div>
       </div>
     </div>
 </section>  
