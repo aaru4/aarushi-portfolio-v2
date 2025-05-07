@@ -22,6 +22,7 @@ const ExpPage = () => {
                 date="JUNE 2025"
                 desc="Computational creativity & AI-powered game generation. More details coming soon."
                 color="#fbceb1"
+                borderColor="#e0b594"
               />
             <UCProjectBox
                 title="STEM@GTRI Intern"
@@ -29,6 +30,7 @@ const ExpPage = () => {
                 date="JUNE - JULY 2025"
                 desc="Selected among the top 7% of 1,100+ applicants for this competitive, stipend-based program. Working in RF Communications to develop a functional radio system. More details coming soon."
                 color="#b1ddc9"
+                borderColor="#86b0a0"
               />
               <UCProjectBox
                 title="AI Development Intern"
@@ -36,6 +38,7 @@ const ExpPage = () => {
                 date="JAN 2025 - PRESENT"
                 desc="Selected as 1 of 500+ applicants. Web development, technical advisor, and communication manager. More details coming soon."
                 color="#6cd0d0"
+                borderColor="#519e9e"
               />
                 <UCProjectBox
                 title="AI Research Intern"
@@ -43,6 +46,7 @@ const ExpPage = () => {
                 date="JAN 2025 - PRESENT"
                 desc="Using advanced deep learning  to 1) develop a more physiologically relevant definition of perioperative hypotension and hemodynamic instability, and algorithms to: 2) predict hypotension, as well as 3) perioperative outcomes in surgical patients, leveraging the MOVER dataset."
                 color="#ffcbdb"
+                borderColor="#fa98b6"
               />
             <UCProjectBox
               title="Development Intern"
