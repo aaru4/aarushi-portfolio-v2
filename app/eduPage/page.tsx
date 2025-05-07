@@ -34,14 +34,14 @@ const eduPage = () => {
             />
           </div>
         </section>
-          <div className="w-full">
-  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 gap-3 gap-x-2 sm:gap-4">
-    
-         {/* Languages */}
-         <div className="relative group">
-          <div className="absolute inset-0 bg-opacity-0 group-hover:bg-opacity-40 bg-black transition-all duration-300"></div>
+        
+        <div className="w-full">
+      <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 gap-3 gap-x-2 sm:gap-4">
+        
+        {/* Languages */}
+        <div className="relative group">
           <div className="flex justify-center items-center text-white text-sm font-bold">
-            <Code size={24} color="white" className="group-hover:translate-y-2 transition-transform duration-300" />
+            <Code size={24} color="#fbceb1" className="transition-transform duration-300" />
             <span className="ml-2">Languages</span>
           </div>
           <div className="absolute inset-0 flex flex-wrap items-center justify-center opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300">
@@ -59,9 +59,8 @@ const eduPage = () => {
 
         {/* AI & Machine Learning */}
         <div className="relative group">
-          <div className="absolute inset-0 bg-opacity-0 group-hover:bg-opacity-40 bg-black transition-all duration-300"></div>
           <div className="flex justify-center items-center text-white text-sm font-bold">
-            <Cpu size={24} color="white" className="group-hover:translate-y-2 transition-transform duration-300" />
+            <Cpu size={24} color="#ffcbdb" className="transition-transform duration-300" />
             <span className="ml-2">AI & Machine Learning</span>
           </div>
           <div className="absolute inset-0 flex flex-wrap items-center justify-center opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300">
@@ -76,9 +75,8 @@ const eduPage = () => {
 
         {/* Data Analysis */}
         <div className="relative group">
-          <div className="absolute inset-0 bg-opacity-0 group-hover:bg-opacity-40 bg-black transition-all duration-300"></div>
           <div className="flex justify-center items-center text-white text-sm font-bold">
-            <BarChart size={24} color="white" className="group-hover:translate-y-2 transition-transform duration-300" />
+            <BarChart size={24} color="#b1ddc9" className="transition-transform duration-300" />
             <span className="ml-2">Data Analysis</span>
           </div>
           <div className="absolute inset-0 flex flex-wrap items-center justify-center opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300">
@@ -96,9 +94,8 @@ const eduPage = () => {
 
         {/* General Skills */}
         <div className="relative group">
-          <div className="absolute inset-0 bg-opacity-0 group-hover:bg-opacity-40 bg-black transition-all duration-300"></div>
           <div className="flex justify-center items-center text-white text-sm font-bold">
-            <Folder size={24} color="white" className="group-hover:translate-y-2 transition-transform duration-300" />
+            <Folder size={24} color="#6cd0d0" className="transition-transform duration-300" />
             <span className="ml-2">General Skills</span>
           </div>
           <div className="absolute inset-0 flex flex-wrap items-center justify-center opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300">
@@ -108,11 +105,9 @@ const eduPage = () => {
             <SkillBox title="App Development" color="#6cd0d0" />
           </div>
         </div>
-
+       </div>
       </div>
     </div>
-
-  </div>
     );
   };
   
