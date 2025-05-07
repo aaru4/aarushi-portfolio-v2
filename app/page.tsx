@@ -11,7 +11,7 @@ import Navbar from './components/header';
 export default function Home() {
   return (
 <div className="grid grid-rows-[auto_1fr] min-h-screen w-screen p-0 m-0">
-<div className="block md:hidden w-full">
+<div className="block w-full">
     <Navbar />
   </div>
   <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0 w-screen grow">
