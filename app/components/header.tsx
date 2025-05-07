@@ -1,17 +1,20 @@
+'use client';
 
-function Navbar() {
+import Link from 'next/link';
+
+const Navbar = () => {
   return (
-    <div className='navigation-menu'>
-        <ol>
-            <li>Blogs</li>
-            <li>About</li>
-            <li>Home</li>
+    <nav>
+      <ul>
+        <li>
+          <Link href="/">Home</Link>
+        </li>
+        <li>
+          <Link href="/expPage">Experimental Page</Link>
+        </li>
+      </ul>
+    </nav>
+  );
+};
 
-
-        </ol>
-    </div>
-
-  )
-}
-
-export default Navbar
+export default Navbar;
