@@ -1,6 +1,6 @@
 'use client';
 
-import { FlaskConical, Home } from 'lucide-react'; // using lucide icons
+import { FlaskConical, Home } from 'lucide-react';
 import Link from 'next/link';
 import { useState } from 'react';
 
