@@ -42,8 +42,9 @@ const eduPage = () => {
         <div className="grid pb-12 grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 gap-3 gap-x-2 sm:gap-4">
 
           {/* Languages */}
-          <div className="relative group flex flex-col items-center">
-            <div className="flex items-center justify-center w-16 h-16 rounded-full" style={{ backgroundColor: "#fbceb1" }}>
+          <div className="relative group flex flex-col items-center mb-24 sm:mb-0">
+
+            <div className="flex items-center justify-center w-24 h-24 rounded-full" style={{ backgroundColor: "#fbceb1" }}>
               <Code size={48} color="#000000" />
             </div>
             <span className="mt-2 text-sm font-semibold text-black">Languages</span>
@@ -62,8 +63,9 @@ const eduPage = () => {
           </div>
 
           {/* AI & ML */}
-          <div className="relative group flex flex-col items-center">
-            <div className="flex items-center justify-center w-16 h-16 rounded-full" style={{ backgroundColor: "#ffcbdb" }}>
+          <div className="relative group flex flex-col items-center mb-24 sm:mb-0">
+
+            <div className="flex items-center justify-center w-24 h-24 rounded-full" style={{ backgroundColor: "#ffcbdb" }}>
               <Cpu size={48} color="#000000" />
             </div>
             <span className="mt-2 text-sm font-semibold text-black">AI & ML</span>
@@ -79,8 +81,8 @@ const eduPage = () => {
           </div>
 
           {/* Data Analysis */}
-          <div className="relative group flex flex-col items-center">
-            <div className="flex items-center justify-center w-16 h-16 rounded-full" style={{ backgroundColor: "#b1ddc9" }}>
+          <div className="relative group flex flex-col items-center mb-24 sm:mb-0">
+            <div className="flex items-center justify-center w-24 h-24 rounded-full" style={{ backgroundColor: "#b1ddc9" }}>
               <BarChart size={48} color="#000000" />
             </div>
             <span className="mt-2 text-sm font-semibold text-black">Data Analysis</span>
@@ -99,8 +101,8 @@ const eduPage = () => {
           </div>
 
           {/* General Skills */}
-          <div className="relative group flex flex-col items-center">
-            <div className="flex items-center justify-center w-16 h-16 rounded-full" style={{ backgroundColor: "#6cd0d0" }}>
+          <div className="relative group flex flex-col items-center mb-24 sm:mb-0">
+            <div className="flex items-center justify-center w-24 h-24 rounded-full" style={{ backgroundColor: "#6cd0d0" }}>
               <Folder size={48} color="#000000" />
             </div>
             <span className="mt-2 text-sm font-semibold text-black">General Skills</span>
