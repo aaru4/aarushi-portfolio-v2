@@ -19,13 +19,32 @@ const awardPage = () => {
       <div className="flex py-6 items-center justify-center w-full px-4">
         <div
           className="w-full max-w-5xl p-6 rounded-xl shadow-xl space-y-4"
-          style={{
-            background: 'linear-gradient( #fbceb1, #ffcbdb)',
-          }}
         >
           <ACProjectBox
             title="National Winner (NCWIT Aspirations in Computing Award)"
             org="Top 1% of 4,000+"
+            color="#ffffff"
+            borderColor="#e0b594"
+          />
+          <ACProjectBox
+            title="National Girls Who Code 20 Under 20 Winner"
+            color="#ffffff"
+            borderColor="#86b0a0"
+          />
+          <ACProjectBox
+            title="Nationwide Disney Dreamers Academy: Leadership Makeover Recipient" 
+            org="Top 0.06% of 10,000+"
+            color="#6cd0d0"
+            borderColor="#519e9e"
+          />
+          <ACProjectBox
+            title="International Taco Bell Ambition Accelerator Finalist"
+            org="Seed Funding Grantee"
+            color="#ffcbdb"
+            borderColor="#fa98b6"
+          />
+            <ACProjectBox
+            title="13x National/International Hackathon Winner"
             color="#ffffff"
             borderColor="#e0b594"
           />

@@ -17,8 +17,8 @@ interface ACProjectCardProps {
       <div
         className={`w-full flex flex-col p-3 rounded-lg shadow-lg mx-auto transform transition-transform duration-300`}
         style={{
-          background: `linear-gradient(white, ${hexToRgba(color, 0.5)})`,
-          border: `3px solid ${borderColor}`,
+          background: `white`,
+          border: `4px solid ${borderColor}`,
         }}
       >
         <div className="flex-grow">
