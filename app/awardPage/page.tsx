@@ -16,52 +16,54 @@ const awardPage = () => {
         </div>
       </div>
 
-      <div className="flex py-6 items-center justify-center w-full px-4">
+      <div
+         className="flex py-6 items-center justify-center w-full px-4"
+        style={{ background: 'linear-gradient(to bottom, #fbceb1, #ffcbdb)' }}
+        >  
         <div
           className="w-full max-w-5xl p-6 rounded-xl shadow-xl space-y-4 border border-black"
         >
+
+<div className="border-l-4 border-[#86b0a0] pl-4">
           <ACProjectBox
             title="National Winner (NCWIT Aspirations in Computing Award)"
             org="Top 1% of 4,000+"
-           // color="#ffffff"
-            borderColor="#e0b594"
           />
+          </div>
+          <div className="border-l-4 border-[#86b0a0] pl-4">
+
           <ACProjectBox
             title="National Girls Who Code 20 Under 20 Winner"
-          //  color="#ffffff"
-            borderColor="#86b0a0"
+            
           />
+          </div>
           <ACProjectBox
             title="Nationwide Disney Dreamers Academy: Leadership Makeover Recipient" 
             org="Top 0.06% of 10,000+"
-          //  color="#6cd0d0"
-            borderColor="#519e9e"
           />
           <ACProjectBox
             title="International Taco Bell Ambition Accelerator Finalist"
             org="Seed Funding Grantee"
-           // color="#ffcbdb"
-            borderColor="#fa98b6"
+           
           />
             <ACProjectBox
             title="13x National/International Hackathon Winner"
-           // color="#ffffff"
-            borderColor="#e0b594"
+           
           />
           <ACProjectBox
-            title="National Girls Who Code 20 Under 20 Winner"
-            borderColor="#86b0a0"
+            title="National Jane Street Visit Day Participant"
+            org="Top 3% of 1,500+"
+            
           />
           <ACProjectBox
             title="Nationwide Disney Dreamers Academy: Leadership Makeover Recipient" 
             org="Top 0.06% of 10,000+"
-            borderColor="#519e9e"
+        
           />
           <ACProjectBox
             title="International Taco Bell Ambition Accelerator Finalist"
             org="Seed Funding Grantee"
-           // color="#ffcbdb"
-            borderColor="#fa98b6"
+         
           />
         </div>
       </div>
