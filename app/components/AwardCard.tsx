@@ -1,7 +1,6 @@
 interface ACProjectCardProps {
     title: string;
     org?: string;
-    color: string;
     borderColor?: string;
   }
   
@@ -12,7 +11,7 @@ interface ACProjectCardProps {
     return `rgba(${r}, ${g}, ${b}, ${opacity})`;
   }
   
-  export const ACProjectBox: React.FC<ACProjectCardProps> = ({ title, org, color, borderColor }) => {
+  export const ACProjectBox: React.FC<ACProjectCardProps> = ({ title, org, borderColor }) => {
     return (
       <div
         className={`w-full flex flex-col p-3 rounded-lg shadow-lg mx-auto transform transition-transform duration-300`}
