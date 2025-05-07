@@ -4,7 +4,7 @@ interface UCProjectCardProps {
   desc: string;
   date: string;
   color: string;
-  borderColor: string;
+  borderColor?: string;
 }
 
 function hexToRgba(hex: string, opacity: number) {
