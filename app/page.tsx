@@ -168,7 +168,7 @@ export default function Home() {
               <UCProjectBox
                 title="AI Development Intern"
                 org="Georgia Institute of Technology"
-                date="AUG 2025"
+                date="JUNE 2025"
                 desc="Computational creativity & AI-powered game generation. More details coming soon."
                 color="#fbceb1"
               />
@@ -176,21 +176,21 @@ export default function Home() {
                 title="STEM@GTRI Intern"
                 org="Georgia Tech Research Institute"
                 date="JUNE - JULY 2025"
-                desc="Details coming soon."
+                desc="Selected among the top 7% of 1,100+ applicants for this competitive, stipend-based program. Working in RF Communications to develop a functional radio system. More details coming soon."
                 color="#b1ddc9"
               />
               <UCProjectBox
                 title="AI Development Intern"
                 org="United Nations WAY"
                 date="JAN 2025 - PRESENT"
-                desc="Details coming soon."
+                desc="Selected as 1 of 500+ applicants. Web development, technical advisor, and communication manager. More details coming soon."
                 color="#6cd0d0"
               />
                 <UCProjectBox
                 title="AI Research Intern"
                 org="Stanford Department of Anesthesiology"
                 date="JAN 2025 - PRESENT"
-                desc="Predicting hypotension from arterial blood waveforms using deep learning. More details coming soon."
+                desc="Using advanced deep learning  to 1) develop a more physiologically relevant definition of perioperative hypotension and hemodynamic instability, and algorithms to: 2) predict hypotension, as well as 3) perioperative outcomes in surgical patients, leveraging the MOVER dataset."
                 color="#ffcbdb"
               />
          
