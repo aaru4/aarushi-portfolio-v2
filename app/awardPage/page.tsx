@@ -34,7 +34,6 @@ const awardPage = () => {
 
           <ACProjectBox
             title="National Girls Who Code 20 Under 20 Winner"
-            
           />
           </div>
           <ACProjectBox
@@ -56,8 +55,8 @@ const awardPage = () => {
             
           />
           <ACProjectBox
-            title="Nationwide Disney Dreamers Academy: Leadership Makeover Recipient" 
-            org="Top 0.06% of 10,000+"
+            title="National Honorable Mention (NCWIT Aspirations in Computing Award)" 
+            org="Top 10% of 4,000+"
         
           />
           <ACProjectBox
