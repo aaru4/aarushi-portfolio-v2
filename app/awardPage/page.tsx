@@ -18,16 +18,15 @@ const awardPage = () => {
 
       <div className="flex items-center justify-center w-full px-4">
         <div
-          className="w-full max-w-5xl p-6 rounded-xl bg-white shadow-xl space-y-4"
+          className="w-full max-w-5xl p-6 rounded-xl shadow-xl space-y-4"
           style={{
-            border: '4px solid',
-            borderImage: 'linear-gradient(to right, #b1ddc9, #6cd0d0) 1',
+            background: 'linear-gradient(to right, #ffcbdb, #fbceb1)',
           }}
         >
           <ACProjectBox
-            title="AI Development Intern"
-            org="Georgia Institute of Technology"
-            color="#fbceb1"
+            title="National Winner (NCWIT Aspirations in Computing Award)"
+            org="Top 1% of 4,000+"
+            color="#ffffff"
             borderColor="#e0b594"
           />
           <ACProjectBox
