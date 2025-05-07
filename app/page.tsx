@@ -2,7 +2,6 @@ import { Linkedin, Send } from 'lucide-react';
 import Image from 'next/image';
 import Navbar from './components/header';
 import { IndBox } from './components/IndependentCard';
-import { UCProjectBox } from './components/UnclickableCard';
 
 // color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb
 
@@ -154,7 +153,7 @@ export default function Home() {
   </div>
     </div>
 </section>
-*/ }
+
         <section id="exp">
         <div className="flex items-center justify-center w-full">
   <div className="bg-white p-3 pb-12 rounded-lg">
@@ -233,7 +232,7 @@ export default function Home() {
             />
           </div>
         </section>
-
+*/ }
         <section id="proj">
         <div className="flex items-center justify-center w-full">
   <div id="proj" className="bg-white p-3 pb-10 pt-10 rounded-lg">
@@ -242,6 +241,7 @@ export default function Home() {
     </h1>
   </div>
 </div>    
+
 <div className="w-screen grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 place-items-center gap-6 pt-6 px-6">
           <a
               href="https://github.com/aaru4/mediScript"
