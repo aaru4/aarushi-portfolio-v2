@@ -1,9 +1,7 @@
 import { Linkedin, Send } from 'lucide-react';
 import Image from 'next/image';
-import { ECProjectBox } from './components/EducationCard';
 import Navbar from './components/header';
 import { IndBox } from './components/IndependentCard';
-import { SkillBox } from './components/SkillCard';
 import { UCProjectBox } from './components/UnclickableCard';
 
 // color palette: #fbceb1, #b1ddc9, #6cd0d0, #ffcbdb
@@ -93,7 +91,7 @@ export default function Home() {
       </div>
     </div>
   </nav>
-</section > */ }
+</section > 
 
 <div className="flex items-center justify-center w-full">
   <div id="education" className="bg-white p-3 rounded-lg">
@@ -121,7 +119,7 @@ export default function Home() {
 
   <div className="w-full">
   <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 gap-3 gap-x-2 sm:gap-4">
-    {/* Languages */}
+
     <SkillBox title="Python" color="#fbceb1" />
     <SkillBox title="Java" color="#fbceb1" />
     <SkillBox title="Swift" color="#fbceb1" />
@@ -132,7 +130,6 @@ export default function Home() {
     <SkillBox title="CSS" color="#fbceb1" />
     <SkillBox title="MATLAB" color="#fbceb1" />
     
-    {/* AI & Machine Learning */}
     <SkillBox title="TensorFlow" color="#ffcbdb" />
     <SkillBox title="PyTorch" color="#ffcbdb" />
     <SkillBox title="scikit-learn" color="#ffcbdb" />
@@ -140,7 +137,6 @@ export default function Home() {
     <SkillBox title="SpaCy" color="#ffcbdb" />
     <SkillBox title="RadGraph" color="#ffcbdb" />
 
-    {/* Data Analysis */}
     <SkillBox title="Pandas" color="#b1ddc9" />
     <SkillBox title="NumPy" color="#b1ddc9" />
     <SkillBox title="Matplotlib" color="#b1ddc9" />
@@ -151,7 +147,6 @@ export default function Home() {
     <SkillBox title="APEX" color="#b1ddc9" />
     <SkillBox title="Microsoft Suite" color="#b1ddc9" />
 
-    {/* General Skills */}
     <SkillBox title="Computer Vision" color="#6cd0d0" />
     <SkillBox title="NLP" color="#6cd0d0" />
     <SkillBox title="Web Development" color="#6cd0d0" />
@@ -159,7 +154,7 @@ export default function Home() {
   </div>
     </div>
 </section>
-
+*/ }
         <section id="exp">
         <div className="flex items-center justify-center w-full">
   <div className="bg-white p-3 pb-12 rounded-lg">
