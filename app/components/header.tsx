@@ -1,40 +1,69 @@
 'use client';
 
-import { FlaskConical, Home } from 'lucide-react';
+import { Award, Briefcase, FolderGit2, GraduationCap, Home } from 'lucide-react';
 import Link from 'next/link';
 import { useState } from 'react';
 
 export default function Navbar() {
   const [hovered, setHovered] = useState<string | null>(null);
 
-  return (
-    <nav className="w-full bg-white py-3 px-4 md:px-12 sticky top-0 z-50 shadow-md">
-      <div className="flex items-center justify-center gap-8">
-        <div
-          className="relative flex flex-col items-center group cursor-pointer transition-transform hover:scale-110"
-          onMouseEnter={() => setHovered('Home')}
-          onMouseLeave={() => setHovered(null)}
-        >
-          <Link href="/" className="p-3 rounded-full bg-[#ffcbdb] hover:bg-[#ffcbdb90] transition-colors">
-            <Home size={28} color="#000" />
-          </Link>
-          {hovered === 'Home' && (
-            <span className="mt-2 text-sm text-black font-medium transition-opacity duration-200">Home</span>
-          )}
-        </div>
+  const navItems = [
+    {
+      name: 'Home',
+      href: '/',
+      icon: <Home size={28} color="#000" />,
+      bg: '#ffcbdb',
+    },
+    {
+      name: 'Education & Skills',
+      href: '/education',
+      icon: <GraduationCap size={28} color="#000" />,
+      bg: '#fbceb1',
+    },
+    {
+      name: 'Experiences',
+      href: '/experiences',
+      icon: <Briefcase size={28} color="#000" />,
+      bg: '#b1ddc9',
+    },
+    {
+      name: 'Projects',
+      href: '/projects',
+      icon: <FolderGit2 size={28} color="#000" />,
+      bg: '#6cd0d0',
+    },
+    {
+      name: 'Awards',
+      href: '/awards',
+      icon: <Award size={28} color="#000" />,
+      bg: '#ffcbdb',
+    },
+  ];
 
-        <div
-          className="relative flex flex-col items-center group cursor-pointer transition-transform hover:scale-110"
-          onMouseEnter={() => setHovered('Experimental')}
-          onMouseLeave={() => setHovered(null)}
-        >
-          <Link href="/expPage" className="p-3 rounded-full bg-[#b1ddc9] hover:bg-[#b1ddc980] transition-colors">
-            <FlaskConical size={28} color="#000" />
-          </Link>
-          {hovered === 'Experimental' && (
-            <span className="mt-2 text-sm text-black font-medium transition-opacity duration-200">Experiments</span>
-          )}
-        </div>
+  return (
+    <nav className="w-screen bg-white py-3 px-4 md:px-12 sticky top-0 z-50 shadow-sm">
+      <div className="flex items-center justify-center gap-6 sm:gap-10">
+        {navItems.map((item) => (
+          <div
+            key={item.name}
+            className="relative flex flex-col items-center group cursor-pointer transition-transform hover:scale-110"
+            onMouseEnter={() => setHovered(item.name)}
+            onMouseLeave={() => setHovered(null)}
+          >
+            <Link
+              href={item.href}
+              className="p-3 rounded-full transition-colors"
+              style={{ backgroundColor: item.bg }}
+            >
+              {item.icon}
+            </Link>
+            {hovered === item.name && (
+              <span className="mt-2 text-xs sm:text-sm text-black font-medium transition-opacity duration-200">
+                {item.name}
+              </span>
+            )}
+          </div>
+        ))}
       </div>
     </nav>
   );
