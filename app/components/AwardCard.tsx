@@ -1,6 +1,6 @@
 interface ACProjectCardProps {
     title: string;
-    org: string;
+    org?: string;
     color: string;
     borderColor?: string;
   }

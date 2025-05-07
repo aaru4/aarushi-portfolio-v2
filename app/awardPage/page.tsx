@@ -20,7 +20,7 @@ const awardPage = () => {
         <div
           className="w-full max-w-5xl p-6 rounded-xl shadow-xl space-y-4"
           style={{
-            background: 'linear-gradient(to right, #ffcbdb, #fbceb1)',
+            background: 'linear-gradient( #fbceb1, #ffcbdb)',
           }}
         >
           <ACProjectBox
@@ -30,8 +30,7 @@ const awardPage = () => {
             borderColor="#e0b594"
           />
           <ACProjectBox
-            title="STEM@GTRI Intern"
-            org="Georgia Tech Research Institute"
+            title="National Girls Who Code 20 Under 20 Winner"
             color="#b1ddc9"
             borderColor="#86b0a0"
           />
