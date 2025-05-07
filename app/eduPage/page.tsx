@@ -41,10 +41,13 @@ const eduPage = () => {
         {/* Languages */}
         <div className="relative group">
           <div className="flex justify-center items-center text-white text-sm font-bold">
-            <Code size={24} color="#fbceb1" className="transition-transform duration-300" />
+          <div className="flex items-center justify-center w-16 h-16 rounded-full" style={{ backgroundColor: "#fbceb1" }}>
+            <Code size={32} color="#000000" />
+            </div>
             <span className="ml-2">Languages</span>
           </div>
-          <div className="absolute inset-0 flex flex-wrap items-center justify-center opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all duration-300">
+          <div className="absolute top-full mt-3 left-1/2 transform -translate-x-1/2 flex flex-wrap items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 z-10">
+            <SkillBox title="Languages" color="#e0b594" />
             <SkillBox title="Python" color="#fbceb1" />
             <SkillBox title="Java" color="#fbceb1" />
             <SkillBox title="Swift" color="#fbceb1" />
