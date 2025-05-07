@@ -51,9 +51,10 @@ export default function Home() {
             height={300}
             className="rounded-full object-cover py-3 aspect-square"
           />
-        </div>
-        <h1 className="text-l justify-center text-center p-6"> Copyright 2025 Aarushi Ammavajjala. All rights reserved. </h1>
+          <h1 className="text-l justify-center text-center p-6"> Copyright 2025 Aarushi Ammavajjala. All rights reserved. </h1>
 
+        </div>
+        
     </div>
 </section>  
 { /*
