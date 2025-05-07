@@ -41,27 +41,31 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="w-screen bg-white py-3 px-4 md:px-12 sticky top-0 z-50 shadow-sm">
+    <nav className="w-full md:w-1/2 bg-white py-3 px-4 md:px-12 sticky top-0 z-50 shadow-sm">
       <div className="flex items-center justify-center gap-6 sm:gap-10">
         {navItems.map((item) => (
           <div
             key={item.name}
-            className="relative flex flex-col items-center group cursor-pointer transition-transform hover:scale-110"
+            className="relative flex flex-col items-center group cursor-pointer transition-transform duration-500 ease-in-out hover:scale-110"
             onMouseEnter={() => setHovered(item.name)}
             onMouseLeave={() => setHovered(null)}
           >
             <Link
               href={item.href}
-              className="p-3 rounded-full transition-colors"
+              className="p-3 rounded-full transition-colors duration-500"
               style={{ backgroundColor: item.bg }}
             >
               {item.icon}
             </Link>
-            {hovered === item.name && (
-              <span className="mt-2 text-xs sm:text-sm text-black font-medium transition-opacity duration-200">
-                {item.name}
-              </span>
-            )}
+
+            {/* Always reserve space for label, but show/hide with opacity */}
+            <span
+              className={`absolute mt-12 text-xs sm:text-sm text-black font-medium transition-opacity duration-500 ${
+                hovered === item.name ? 'opacity-100' : 'opacity-0'
+              }`}
+            >
+              {item.name}
+            </span>
           </div>
         ))}
       </div>
