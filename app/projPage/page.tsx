@@ -9,7 +9,7 @@ const projPage = () => {
         </div>
         <section id="proj">
         <div className="flex items-center justify-center w-full">
-  <div id="proj" className="bg-white p-3 pb-0 pt-6 rounded-lg">
+  <div id="proj" className="bg-white p-3 pb-0 pt-3 rounded-lg">
     <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Recent Projects
     </h1>
@@ -40,7 +40,7 @@ const projPage = () => {
                 title="MelaninMed"
                 org="A deep learning powered AI mobile application for racially equitable skin cancer detection."
                 color="#b1ddc9"
-                borderColor="#33e896"
+                borderColor="#86b0a0"
               />
             </a>
             <a
@@ -53,7 +53,7 @@ const projPage = () => {
                 title="POCUS-Net"
                 org="A highly-accurate transformer-based classification model to reduce anesthesia-induced aspiration morbidity."
                 color="#6cd0d0"
-                borderColor="#22d6d6"
+                borderColor="#519e9e"
               />
             </a>
             <a

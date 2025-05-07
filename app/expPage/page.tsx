@@ -29,7 +29,7 @@ const ExpPage = () => {
                 date="JUNE - JULY 2025"
                 desc="Details coming soon."
                 color="#b1ddc9"
-                borderColor="#33e896"
+                borderColor="#86b0a0"
               />
               <UCProjectBox
                 title="AI Development Intern"
@@ -37,7 +37,7 @@ const ExpPage = () => {
                 date="JAN 2025 - PRESENT"
                 desc="Details coming soon."
                 color="#6cd0d0"
-                borderColor="#22d6d6"
+                borderColor="#519e9e"
               />
                 <UCProjectBox
                 title="AI Research Intern"
@@ -63,7 +63,7 @@ const ExpPage = () => {
                 date="JUNE - JULY 2024"
                 desc="1 of 20 selected nationwide. Developed high-accuracy pulmonary diagnostic system.  RadGraph for unsupervised radiology report classifier; ResNet ultrasound analysis model."
                 color="#b1ddc9"
-                borderColor="#33e896"
+                borderColor="#86b0a0"
               />
 
             <UCProjectBox
@@ -72,7 +72,7 @@ const ExpPage = () => {
               date="JULY 2023 - APR 2024"
               desc="Utilized Swift, SQL, Dart, and JavaScript to develop JackTag, a mobile application and NFC wearable that streamlines communication of medical information between crisis victims and first responders. Presented to Microsoft/AT&T investors."
               color="#6cd0d0"
-              borderColor="#22d6d6"
+              borderColor="#519e9e"
             />
 
            <UCProjectBox
