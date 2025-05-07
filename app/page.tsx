@@ -12,7 +12,7 @@ import { UCProjectBox } from './components/UnclickableCard';
 export default function Home() {
   return (
 <div className="grid grid-rows-[auto_1fr] min-h-screen w-screen p-0 m-0">
-<div className="block w-full">
+<div className="block md:hidden w-full">
     <Navbar></Navbar>
   </div>
   <main className="flex flex-col gap-6 sm:gap-8 row-start-2 items-start p-0 m-0 w-screen grow">
@@ -31,33 +31,34 @@ export default function Home() {
           <p className="text-base sm:text-lg md:text-xl py-2">
             Studying Computer Science @ Georgia Institute of Technology
           </p>
-          <div className="mt-4 flex gap-4 justify-center md:justify-start">
-  <a href="mailto:aaru7811@gmail.com">
-    <Mail size={40} color="#000" className="hover:text-[#ffcbdb] transition-colors duration-300" />
-  </a>
-  <a
-    href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <Linkedin size={40} color="#000" className="hover:text-[#6cd0d0] transition-colors duration-300" />
-  </a>
-</div>
+          <div className="mt-4 hover:scale-110 flex gap-4 justify-center md:justify-start">
+              <a href="mailto:aaru7811@gmail.com">
+                <Mail size={40} color="#000" className="hover:text-[#ffcbdb] transition-colors duration-300" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/aarushi-ammavajjala-207b49238/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Linkedin size={40} color="#000" className="hover:text-[#6cd0d0] transition-colors duration-300" />
+              </a>
+            </div>
 
         </div>
       </div>
-
-
-      <div className="w-full md:w-1/2 h-auto md:h-full flex items-center justify-center bg-white py-8 px-4">
-        <Image
-          src="/profile2.jpg"
-          alt="Picture of Aarushi"
-          width={350}
-          height={350}
-          className="rounded-full object-cover aspect-square"
-        />
-    
-      </div>
+      <div className="w-full md:w-1/2 h-auto md:h-full flex flex-col items-center justify-center bg-white py-8 px-4">
+          {/* Desktop Navbar - Inside white section */}
+          <div className="hidden md:block mb-4 w-full">
+            <Navbar />
+          </div>
+          <Image
+            src="/profile2.jpg"
+            alt="Picture of Aarushi"
+            width={350}
+            height={350}
+            className="rounded-full object-cover aspect-square"
+          />
+        </div>
     </div>
 </section>  
 </div>
@@ -85,7 +86,7 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="w-full mb-0.5 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-105 cursor-pointer border-b-4 border-transparent hover:border-[#87bfb3]">
+    <div className="w-full mb-0.5 lg:mb-0 lg:w-1/3 text-center group transition-transform duration-300 transform hover:scale-105 cursor-pointer border-b-4 border-[#87bfb3]">
       <div className="rounded-lg py-3 px-2 bg-gradient-to-br from-[#b1ddc980] to-[#b1ddc9] shadow-md">
          <Link href="#proj" passHref>
          <a className="text-lg sm:text-xl md:text-2xl text-black tracking-wide">
