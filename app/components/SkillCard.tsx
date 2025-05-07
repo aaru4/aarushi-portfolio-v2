@@ -1,13 +1,14 @@
 interface SkillCardProps {
   title: string;
   color: string;
+  border?: string;
 }
 
-export const SkillBox: React.FC<SkillCardProps> = ({ title, color }) => {
+export const SkillBox: React.FC<SkillCardProps> = ({ title, color, border }) => {
   return (
     <div
       className="w-full sm:w-[155px] md:w-[160px] lg:w-[160px] xl:w-[160px] mx-auto mb-4"
-      style={{ ...cardStyles.container, backgroundColor: color }}
+      style={{ ...cardStyles.container, backgroundColor: color, border: `3px solid ${border}`, }}
     >
       <h1 style={cardStyles.title}>{title}</h1>
     </div>
