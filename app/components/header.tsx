@@ -60,7 +60,7 @@ export default function Navbar() {
 
             {/* Always reserve space for label, but show/hide with opacity */}
             <span
-              className={`absolute mt-12 text-xs sm:text-sm text-black font-medium transition-opacity duration-500 ${
+              className={`absolute mt-12 text-xs sm:text-sm absolute top-full mt-2 text-black font-medium transition-opacity duration-500 ${
                 hovered === item.name ? 'opacity-100' : 'opacity-0'
               }`}
             >

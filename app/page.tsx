@@ -56,10 +56,6 @@ export default function Home() {
       </div>
 <div>
 
-<div className="hidden md:block mb-4 w-full">
-            <Navbar></Navbar>
-          </div>
-
       <div className="w-full md:w-1/2 h-auto md:h-full flex items-center justify-center bg-white py-8 px-4">
         <Image
           src="/profile2.jpg"
