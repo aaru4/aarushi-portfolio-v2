@@ -37,7 +37,7 @@ const eduPage = () => {
         </div>
       </section>
 
-      <div className="w-screen">
+      <div className="w-screen flex items-center justify-center">
   <div className="grid pb-12 grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 gap-3 gap-x-2 sm:gap-4">
     
     {/* Languages */}
