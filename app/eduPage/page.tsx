@@ -37,11 +37,11 @@ const eduPage = () => {
         </div>
       </section>
 
-      <div className="w-full">
+      <div className="w-screen">
   <div className="grid pb-12 grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 gap-3 gap-x-2 sm:gap-4">
     
     {/* Languages */}
-    <div className="relative group w-screen flex flex-col items-center">
+    <div className="relative group flex flex-col items-center">
       <div className="flex items-center justify-center w-24 h-24 rounded-full" style={{ backgroundColor: "#fbceb1" }}>
         <Code size={48} color="#000000" />
       </div>
