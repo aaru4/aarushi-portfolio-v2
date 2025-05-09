@@ -114,12 +114,7 @@ const awardPage = () => {
                         />
                     </div>
                    
-                    <div className="border-l-2 border-[#000000] pl-4">
-                        <ACProjectBox
-                            title="Scholarship Winner"
-                            org="Russ & Marilyn Cooper, Rotary Club, Sawnee EMC, U.S. JCI Senate, GVRA"
-                        />
-                    </div>
+                    
                     <h2 className="text-xl font-semibold">Creative Achievements</h2>
                     <div className="border-l-2 border-[#000000] pl-4">
                         <ACProjectBox
