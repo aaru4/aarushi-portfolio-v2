@@ -23,7 +23,7 @@ export default function Home() {
             Developer
           </h2>
           <p className="text-base sm:text-lg md:text-xl py-2">
-            Studying Computer Science @ Georgia Institute of Technology
+            Studying Computer Science on a Full Ride @ Georgia Institute of Technology
           </p>
           <div className="mt-4 flex gap-4 justify-center md:justify-start">
               <a href="mailto:aaru7811@gmail.com">
