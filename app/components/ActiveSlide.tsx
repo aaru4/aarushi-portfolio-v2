@@ -45,10 +45,10 @@ function ActiveSlide() {
           },
         }}
       >
-<div className="custom-prev absolute left-6 top-1/2 -translate-y-1/2 z-10 text-black text-[6rem] font-extrabold cursor-pointer px-4">
+<div className="custom-prev absolute left-3 top-1/2 -translate-y-1/2 z-10 text-black text-[3rem] font-extrabold cursor-pointer px-4">
   ‹
 </div>
-<div className="custom-next absolute right-6 top-1/2 -translate-y-1/2 z-10 text-black text-[6rem] font-extrabold cursor-pointer px-4">
+<div className="custom-next absolute right-3 top-1/2 -translate-y-1/2 z-10 text-black text-[3rem] font-extrabold cursor-pointer px-4">
   ›
 </div>
         <SwiperSlide>
