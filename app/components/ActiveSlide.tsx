@@ -1,5 +1,5 @@
 "use client";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { UCProjectBox } from "../components/UnclickableCard";
@@ -15,7 +15,8 @@ function ActiveSlide() {
     //Margin to the sides
     <div className="mx-6 mt-8">
       <Swiper
-        modules={[Autoplay]}
+        modules={[Autoplay, Navigation]}
+        navigation
         autoplay={{
           delay: 3000, 
           disableOnInteraction: true, 
