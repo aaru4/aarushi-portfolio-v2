@@ -1,5 +1,5 @@
 "use client";
-import { Autoplay, Navigation } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { UCProjectBox } from "../components/UnclickableCard";
