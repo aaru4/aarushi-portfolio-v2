@@ -12,7 +12,7 @@ const ExpPage = () => {
         <div className="flex items-center justify-center w-full">
           <div className="bg-white p-3 rounded-lg">
             <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
-              Recent Experience
+              Recent Experiences
             </h1>
           </div>
         </div>
