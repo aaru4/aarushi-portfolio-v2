@@ -1,8 +1,8 @@
 "use client";
 import ActiveSlide from "../components/ActiveSlide";
 import Navbar from "../components/header";
-import { UCProjectBox } from "../components/UnclickableCard";
-import { Swiper, SwiperSlide } from "swiper/react";
+// import { UCProjectBox } from "../components/UnclickableCard";
+// import { Swiper, SwiperSlide } from "swiper/react";
 
 const ExpPage = () => {
   return (
