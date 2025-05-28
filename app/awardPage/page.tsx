@@ -66,13 +66,13 @@ const awardPage = () => {
                     </div>
                     <div className="border-l-2 border-[#000000] pl-4">
                         <ACProjectBox
-                            title="National Honorable Mention & Georgia Affiliate Winner (NCWIT Aspirations in Computing Award)"
+                            title="National Honorable Mention (NCWIT Aspirations in Computing Award)"
                             org="Top 10% of 4,000+"
                         />
                     </div>
                     <div className="border-l-2 border-[#000000] pl-4">
                         <ACProjectBox
-                            title="1st Honors at Georgia Science and Engineering Fair; 2x 1st Place at Northwest Regional Science Fair"
+                            title="1st & 4th Honors at Georgia Science and Engineering Fair"
                             org="Top 10% in State"
                         />
                     </div>
@@ -94,22 +94,45 @@ const awardPage = () => {
                     </div>
                     <div className="border-l-2 border-[#000000] pl-4">
                         <ACProjectBox
+                            title="Georgia Affiliate Winner (NCWIT Aspirations in Computing Award)"
+                            
+                        />
+                    </div>
+                    <div className="border-l-2 border-[#000000] pl-4">
+                        <ACProjectBox
                             title="1st & 2nd place in Lanier Technology Competition"
                         />
                     </div>
+
+                     <div className="border-l-2 border-[#000000] pl-4">
+                        <ACProjectBox
+                            title="Oracle Intern of the Year"
+                        />
+                    </div>
+                     <div className="border-l-2 border-[#000000] pl-4">
+                        <ACProjectBox
+                            title="2X 1st Place at Northwest Regional Science Fair"
+                        />
+                    </div>
+<div className="border-l-2 border-[#000000] pl-4">
+                        <ACProjectBox
+                            title="Silver Presidential Volunteer Service Award"
+                        />
+                    </div>
+                    
 
                     <h2 className="text-xl font-semibold">Academic Achievements</h2>
                     <div className="border-l-2 border-[#000000] pl-4">
                         <ACProjectBox
                             title="16x Science Olympiad Awards"
-                            org="National, State, and Regional"
+                            org="4X National Winner, 7X State Winner"
                         />
                     </div>
                     <div className="border-l-2 border-[#000000] pl-4">
 
                         <ACProjectBox
                             title="21x Future Business Leaders of America (FBLA) Awards"
-                            org="National, State, and Regional"
+                            org="2X National Winner, 7X State Winner"
 
                         />
                     </div>
@@ -138,14 +161,14 @@ const awardPage = () => {
 
                     <div className="border-l-2 border-[#000000] pl-4">
                         <ACProjectBox
-                            title="National High School Poetry Contest Finalist"
+                            title="National High School Poetry Contest Winner"
                             org="Top 2% of 15,000+"
                         />
                     </div>
                     <div className="border-l-2 border-[#000000] pl-4">
                         <ACProjectBox
-                            title="7 Creative Writing Publications"
-                            org="The Disruptive Quarterly, A Celebration of Poets, World Hindu Council of America, Bow Seat Gallery, YOU-th Magazine"
+                            title="8 Creative Writing Publications"
+                            org="The Disruptive Quarterly, A Celebration of Poets, American High School Poets, World Hindu Council of America, Bow Seat Gallery, YOU-th Magazine"
                         />
                     </div>
 
