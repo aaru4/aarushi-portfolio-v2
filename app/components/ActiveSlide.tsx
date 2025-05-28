@@ -1,5 +1,5 @@
 "use client";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { UCProjectBox } from "../components/UnclickableCard";
@@ -17,18 +17,15 @@ function ActiveSlide() {
       <Swiper
         modules={[Autoplay]}
         autoplay={{
-          delay: 5000, //Changes every 5 seconds
-          disableOnInteraction: true, //Autoplay stops after user interaction
+          delay: 3000, 
+          disableOnInteraction: true, 
         }}
-        centeredSlides={true} //Makes the middle slide the center instead of the most left (can be changed)
+        centeredSlides={false} 
         spaceBetween={20}
         slidesPerView={3}
-        loop={true} //I Genuinly didn't know loop was an attribute and spent 30 minutes tying to hardcode this
-        //These next 2 lines can be removed
+        loop={false} 
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
-        //For Mobile and smaller screens
-        //Tested points based on your text overflow or whatever
         breakpoints={{
           320: {
             slidesPerView: 1,
