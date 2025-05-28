@@ -16,7 +16,7 @@ const ExpPage = () => {
             </h1>
           </div>
         </div>
-        <div pb-5>
+        <div className="pb-5">
           <ActiveSlide />
         </div>
 
