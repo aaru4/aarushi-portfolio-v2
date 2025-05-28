@@ -111,7 +111,7 @@ const awardPage = () => {
                     </div>
                      <div className="border-l-2 border-[#000000] pl-4">
                         <ACProjectBox
-                            title="2X 1st Place at Northwest Regional Science Fair"
+                            title="2x 1st Place at Northwest Regional Science Fair"
                         />
                     </div>
 <div className="border-l-2 border-[#000000] pl-4">
@@ -125,14 +125,14 @@ const awardPage = () => {
                     <div className="border-l-2 border-[#000000] pl-4">
                         <ACProjectBox
                             title="16x Science Olympiad Awards"
-                            org="4X National Winner, 7X State Winner"
+                            org="4x National Winner, 7x State Winner"
                         />
                     </div>
                     <div className="border-l-2 border-[#000000] pl-4">
 
                         <ACProjectBox
                             title="21x Future Business Leaders of America (FBLA) Awards"
-                            org="2X National Winner, 7X State Winner"
+                            org="2x National Winner, 7x State Winner"
 
                         />
                     </div>
