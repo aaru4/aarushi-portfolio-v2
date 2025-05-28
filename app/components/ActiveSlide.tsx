@@ -21,7 +21,7 @@ function ActiveSlide() {
         }}
         modules={[Autoplay, Navigation]}
         autoplay={{
-          delay: 3000, 
+          delay: 1000, 
           disableOnInteraction: true, 
         }}
         centeredSlides={false} 
