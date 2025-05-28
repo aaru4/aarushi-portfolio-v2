@@ -13,7 +13,7 @@ import "swiper/css/scrollbar";
 function ActiveSlide() {
   return (
     //Margin to the sides
-      <div className="relative flex items-center justify-center mx-6 mt-8">
+      <div className="relative flex items-center justify-center mx-2 mt-8">
   <div className="custom-prev z-10 text-black text-[4rem] font-extrabold cursor-pointer px-2">
     ‹
   </div>
