@@ -144,7 +144,6 @@ function ActiveSlide() {
     ›
   </div>
 </div>
-    </div>
   );
 }
 
