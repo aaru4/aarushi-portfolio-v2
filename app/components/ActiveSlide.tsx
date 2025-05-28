@@ -15,8 +15,11 @@ function ActiveSlide() {
     //Margin to the sides
     <div className="mx-6 mt-8">
       <Swiper
+          navigation={{
+            nextEl: '.custom-next',
+            prevEl: '.custom-prev',
+        }}
         modules={[Autoplay, Navigation]}
-        navigation
         autoplay={{
           delay: 3000, 
           disableOnInteraction: true, 
@@ -42,6 +45,9 @@ function ActiveSlide() {
           },
         }}
       >
+        <div className="custom-prev absolute left-0 top-1/2 -translate-y-1/2 z-10 text-black text-3xl font-bold cursor-pointer">‹</div>
+        <div className="custom-next absolute right-0 top-1/2 -translate-y-1/2 z-10 text-black text-3xl font-bold cursor-pointer">›</div>
+
         <SwiperSlide>
           <UCProjectBox
             title="AI Development Intern"
