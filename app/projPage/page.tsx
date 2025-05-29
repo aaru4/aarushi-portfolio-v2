@@ -38,7 +38,7 @@ const projPage = () => {
             >
               <IndBox
                 title="MediScript"
-                 org="A custom-built, domain-specific language designed to make coding accessible to non-technical healthcare professionals. Scenario example: A doctor wants to create a simple AI assistant that checks patient symptoms and recommends whether further testing is needed."
+                 org="A custom-built, domain-specific language designed to make coding accessible to non-technical healthcare professionals. Scenario example: a doctor wants to create a simple AI assistant that checks patient symptoms and recommends whether further testing is needed. See MediScript's simple solution by clicking this card."
                 color="#b1ddc9"
                 borderColor="#86b0a0"  
               />
@@ -84,7 +84,7 @@ A high-accuracy (~87%) model like this has never been created before and contrib
             >
               <IndBox
                 title="ClimiCide"
-                org="A gradient boosting regressor, trained on a custom dataset, to predict increases in climate-change-induced suicides."
+                org="ClimiCide is a machine learning model that predicts suicide rates in 2040 due to rising temperatures, offering a powerful lens into the mental health impacts of climate change across different demographics. Trained on NOAA, CDC, and Climate Impact Lab datasets, ClimiCide uses a HistGradientBoostingRegressor in Python to forecast the increase of suicides due to warming temperatures: revealing stark climate injustices in the process."
                 color="#fbceb1"
                 borderColor="#e0b594" 
               />
