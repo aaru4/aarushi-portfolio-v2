@@ -38,28 +38,44 @@ const projPage = () => {
             >
               <IndBox
                 title="MediScript"
-                  org={`A custom-built, domain-specific language designed to make coding accessible to non-technical healthcare professionals.
-
-Scenario example:
-
-A doctor wants to create a simple AI assistant that checks patient symptoms and recommends whether further testing is needed.
-
-prepare patient as {
-  name: "John Doe",
-  age: 30
+org={
+  <>
+    A custom-built, domain-specific language designed to make coding accessible to non-technical healthcare professionals.
+    <br /><br />
+    Scenario example:
+    <br />
+    A doctor wants to create a simple AI assistant that checks patient symptoms and recommends whether further testing is needed.
+    <br /><br />
+    prepare patient as {'{'}
+    <br />
+    &nbsp;&nbsp;name: "John Doe",
+    <br />
+    &nbsp;&nbsp;age: 30
+    <br />
+    {'}'}
+    <br /><br />
+    diagnose symptoms needs {'{'}
+    <br />
+    &nbsp;&nbsp;fever: true,
+    <br />
+    &nbsp;&nbsp;cough: false,
+    <br />
+    &nbsp;&nbsp;fatigue: true
+    <br />
+    {'}'}
+    <br /><br />
+    if symptoms.fever or symptoms.fatigue {'{'}
+    <br />
+    &nbsp;&nbsp;prescribe "Further tests needed"
+    <br />
+    {'}'} else {'{'}
+    <br />
+    &nbsp;&nbsp;prescribe "No immediate concern"
+    <br />
+    {'}'}
+  </>
 }
 
-diagnose symptoms needs {
-  fever: true,
-  cough: false,
-  fatigue: true
-}
-
-if symptoms.fever or symptoms.fatigue {
-  prescribe "Further tests needed"
-} else {
-  prescribe "No immediate concern"
-}`}
                 color="#b1ddc9"
                 borderColor="#86b0a0"  
               />
