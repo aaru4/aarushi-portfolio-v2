@@ -40,7 +40,7 @@ const projPage = () => {
                 title="MediScript"
                 org="A custom-built, domain-specific language designed for medical diagnostics and treatment planning, democratizing AI for healthcare professionals."
                 color="#b1ddc9"
-                borderColor="#519e9e"  
+                borderColor="#86b0a0"  
               />
             </a>
             <a
@@ -71,8 +71,8 @@ These rapid, highly-accurate models are combined in an intuitive, visually appea
 MelaninMed addresses the gap as the first AI skin classifier and mobile application developed on the Diverse Dermatology Images dataset. MelaninMed integrates two machine learning models: a malignancy classifier (ResNet-18 with an attention mechanism) and a lesion diagnosis system (custom ViT adaptor with a SqueezeExcite block). The malignancy classifier has ~99% accuracy, sensitivity, and specificity. The lesion diagnosis system diagnoses 78 different skin conditions with 95% accuracy and sensitivity, as well as 99% specificity. There is no significant performance difference between skin tones. 
 These rapid, highly-accurate models are combined in an intuitive, visually appealing mobile application. Users can upload a picture of their lesion and get a risk classification and potential diagnosis within seconds. The application also offers a GPT-4 chatbot, location services to nearby dermatologists, and easy access to scan history. MelaninMed not only improves access to skin cancer diagnostics for underrepresented populations but also sets a precedent for equity in healthcare and technology.
 "
-                color="#6cd0d0"
-                borderColor="#fa98b6"
+            color="#ffcbdb"
+            borderColor="#fa98b6"
               />
             </a>
             <a
