@@ -91,10 +91,8 @@ no significant performance difference between skin tones.
             >
               <IndBox
                 title="POCUS-Net"
-                org="Skin cancer is the most common cancer in the United States, and early detection and treatment is critical for survival. Artificial intelligence-based skin classification mobile applications offer a popular, cost-effective, and accessible way to identify skin cancer. However, almost all of these platforms perform significantly worse on darker skin. 
-MelaninMed addresses the gap as the first AI skin classifier and mobile application developed on the Diverse Dermatology Images dataset. MelaninMed integrates two machine learning models: a malignancy classifier (ResNet-18 with an attention mechanism) and a lesion diagnosis system (custom ViT adaptor with a SqueezeExcite block). The malignancy classifier has ~99% accuracy, sensitivity, and specificity. The lesion diagnosis system diagnoses 78 different skin conditions with 95% accuracy and sensitivity, as well as 99% specificity. There is no significant performance difference between skin tones. 
-These rapid, highly-accurate models are combined in an intuitive, visually appealing mobile application. Users can upload a picture of their lesion and get a risk classification and potential diagnosis within seconds. The application also offers a GPT-4 chatbot, location services to nearby dermatologists, and easy access to scan history. MelaninMed not only improves access to skin cancer diagnostics for underrepresented populations but also sets a precedent for equity in healthcare and technology.
-" 
+                org="A novel, high-performing neural network which utilizes a two-pronged approach to automate gastric POCUS and reduce aspiration in surgery. A submitted ultrasound is classified as being filled with liquid, solids, or air using machine learning classification. Next, the model segments the anteroposterior and craniocaudal diameters, performing calculations to determine operable volume. Accordingly, the model weighs the decisions and outputs aspiration risk. 
+A high-accuracy (~87%) model like this has never been created before and contributes to making anesthesia practices efficient and safer for the patient and the healthcare provider." 
             color="#ffcbdb"
             borderColor="#fa98b6"
               />
