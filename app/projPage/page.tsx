@@ -16,12 +16,11 @@ const projPage = () => {
   </div>
 </div>    
 
-<div className="w-screen pb-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 place-items-center gap-6 pt-6 px-6">
-            <a
+<div className="w-screen columns-1 sm:columns-1 md:columns-2 lg:columns-3 gap-6 px-6">            <a
               href="https://github.com/Suchit-07/Lung-and-Colon-Detection-Model-Website/tree/main/public"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-4"
+              className="inline-block mt-4 break-inside-avoid"
             >
               <IndBox
                 title="LUMINA: LUng, colon, Multi-class Imaging via Noninvasive Analysis"
@@ -34,7 +33,7 @@ const projPage = () => {
               href="https://github.com/aaru4/mediScript"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-4"
+              className="inline-block mt-4 break-inside-avoid"
             >
               <IndBox
                 title="MediScript"
@@ -47,7 +46,7 @@ const projPage = () => {
               href="https://www.youtube.com/watch?v=-zZfaS5J5Wc"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-4"
+              className="inline-block mt-4 break-inside-avoid"
             >
               <IndBox
                 title="MelaninMed"
@@ -66,7 +65,7 @@ no significant performance difference between skin tones.
               href="https://github.com/aaru4/POCUS-Net/tree/main"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-4"
+              className="inline-block mt-4 break-inside-avoid"
             >
               <IndBox
                 title="POCUS-Net"
@@ -80,7 +79,7 @@ A high-accuracy (~87%) model like this has never been created before and contrib
               href="https://aaru7811.wixsite.com/climicideml"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-4"
+              className="inline-block mt-4 break-inside-avoid"
             >
               <IndBox
                 title="ClimiCide"
