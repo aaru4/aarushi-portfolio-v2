@@ -40,7 +40,7 @@ const projPage = () => {
                 title="MediScript"
                 org="A custom-built, domain-specific language designed for medical diagnostics and treatment planning, democratizing AI for healthcare professionals."
                 color="#fbceb1"
-                borderColor="#e0b594"  
+                borderColor="#86b0a0"  
               />
             </a>
             <a
@@ -58,7 +58,7 @@ has ~99% accuracy, sensitivity, and specificity. The lesion diagnosis system dia
 different skin conditions with 95% accuracy and sensitivity, as well as 99% specificity. There is
 no significant performance difference between skin tones"
                 color="#b1ddc9"
-                borderColor="#86b0a0"
+                borderColor="#519e9e"
               />
             </a>
             <a
@@ -69,15 +69,12 @@ no significant performance difference between skin tones"
             >
               <IndBox
                 title="POCUS-Net"
-                org="Patients who are pregnant, afflicted with diabetes, or taking semaglutide weight-loss drugs are at a higher risk of aspiration and pulmonary damage during surgery. Anesthesia-relaxed muscles cannot fully prevent undigested food from traveling into the lungs. Therefore, it is crucial to have an empty stomach before surgery. Patients with the aforementioned conditions may have decreased digestion rates, and even after following a fast prior to surgery, could still have food in the antrum, greatly increasing risk of morbidity.
-There is a complicated, little-known process of analyzing gastric ultrasounds (gastric Point-Of-Care UltraSonography: gastric POCUS) to determine aspiration risk. It is a time-consuming technique, and if done incorrectly, it could be fatal. Even when done correctly, it exponentially increases the cost to the patient as perioperative time nearly doubles. 
-
-POCUS-net, technology developed by the student, is a novel, high-performing neural network which utilizes a two-pronged approach to automate gastric POCUS and reduce aspiration in surgery. A submitted ultrasound is classified as being filled with liquid, solids, or air using machine learning classification. Next, the model segments the anteroposterior and craniocaudal diameters, performing calculations to determine operable volume. Accordingly, the model weighs the decisions and outputs aspiration risk. 
-
-A high-accuracy (~87%) model like this has never been created before and contributes to making anesthesia practices efficient and safer for the patient and the healthcare provider. As more ultrasounds are used to improve the model and increase generalizability and accuracy, the model acts as a foundation for POCUS automation in healthcare.
+                org="Skin cancer is the most common cancer in the United States, and early detection and treatment is critical for survival. Artificial intelligence-based skin classification mobile applications offer a popular, cost-effective, and accessible way to identify skin cancer. However, almost all of these platforms perform significantly worse on darker skin. 
+MelaninMed addresses the gap as the first AI skin classifier and mobile application developed on the Diverse Dermatology Images dataset. MelaninMed integrates two machine learning models: a malignancy classifier (ResNet-18 with an attention mechanism) and a lesion diagnosis system (custom ViT adaptor with a SqueezeExcite block). The malignancy classifier has ~99% accuracy, sensitivity, and specificity. The lesion diagnosis system diagnoses 78 different skin conditions with 95% accuracy and sensitivity, as well as 99% specificity. There is no significant performance difference between skin tones. 
+These rapid, highly-accurate models are combined in an intuitive, visually appealing mobile application. Users can upload a picture of their lesion and get a risk classification and potential diagnosis within seconds. The application also offers a GPT-4 chatbot, location services to nearby dermatologists, and easy access to scan history. MelaninMed not only improves access to skin cancer diagnostics for underrepresented populations but also sets a precedent for equity in healthcare and technology.
 "
                 color="#6cd0d0"
-                borderColor="#519e9e"
+                borderColor="#fa98b6"
               />
             </a>
             <a
@@ -90,7 +87,7 @@ A high-accuracy (~87%) model like this has never been created before and contrib
                 title="ClimiCide"
                 org="A gradient boosting regressor, trained on a custom dataset, to predict increases in climate-change-induced suicides."
                 color="#ffcbdb"
-                borderColor="#fa98b6"
+                borderColor="#e0b594"
               />
             </a>
 
