@@ -38,7 +38,7 @@ const projPage = () => {
             >
               <IndBox
                 title="MediScript"
- org={A custom-built, domain-specific language designed to make coding accessible to non-technical healthcare professionals. Scenario example: A doctor wants to create a simple AI assistant that checks patient symptoms and recommends whether further testing is needed.
+                 org={A custom-built, domain-specific language designed to make coding accessible to non-technical healthcare professionals. Scenario example: A doctor wants to create a simple AI assistant that checks patient symptoms and recommends whether further testing is needed.
                 color="#b1ddc9"
                 borderColor="#86b0a0"  
               />
