@@ -38,8 +38,8 @@ const projPage = () => {
               <IndBox
                 title="MediScript"
                  org="A custom-built, domain-specific language designed to make coding accessible to non-technical healthcare professionals. Scenario example: a doctor wants to create a simple AI assistant that checks patient symptoms and recommends whether further testing is needed. See MediScript's simple solution by clicking this card."
-                color="#b1ddc9"
-                borderColor="#86b0a0"  
+        color="#ffcbdb"
+            borderColor="#fa98b6"
               />
             </a>
             <a
@@ -57,8 +57,9 @@ has ~99% accuracy, sensitivity, and specificity. The lesion diagnosis system dia
 different skin conditions with 95% accuracy and sensitivity, as well as 99% specificity. There is
 no significant performance difference between skin tones.
 "
-                color="#6cd0d0"
-                borderColor="#519e9e"
+                color="#b1ddc9"
+                borderColor="#86b0a0"  
+                
               />
             </a>
             <a
@@ -71,8 +72,9 @@ no significant performance difference between skin tones.
                 title="POCUS-Net"
                 org="A novel, high-performing neural network which utilizes a two-pronged approach to automate gastric POCUS and reduce aspiration in surgery. A submitted ultrasound is classified as being filled with liquid, solids, or air using machine learning classification. Next, the model segments the anteroposterior and craniocaudal diameters, performing calculations to determine operable volume. Accordingly, the model weighs the decisions and outputs aspiration risk. 
 A high-accuracy (~87%) model like this has never been created before and contributes to making anesthesia practices efficient and safer for the patient and the healthcare provider." 
-            color="#ffcbdb"
-            borderColor="#fa98b6"
+            color="#fbceb1"
+                borderColor="#e0b594" 
+                  
               />
             </a>
             <a
@@ -84,8 +86,9 @@ A high-accuracy (~87%) model like this has never been created before and contrib
               <IndBox
                 title="ClimiCide"
                 org="ClimiCide is a machine learning model that predicts suicide rates in 2040 due to rising temperatures, offering a powerful lens into the mental health impacts of climate change across different demographics. Trained on NOAA, CDC, and Climate Impact Lab datasets, ClimiCide uses a HistGradientBoostingRegressor in Python to forecast the increase of suicides due to warming temperatures: revealing stark climate injustices in the process."
-                color="#fbceb1"
-                borderColor="#e0b594" 
+                color="#6cd0d0"
+                borderColor="#519e9e"
+                  
               />
             </a>
 
