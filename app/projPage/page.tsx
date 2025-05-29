@@ -97,7 +97,7 @@ no significant performance difference between skin tones.
                 org="Skin cancer is the most common cancer in the United States, and early detection and treatment is critical for survival. Artificial intelligence-based skin classification mobile applications offer a popular, cost-effective, and accessible way to identify skin cancer. However, almost all of these platforms perform significantly worse on darker skin. 
 MelaninMed addresses the gap as the first AI skin classifier and mobile application developed on the Diverse Dermatology Images dataset. MelaninMed integrates two machine learning models: a malignancy classifier (ResNet-18 with an attention mechanism) and a lesion diagnosis system (custom ViT adaptor with a SqueezeExcite block). The malignancy classifier has ~99% accuracy, sensitivity, and specificity. The lesion diagnosis system diagnoses 78 different skin conditions with 95% accuracy and sensitivity, as well as 99% specificity. There is no significant performance difference between skin tones. 
 These rapid, highly-accurate models are combined in an intuitive, visually appealing mobile application. Users can upload a picture of their lesion and get a risk classification and potential diagnosis within seconds. The application also offers a GPT-4 chatbot, location services to nearby dermatologists, and easy access to scan history. MelaninMed not only improves access to skin cancer diagnostics for underrepresented populations but also sets a precedent for equity in healthcare and technology.
-"
+" 
             color="#ffcbdb"
             borderColor="#fa98b6"
               />
