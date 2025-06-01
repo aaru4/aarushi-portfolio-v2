@@ -88,7 +88,7 @@ const ExpPage = () => {
               title="AI Research Intern"
               org="Midwestern University"
               date="AUG 2023 - APR 2024"
-              desc="Developed a two-prong neural network to automate gastric point-of-care ultrasound. Segments antrum, classifies content, identifies diameters, calculates operable volume, and outputs aspiration risk."
+              desc="Developed a two-prong neural network to automate gastric point-of-care ultrasound. Segments antrum, classifies content, identifies diameters, calculates operable volume, and outputs aspiration risk at 87% accuracy."
               color="#fbceb1"
               borderColor="#e0b594"
             />
