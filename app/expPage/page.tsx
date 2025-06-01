@@ -36,7 +36,7 @@ const ExpPage = () => {
                 title="AI Development Intern"
                 org="United Nations WAY"
                 date="JAN 2025 - PRESENT"
-                desc="Selected as 1 of 500+ applicants. Web development, technical advisor, and communication manager. More details coming soon."
+                desc="Selected as 1 of 500+ applicants. Web development, technical advisor, and communication manager. Moderated and judged largest UN GNEC hackathon in history: 1700 participants, $10,000 in prizes. Organized and ran awards ceremony for high-profile guests including UN Ambassadors and NGO Directors."
                 color="#6cd0d0"
                 borderColor="#519e9e"
               />
