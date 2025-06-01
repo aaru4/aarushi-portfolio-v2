@@ -49,7 +49,7 @@ const projPage = () => {
               className="inline-block mt-4 break-inside-avoid"
             >
               <IndBox
-                title="MelaninMed"
+                title="MelaninMed: Presented at the United Nations"
                 org="MelaninMed is the first racially equitable skin cancer detection AI-powered mobile application. MelaninMed integrates two machine learning
 models: a malignancy classifier and a lesion
 diagnosis system, including a custom ViT adaptor with a SqueezeExcite block. The malignancy classifier
