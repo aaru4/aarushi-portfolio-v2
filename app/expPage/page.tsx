@@ -61,7 +61,7 @@ const ExpPage = () => {
                 title="AI Research Intern"
                 org="Stanford Center for Artificial Intelligence in Medicine and Imaging"
                 date="JUNE - JULY 2024"
-                desc="1 of 20 selected nationwide. Developed high-accuracy pulmonary diagnostic system.  RadGraph for unsupervised radiology report classifier; ResNet ultrasound analysis model."
+                desc="Selected as 1 of 20 nationwide. Developed high-accuracy pulmonary diagnostic system.  RadGraph for unsupervised radiology report classifier; ResNet ultrasound analysis model."
                 color="#b1ddc9"
                 borderColor="#86b0a0"
               />
