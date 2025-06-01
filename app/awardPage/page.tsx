@@ -66,6 +66,12 @@ const awardPage = () => {
                     </div>
                     <div className="border-l-2 border-[#000000] pl-4">
                         <ACProjectBox
+                            title="NMSQT Finalist"
+                            org="Top 1% of 1.5 million+ PSAT takers"
+                        />
+                    </div>
+                    <div className="border-l-2 border-[#000000] pl-4">
+                        <ACProjectBox
                             title="National Honorable Mention (NCWIT Aspirations in Computing Award)"
                             org="Top 10% of 4,000+"
                         />
