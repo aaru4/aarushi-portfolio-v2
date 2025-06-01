@@ -36,6 +36,13 @@ export default function Home() {
               >
                 <Linkedin size={40} color="#000" className="hover:text-[#6cd0d0] hover:scale-110 transition-colors duration-300" />
               </a>
+              <a
+    href="https://github.com/aaru4"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Github size={40} color="#000" className="hover:text-[#c0aaff] hover:scale-110 transition-colors duration-300" />
+  </a>
             </div>
 
         </div>
