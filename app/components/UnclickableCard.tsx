@@ -14,10 +14,23 @@ function hexToRgba(hex: string, opacity: number) {
   return `rgba(${r}, ${g}, ${b}, ${opacity})`;
 }
 
-export const UCProjectBox: React.FC<UCProjectCardProps> = ({ title, org, date, desc, color, borderColor }) => {
+export const UCProjectBox: React.FC<UCProjectCardProps> = ({
+  title,
+  org,
+  date,
+  desc,
+  color,
+  borderColor,
+}) => {
   return (
     <div
-      className={`w-full h-[360px] sm:h-[400px] hover:scale-105 flex flex-col p-6 rounded-lg shadow-lg mx-auto transform transition-transform duration-300`}
+      className={`
+        group w-full h-[360px] sm:h-[400px] flex flex-col p-6 rounded-2xl mx-auto
+        transform transition-all duration-300 ease-in-out
+        hover:scale-105 hover:rotate-1
+        hover:shadow-lg hover:shadow-[${color}]/60
+        brightness-100 hover:brightness-105
+      `}
       style={{
         background: `linear-gradient(${hexToRgba(color, 0.5)}, ${color})`,
         border: `3px solid ${borderColor}`,
@@ -36,14 +49,6 @@ export const UCProjectBox: React.FC<UCProjectCardProps> = ({ title, org, date, d
 };
 
 const cardStyles = {
-  container: {
-    borderRadius: "12px",
-    boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.1)",
-    padding: "20px",
-    maxWidth: "250px",
-    margin: "16px auto",
-    transition: "transform 0.3s ease, box-shadow 0.3s ease",
-  },
   title: {
     fontSize: "24px",
     fontWeight: "bold",
