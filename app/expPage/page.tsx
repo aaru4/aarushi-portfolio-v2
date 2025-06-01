@@ -33,7 +33,7 @@ const ExpPage = () => {
                 borderColor="#86b0a0"
               />
               <UCProjectBox
-                title="AI Development Intern"
+                title="Development Intern"
                 org="United Nations WAY"
                 date="JAN 2025 - PRESENT"
                 desc="Selected as 1 of 1500+ applicants. Web development, technical advisor, and communication manager. Moderated and judged largest UN GNEC hackathon in history: 1700 participants, $10,000 in prizes. Organized and ran awards ceremony for high-profile guests including UN Ambassadors and NGO Directors. More details coming soon."
