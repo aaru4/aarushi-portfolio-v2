@@ -33,7 +33,7 @@ const ExpPage = () => {
                 borderColor="#86b0a0"
               />
               <UCProjectBox
-                title="Development Intern"
+                title="Software Development Intern"
                 org="United Nations WAY"
                 date="JAN 2025 - PRESENT"
                 desc="Selected as 1 of 1500+ applicants. Web development, technical advisor, and communication manager. Moderated and judged largest UN GNEC hackathon in history: 1700 participants, $10,000 in prizes. Organized and ran awards ceremony for high-profile guests including UN Ambassadors and NGO Directors. More details coming soon."
@@ -49,7 +49,7 @@ const ExpPage = () => {
                 borderColor="#fa98b6"
               />
             <UCProjectBox
-              title="Development Intern"
+              title="Software Development Intern"
               org="Oracle"
               date="AUG 2024 - MAY 2025"
               desc="Designed and implemented a billing system using OCI, APEX, SQL, & PL/SQL; directed FIFO debt management, payment application, and error handling, with delinquency predictions."
@@ -67,7 +67,7 @@ const ExpPage = () => {
               />
 
             <UCProjectBox
-              title="Development Intern"
+              title="Software Development Intern"
               org="Microsoft"
               date="JULY 2023 - APR 2024"
               desc="Utilized Swift, SQL, Dart, and JavaScript to develop JackTag, a mobile application and NFC wearable that streamlines communication of medical information between crisis victims and first responders. Presented to Microsoft/AT&T investors."
