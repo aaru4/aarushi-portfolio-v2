@@ -28,7 +28,7 @@ const ExpPage = () => {
                 title="STEM@GTRI Intern"
                 org="Georgia Tech Research Institute"
                 date="JUNE - JULY 2025"
-                desc="Selected among the top 7% of 1,100+ applicants for this competitive, stipend-based program. Working in RF Communications to develop a functional radio system. More details coming soon."
+                desc="Selected among the top 5% of 1200+ applicants for this competitive, stipend-based program. Working in Sensors and Electromagnetic Applications Laboratory (SEAL) to develop a functional transmission-line radio system. More details coming soon."
                 color="#b1ddc9"
                 borderColor="#86b0a0"
               />
