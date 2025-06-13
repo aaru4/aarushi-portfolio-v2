@@ -20,7 +20,7 @@ const ExpPage = () => {
                 title="AI Development Intern"
                 org="Georgia Institute of Technology"
                 date="JUNE 2025"
-                desc="Computational creativity & AI-powered game generation. More details coming soon."
+                desc="Working in Entertainment Intelligence Lab to create introspective LLMs with DSPy. Advancing omputational creativity & AI-powered game generation. More details coming soon."
                 color="#fbceb1"
                 borderColor="#e0b594"
               />
