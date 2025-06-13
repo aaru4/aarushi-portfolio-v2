@@ -34,16 +34,18 @@ export default function Home() {
         0%, 100% { border-color: transparent }
         50% { border-color: black }
       }
-      .typing {
-        overflow: hidden;
-        white-space: nowrap;
-        border-right: 1px solid black;
-        animation: typing 4s steps(60, end) forwards, blink 0.75s step-end infinite;
+      @media (min-width: 768px) {
+        .typing-md {
+          overflow: hidden;
+          white-space: nowrap;
+          border-right: 2px solid black;
+          animation: typing 4s steps(60, end) forwards, blink 0.75s step-end infinite;
+        }
       }
     `}
   </style>
 
-  <p className="text-base sm:text-lg md:text-xl py-2 typing">
+  <p className="text-base sm:text-lg md:text-xl py-2 typing-md">
     Studying Computer Science on a Full Ride @ Georgia Institute of Technology
   </p>
 </>
