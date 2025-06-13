@@ -20,15 +20,15 @@ const ExpPage = () => {
                 title="AI Development Intern"
                 org="Georgia Institute of Technology"
                 date="JUNE 2025"
-                desc="Working in Entertainment Intelligence Lab to create introspective LLMs with DSPy. Advancing computational creativity & AI-powered game generation. More details coming soon."
-                color="#fbceb1"
+                desc="Designing Python-based to create introspective, self-reflective LLM pipelines using DSPy to improve reasoning transparency. Advancing ethical computational creativity & AI-powered game generation.
+"                color="#fbceb1"
                 borderColor="#e0b594"
               />
             <UCProjectBox
                 title="STEM@GTRI Intern"
                 org="Georgia Tech Research Institute"
                 date="JUNE - JULY 2025"
-                desc="Selected among the top 5% of 1200+ applicants for this competitive, stipend-based program. Working in Sensors and Electromagnetic Applications Laboratory (SEAL) to develop a functional transmission-line radio system. More details coming soon."
+                desc="Selected as the top 5% of 1200+ for this stipend-based program. Working in Sensors and Electromagnetic Applications Laboratory (SEAL) to prototype a transmission-line radio system using Simulink/MATLAB."
                 color="#b1ddc9"
                 borderColor="#86b0a0"
               />
@@ -36,15 +36,15 @@ const ExpPage = () => {
                 title="Software Development Intern"
                 org="United Nations WAY"
                 date="JAN 2025 - PRESENT"
-                desc="Selected from 1500+ applicants. Web development, technical advisor, and communication manager. Moderated and judged largest UN GNEC hackathon in history: 1700 participants, $10,000 in prizes. Organized and ran awards ceremony for high-profile guests including UN Ambassadors and NGO Directors."
-                color="#6cd0d0"
+                desc="Selected as 1 of 1500+ as a web development intern, technical advisor, and communication manager. Organized, moderated, and judged the largest UN GNEC hackathon in history. 1700 participants, $10,000 in prizes. Attended by high-profile guests including UN Ambassadors and Directors."
+            color="#6cd0d0"
                 borderColor="#519e9e"
               />
                 <UCProjectBox
                 title="AI Research Intern"
                 org="Stanford Department of Anesthesiology"
                 date="JAN 2025 - PRESENT"
-                desc="Using advanced deep learning  to 1) develop a more physiologically relevant definition of perioperative hypotension and hemodynamic instability, and algorithms to: 2) predict hypotension, as well as 3) perioperative outcomes in surgical patients, leveraging the MOVER dataset."
+                desc="Engineered predictive models and risk analysis for intraoperative hypotension and postoperative mortality from time-series EHR data matrices. Extracted hypotension-linked risk factors with SQL, R, Python. Proposing novel definitions of blood pressure lability." 
                 color="#ffcbdb"
                 borderColor="#fa98b6"
               />
