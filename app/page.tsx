@@ -23,46 +23,9 @@ export default function Home() {
           <h2 className="font-bold text-xl sm:text-2xl md:text-3xl py-2">
             Developer
           </h2>
-          <>
-            <style>
-              {`
-                @keyframes typing {
-                  from { width: 0 }
-                  to { width: 100% }
-                }
-          
-                @keyframes blink {
-                  0%, 100% { border-color: transparent }
-                  50% { border-color: black }
-                }
-          
-                .typing {
-                  display: inline-block;
-                  overflow: hidden;
-                  border-right: 2px solid black;
-                  animation: typing 4s steps(60, end) forwards, blink 0.75s step-end infinite;
-                }
-          
-                @media (max-width: 640px) {
-                  .typing {
-                    white-space: normal; 
-                  }
-                }
-          
-                @media (min-width: 641px) {
-                  .typing {
-                    white-space: nowrap; 
-                  }
-                }
-              `}
-            </style>
-          
-            <p className="text-base sm:text-lg md:text-xl py-2 typing">
+            <p className="text-base sm:text-lg md:text-xl py-2">
               Studying Computer Science on a Full Ride @ Georgia Institute of Technology
             </p>
-          </>
-
-
           <div className="mt-4 flex gap-4 justify-center md:justify-start">
               <a href="mailto:aaru7811@gmail.com">
                 <Send size={40} color="#000" className="hover:text-[#ffcbdb] hover:scale-110 transition-colors duration-300" />
