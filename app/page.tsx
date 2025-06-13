@@ -37,7 +37,7 @@ export default function Home() {
       .typing {
         overflow: hidden;
         white-space: nowrap;
-        border-right: 2px solid black;
+        border-right: 1px solid black;
         animation: typing 4s steps(60, end) forwards, blink 0.75s step-end infinite;
       }
     `}
