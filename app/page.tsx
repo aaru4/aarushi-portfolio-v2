@@ -23,32 +23,45 @@ export default function Home() {
           <h2 className="font-bold text-xl sm:text-2xl md:text-3xl py-2">
             Developer
           </h2>
-<>
-  <style>
-    {`
-      @keyframes typing {
-        from { width: 0 }
-        to { width: 100% }
-      }
-      @keyframes blink {
-        0%, 100% { border-color: transparent }
-        50% { border-color: black }
-      }
-      @media (min-width: 768px) {
-        .typing-md {
-          overflow: hidden;
-          white-space: nowrap;
-          border-right: 2px solid black;
-          animation: typing 4s steps(60, end) forwards, blink 0.75s step-end infinite;
-        }
-      }
-    `}
-  </style>
+          <>
+            <style>
+              {`
+                @keyframes typing {
+                  from { width: 0 }
+                  to { width: 100% }
+                }
+          
+                @keyframes blink {
+                  0%, 100% { border-color: transparent }
+                  50% { border-color: black }
+                }
+          
+                .typing {
+                  display: inline-block;
+                  overflow: hidden;
+                  border-right: 2px solid black;
+                  animation: typing 4s steps(60, end) forwards, blink 0.75s step-end infinite;
+                }
+          
+                @media (max-width: 640px) {
+                  .typing {
+                    white-space: normal; 
+                  }
+                }
+          
+                @media (min-width: 641px) {
+                  .typing {
+                    white-space: nowrap; 
+                  }
+                }
+              `}
+            </style>
+          
+            <p className="text-base sm:text-lg md:text-xl py-2 typing">
+              Studying Computer Science on a Full Ride @ Georgia Institute of Technology
+            </p>
+          </>
 
-  <p className="text-base sm:text-lg md:text-xl py-2 typing-md">
-    Studying Computer Science on a Full Ride @ Georgia Institute of Technology
-  </p>
-</>
 
           <div className="mt-4 flex gap-4 justify-center md:justify-start">
               <a href="mailto:aaru7811@gmail.com">
