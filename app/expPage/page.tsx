@@ -28,7 +28,11 @@ const ExpPage = () => {
                 title="STEM@GTRI Intern"
                 org="Georgia Tech Research Institute"
                 date="JUNE - JULY 2025"
-                desc="Selected as the top 5% of 1200+ for this stipend-based program. Working in Sensors and Electromagnetic Applications Laboratory (SEAL) to prototype a transmission-line radio system using Simulink/MATLAB."
+                desc="- Selected as the top 5% of 1200+
+- Designed and implemented an inversion-based adaptive noise cancellation system using signal generators, spectrum analyzers, and tunable band-pass filters
+- Developed a real-time digital signal processing (DSP) pipeline with statistically significant 48% average SNR improvement
+- Integrated the system into a custom-built RF transceiver for performance validation under realistic conditions
+"
                 color="#b1ddc9"
                 borderColor="#86b0a0"
               />
