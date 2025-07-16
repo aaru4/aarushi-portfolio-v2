@@ -25,7 +25,7 @@ export const UCProjectBox: React.FC<UCProjectCardProps> = ({
   return (
     <div
       className={`
-        group w-full h-[360px] sm:h-[400px] flex flex-col p-6 rounded-2xl mx-auto
+        group w-full h-[360px] sm:h-[430px] flex flex-col p-6 rounded-2xl mx-auto
         transform transition-all duration-300 ease-in-out
         hover:scale-105 hover:rotate-3
         hover:shadow-lg hover:shadow-[${color}]/60
