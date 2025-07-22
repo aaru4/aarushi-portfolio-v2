@@ -35,7 +35,7 @@ const ExpPage = () => {
 />
 
 <UCProjectBox
-  title="Software Development Intern"
+  title="Digital Strategy & Web Development Intern"
   org="United Nations WAY"
   date="JAN 2025 - PRESENT"
   desc="Selected as 1 of 1500+. Organized, judged, and moderated the largest UN hackathon to date with 1,700+ participants, $10,000 in prizes, and attendance from UN Ambassadors and Directors. Revamped the WAY website for enhanced UX, accessibility, and mobile responsiveness across 50+ pages. Launched a global youth policy map with scraped data and custom fact sheets from 190+ countries. Streamlined onboarding for 1,300+ volunteers and restructured the content architecture for 250+ resources."
