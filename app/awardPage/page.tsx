@@ -57,6 +57,15 @@ const awardPage = () => {
 
                         />
                     </div>
+
+                    
+                    <div className="border-l-2 border-[#000000] pl-4">
+                        <ACProjectBox
+                            title="National Allstate Foundation Youth Service Summit"
+                            org="Top 5%"
+                        />
+                    </div>
+                    
                     <div className="border-l-2 border-[#000000] pl-4">
 
                         <ACProjectBox
@@ -76,6 +85,8 @@ const awardPage = () => {
                             org="Top 10% of 4,000+"
                         />
                     </div>
+
+                    
                     <div className="border-l-2 border-[#000000] pl-4">
                         <ACProjectBox
                             title="1st & 4th Honors at Georgia Science and Engineering Fair"
