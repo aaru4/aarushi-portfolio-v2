@@ -37,9 +37,9 @@ export const UCProjectBox: React.FC<UCProjectCardProps> = ({
       }}
     >
       <div className="flex-grow">
-        <h1 style={cardStyles.title}>{title}</h1>
-        <p style={cardStyles.org}>{org}</p>
-        <p style={cardStyles.desc}>{desc}</p>
+<h1 className="text-xl sm:text-2xl font-bold mb-2 text-gray-800 break-words">{title}</h1>
+<p className="text-base sm:text-lg text-gray-700 mb-2 break-words">{org}</p>
+<p className="text-sm sm:text-base text-gray-700 leading-relaxed break-words line-clamp-4">{desc}</p>
       </div>
       <div className="mt-auto">
         <p style={cardStyles.date}>{date}</p>
