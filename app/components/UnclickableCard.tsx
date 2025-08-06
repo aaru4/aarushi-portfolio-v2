@@ -25,7 +25,7 @@ export const UCProjectBox: React.FC<UCProjectCardProps> = ({
   return (
     <div
       className={`
-        group w-full h-[360px] sm:h-[475px] flex flex-col p-6 rounded-2xl mx-auto
+        w-full min-h-[360px] sm:min-h-[475px] flex flex-col p-6 rounded-2xl mx-auto
         transform transition-all duration-300 ease-in-out
         hover:scale-105 hover:rotate-2
         hover:shadow-lg hover:shadow-[${color}]/60
@@ -37,9 +37,9 @@ export const UCProjectBox: React.FC<UCProjectCardProps> = ({
       }}
     >
       <div className="flex-grow">
-<h1 className="text-xl sm:text-2xl font-bold mb-2 text-gray-800 break-words">{title}</h1>
-<p className="text-base sm:text-lg text-gray-700 mb-2 break-words">{org}</p>
-<p className="text-sm sm:text-base text-gray-700 leading-relaxed break-words line-clamp-4">{desc}</p>
+        <h1 style={cardStyles.title}>{title}</h1>
+        <p style={cardStyles.org}>{org}</p>
+        <p style={cardStyles.desc}>{desc}</p>
       </div>
       <div className="mt-auto">
         <p style={cardStyles.date}>{date}</p>
