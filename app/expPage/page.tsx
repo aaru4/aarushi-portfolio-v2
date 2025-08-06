@@ -45,7 +45,7 @@ const ExpPage = () => {
 
 <UCProjectBox
   title="AI Research Intern"
-  org="Stanford Department of Anesthesiology"
+  org="Secured $5,000 in research funding. Stanford Department of Anesthesiology"
   date="JAN 2025 - PRESENT"
   desc="Extracted structured and unstructured EHR data (labs, flowsheets, medications, ICD10, vitals) to derive frailty scores, comorbidities, medication classes, and physiological predictors using SQL, Python, and BigQuery. Visualized variable distributions, performed imputation strategies, and constructed Table 1 stratified by blood pressure categories with standardized mean differences. Deployed and statistically interpreted logistic regression across 4,100+ patients. Developing a graphical modeling framework to define hypotension and blood pressure lability."
   color="#ffcbdb"
