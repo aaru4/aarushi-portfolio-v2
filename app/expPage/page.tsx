@@ -26,6 +26,15 @@ const ExpPage = () => {
 />
 
 <UCProjectBox
+  title="NASA L'SPACE Intern"
+  org="NASA"
+  date="SEPT 2025 - PRESENT"
+  desc="Details coming soon."
+  color="#b1ddc9"
+  borderColor="#86b0a0"
+/>
+  
+<UCProjectBox
   title="STEM@GTRI Intern"
   org="Georgia Tech Research Institute"
   date="JUNE - JULY 2025"
