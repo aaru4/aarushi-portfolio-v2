@@ -20,7 +20,7 @@ const ExpPage = () => {
 <UCProjectBox
   title="Computational Pathology and AI Intern"
   org="Mayo Clinic"
-  date="SEPT 2025 - PRESENT"
+  date="OCT 2025 - PRESENT"
   desc="Details coming soon."
   color="#fbceb1"         // orange
   borderColor="#e0b594"   // darker orange
