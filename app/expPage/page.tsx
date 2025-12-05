@@ -27,7 +27,7 @@ const ExpPage = () => {
 />
   
 <UCProjectBox
-  title="NASA L'SPACE Intern"
+  title="NASA Intern"
   org="NASA"
   date="SEPT 2025 - PRESENT"
   desc="Details coming soon."
