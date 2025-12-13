@@ -47,7 +47,7 @@ const eduPage = () => {
             </div>
             <span className="mt-2 text-sm font-semibold text-black">Programming</span>
             <div className="mt-3 flex flex-wrap items-center justify-center transition-all duration-300 z-10
-                            opacity-100 sm:opacity-0 sm:group-hover:opacity-100
+                            opacity-100
                             relative sm:absolute sm:top-full sm:left-1/2 sm:transform sm:-translate-x-1/2">
               <SkillBox title="Python" color="#fbceb1" />
               <SkillBox title="SQL" color="#fbceb1" />
@@ -68,7 +68,7 @@ const eduPage = () => {
             </div>
             <span className="mt-2 text-sm font-semibold text-black">AI & ML</span>
             <div className="mt-3 flex flex-wrap items-center justify-center transition-all duration-300 z-10
-                            opacity-100 sm:opacity-0 sm:group-hover:opacity-100
+                            opacity-100 
                             relative sm:absolute sm:top-full sm:left-1/2 sm:transform sm:-translate-x-1/2">
               <SkillBox title="PyTorch" color="#ffcbdb" />
               <SkillBox title="TensorFlow" color="#ffcbdb" />
@@ -89,7 +89,7 @@ const eduPage = () => {
             </div>
             <span className="mt-2 text-sm font-semibold text-black">Data & Cloud</span>
             <div className="mt-3 flex flex-wrap items-center justify-center transition-all duration-300 z-10
-                            opacity-100 sm:opacity-0 sm:group-hover:opacity-100
+                            opacity-100 
                             relative sm:absolute sm:top-full sm:left-1/2 sm:transform sm:-translate-x-1/2">
               <SkillBox title="Pandas" color="#b1ddc9" />
               <SkillBox title="NumPy" color="#b1ddc9" />
@@ -109,7 +109,7 @@ const eduPage = () => {
             </div>
             <span className="mt-2 text-sm font-semibold text-black">Tools & Frameworks</span>
             <div className="mt-3 flex flex-wrap items-center justify-center transition-all duration-300 z-10
-                            opacity-100 sm:opacity-0 sm:group-hover:opacity-100
+                            opacity-100
                             relative sm:absolute sm:top-full sm:left-1/2 sm:transform sm:-translate-x-1/2">
               <SkillBox title="Git" color="#6cd0d0" />
               <SkillBox title="Firebase" color="#6cd0d0" />
