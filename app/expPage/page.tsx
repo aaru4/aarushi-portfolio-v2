@@ -18,6 +18,15 @@ const ExpPage = () => {
 <div className="w-screen grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 place-items-center gap-6 pt-6 pb-10 xl:p-10 px-6">
 
 <UCProjectBox
+  title="Incoming Software Engineering Intern"
+  org="AT&T"
+  date="JUNE 2026 - AUG 2026"
+  desc="Coming Soon."
+  color="#fbceb1"         // orange
+  borderColor="#e0b594"   // darker orange
+/>
+  
+<UCProjectBox
   title="Computational Pathology and AI Intern"
   org="Mayo Clinic"
   date="OCT 2025 - PRESENT"
@@ -31,7 +40,7 @@ const ExpPage = () => {
   title="AI Development Intern"
   org="Georgia Institute of Technology"
   date="JUNE 2025"
-  desc="Built modular LLM pipelines using Python and the DSPy framework to improve reasoning transparency and support ethical, introspective AI development. Integrated visualization tools to trace LLM I/O and inspect intermediate reasoning steps for model explainability and debugging. Explored 3+ use cases in legal document review, AI-powered game generation, and IDE-assisted debugging by combining LLM introspection with user-guided workflows."
+  desc="“Counterfactual Explanations for Agentic Workflows” accepted to HCXAI @ CHI 2026 (Poster Spotlight). Designed interactive interface and LLM-based assistant to visualize execution traces, generate counterfactuals, and explain workflow behavior, improving interpretability of complex multi-step systems."
   color="#b1ddc9"         // green
   borderColor="#86b0a0"   // darker green
 />
