@@ -50,26 +50,26 @@ export const UCProjectBox: React.FC<UCProjectCardProps> = ({
 
 const cardStyles = {
   title: {
-    fontSize: "24px",
+    fontSize: "16px",
     fontWeight: "bold",
     marginBottom: "10px",
     color: "#333",
     letterSpacing: "0.5px",
   },
   org: {
-    fontSize: "18px",
+    fontSize: "13px",
     color: "#333",
     marginBottom: "8px",
   },
   date: {
-    fontSize: "16px",
+    fontSize: "12px",
     color: "#333",
     marginTop: "8px",
     fontWeight: "bold",
     marginBottom: "12px",
   },
   desc: {
-    fontSize: "16px",
+    fontSize: "12px",
     color: "#333",
     lineHeight: "1.5",
   },
