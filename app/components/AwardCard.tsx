@@ -30,14 +30,14 @@ interface ACProjectCardProps {
       transition: "transform 0.3s ease, box-shadow 0.3s ease",
     },
     title: {
-      fontSize: "18px",
+      fontSize: "14px",
       fontWeight: "bold",
       marginBottom: "4px",
       color: "#333",
       letterSpacing: "0.5px",
     },
     org: {
-      fontSize: "13px",
+      fontSize: "11px",
       color: "#333",
       marginBottom: "4px",
     },
