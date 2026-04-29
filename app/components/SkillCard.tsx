@@ -24,7 +24,7 @@ const cardStyles = {
     textAlign: "center" as const,
   },
   title: {
-    fontSize: "16px",
+    fontSize: "12px",
     color: "black",
   },
 };

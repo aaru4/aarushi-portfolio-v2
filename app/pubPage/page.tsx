@@ -59,7 +59,7 @@ const PubPage = () => {
       </div>
 
       <div className="flex py-6 items-center justify-center w-full px-4">
-        <div className="w-full max-w-4xl space-y-4">
+        <div className="w-full max-w-3xl space-y-4">
           {publications.map((pub, i) => (
             <div
               key={i}

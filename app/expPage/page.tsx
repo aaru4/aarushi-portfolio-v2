@@ -10,7 +10,7 @@ const ExpPage = () => {
       <section id="exp">
         <div className="flex items-center justify-center w-full">
   <div className="bg-white p-3 rounded-lg">
-    <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
+    <h1 className="text-3xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Recent Experience
     </h1>
   </div>

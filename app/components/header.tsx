@@ -40,9 +40,9 @@ export default function Navbar() {
     },
     {
       name: 'Publications',
-      href: '/publications',
+      href: '/pubPage',
       icon: <BookOpen size={28} color="#000" />,
-      bg: '#b1ddc9',
+      bg: '#fbceb1',
 },
   ];
 

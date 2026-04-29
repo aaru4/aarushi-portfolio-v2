@@ -10,7 +10,7 @@ const projPage = () => {
         <section id="proj">
         <div className="flex items-center justify-center w-full">
   <div id="proj" className="bg-white p-3 pb-0 pt-3 rounded-lg">
-    <h1 className="text-4xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
+    <h1 className="text-3xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
       Recent Projects
     </h1>
   </div>
