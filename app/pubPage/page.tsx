@@ -16,7 +16,7 @@ const PubPage = () => {
         </div>
       </div>
 
-      <div className="w-screen columns-1 sm:columns-1 md:columns-2 lg:columns-3 gap-6 px-6">
+      <div className="flex flex-col gap-4 px-6 py-6 max-w-4xl mx-auto w-full">
         <a
           href="https://chi2026.acm.org/"
           target="_blank"
