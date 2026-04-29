@@ -1,6 +1,15 @@
 import Navbar from '../components/header';
 
-const publications = [
+interface Publication {
+  title: string;
+  venue: string;
+  link: string;
+  note: string | null;
+  color: string;
+  borderColor: string;
+}
+
+const publications: Publication[] = [
   {
     title: "Counterfactual Explanations for Agentic Workflows",
     venue: "Workshop on Human-Centered Explainable AI (HCXAI) at CHI, 2026",
@@ -27,7 +36,7 @@ const publications = [
   },
 ];
 
-function hexToRgba(hex: string, opacity: number) {
+function hexToRgba(hex: string, opacity: number): string {
   const r = parseInt(hex.slice(1, 3), 16);
   const g = parseInt(hex.slice(3, 5), 16);
   const b = parseInt(hex.slice(5, 7), 16);
@@ -67,13 +76,12 @@ const PubPage = () => {
               {pub.note && (
                 <p style={{ fontSize: "11px", color: "#555", marginBottom: "4px" }}>{pub.note}</p>
               )}
-              
+              <a
                 href={pub.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ fontSize: "12px", color: "#1a6fa8", textDecoration: "underline", marginTop: "4px" }}
-              >
-                Show publication →
+                >
               </a>
             </div>
           ))}
