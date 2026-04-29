@@ -30,7 +30,7 @@ const ExpPage = () => {
   title="Computational Pathology and AI Intern"
   org="Mayo Clinic"
   date="OCT 2025 - PRESENT"
-  desc="Building large-scale data pipeline processing 9,000+ DICOM medical imaging slides; optimized MIL (Multiple Instance Learning) system architecture for breast cancer biomarker prediction deployed at clinical scale 
+  desc="Histology-Based Deep Learning Stratifies Progression-Free Survival in Trastuzumab Deruxtecan–Treated HER2-Negative Breast Cancer" accepted to 2026 Mayo Clinic AI Research Summit (Poster Presentation). Building large-scale data pipeline processing 9,000+ DICOM medical imaging slides; optimized MIL (Multiple Instance Learning) system architecture for breast cancer biomarker prediction deployed at clinical scale 
 - Engineering scalable inference pipeline for UNI foundation model generating survival outcome predictions with attention-based interpretability."
   color="#b1ddc9"         // green
   borderColor="#86b0a0"   // darker green
