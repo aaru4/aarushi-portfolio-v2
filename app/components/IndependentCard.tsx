@@ -37,14 +37,14 @@ const cardStyles = {
     transition: "transform 0.3s ease, box-shadow 0.3s ease",
   },
   title: {
-    fontSize: "24px",
+    fontSize: "14px",
     fontWeight: "bold",
     marginBottom: "10px",
     color: "#333",
     letterSpacing: "0.5px",
   },
   org: {
-    fontSize: "18px",
+    fontSize: "11px",
     color: "#333",
     marginBottom: "8px",
   },
