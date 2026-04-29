@@ -1,6 +1,6 @@
 'use client';
 
-import { Award, Briefcase, FolderGit2, GraduationCap, Home } from 'lucide-react';
+import { Award, BookOpen, Briefcase, FolderGit2, GraduationCap, Home } from 'lucide-react';
 import Link from 'next/link';
 import { useState } from 'react';
 
@@ -38,6 +38,12 @@ export default function Navbar() {
       icon: <Award size={28} color="#000" />,
       bg: '#ffcbdb',
     },
+    {
+      name: 'Publications',
+      href: '/publications',
+      icon: <BookOpen size={28} color="#000" />,
+      bg: '#b1ddc9',
+},
   ];
 
   return (
