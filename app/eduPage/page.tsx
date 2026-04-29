@@ -12,7 +12,7 @@ const eduPage = () => {
 
       <div className="flex items-center justify-center w-full">
         <div id="education" className="bg-white p-3 rounded-lg">
-          <h1 className="text-4xl font-bold text-center underline text-black">
+          <h1 className="text-3xl font-bold text-center underline text-black">
             Education & Skills
           </h1>
         </div>
