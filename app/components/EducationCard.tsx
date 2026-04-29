@@ -22,8 +22,8 @@ interface ECProjectCardProps {
         }}
       >
         <div className="text-left">
-          <h1 className="text-xl sm:text-1xl font-bold text-gray-800 mb-2">{title}</h1>
-          <p className="text-lg sm:text-xl text-gray-700">{org}</p>
+          <h1 className="text-base font-bold text-gray-800 mb-1">{title}</h1>
+          <p className="text-sm text-gray-700">{org}</p>
         </div>
       </div>
     );
