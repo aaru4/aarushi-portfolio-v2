@@ -18,8 +18,8 @@ const ExpPage = () => {
 <div className="w-screen grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 place-items-center gap-6 pt-6 pb-10 xl:p-10 px-6">
 
 <UCProjectBox
-  title="Software Engineering Intern"
-  org="AT&T"
+  title="Software Development Engineering Intern"
+  org="Amazon"
   date="JUNE 2026 - AUG 2026"
   desc="Incoming Summer 2026."
   color="#fbceb1"         // orange
