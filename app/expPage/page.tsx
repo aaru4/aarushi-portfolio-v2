@@ -21,7 +21,7 @@ const ExpPage = () => {
   title="Software Development Engineering Intern"
   org="Amazon"
   date="JUNE 2026 - AUG 2026"
-  desc="Incoming Summer 2026."
+  desc="Coming soon."
   color="#fbceb1"         // orange
   borderColor="#e0b594"   // darker orange
 />
