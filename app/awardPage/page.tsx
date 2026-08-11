@@ -60,7 +60,7 @@ const creativeAwards = [
 const sections = [
   { label: 'Technical Achievements', icon: Trophy, color: '#fbceb1', items: technicalAwards },
   { label: 'Academic Achievements', icon: Award, color: '#b1ddc9', items: academicAwards },
-  { label: 'Creative Achievements', icon: BookOpen, color: '#ffcbdb', items: creativeAwards },
+  { label: 'Creative Achievements', icon: BookOpen, color: '#6cd0d0', items: creativeAwards },
 ];
 
 const awardPage = () => {

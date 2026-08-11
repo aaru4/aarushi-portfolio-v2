@@ -16,8 +16,8 @@ const PubPage = () => {
           <IndBox
             title="Counterfactual Explanations for Agentic Workflows"
             org="Workshop on Human-Centered Explainable AI (HCXAI) at CHI, 2026"
-            color="#ffcbdb"
-            borderColor="#fa98b6"
+            color="#fbceb1"
+            borderColor="#e0b594"
           />
         </a>
         <a
@@ -29,8 +29,8 @@ const PubPage = () => {
           <IndBox
             title="Histology-Based Deep Learning Stratifies Progression-Free Survival in Trastuzumab Deruxtecan–Treated HER2-Negative Breast Cancer"
             org="Mayo Clinic AI Research Summit"
-            color="#fbceb1"
-            borderColor="#e0b594"
+            color="#b1ddc9"
+            borderColor="#86b0a0"
           />
         </a>
         <a
@@ -42,8 +42,8 @@ const PubPage = () => {
           <IndBox
             title="Machine Learning Model for Predicting Climate Change-Induced Suicides in the United States"
             org="Talaria International Journal — Top 10% of 850 selected."
-            color="#b1ddc9"
-            borderColor="#86b0a0"
+            color="#6cd0d0"
+            borderColor="#519e9e"
           />
         </a>
       </section>

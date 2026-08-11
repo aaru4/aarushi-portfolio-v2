@@ -14,7 +14,7 @@ const ExpPage = () => {
             title="Software Development Engineer Intern"
             org="Amazon"
             date="JUNE 2026 - PRESENT"
-            desc="Owning development of a production proxy service enabling migration of a notification platform serving 43M+ daily push notifications to 11M+ customers. Designing a multi-endpoint REST API (API Gateway + ECS Fargate) supporting localization, personalization, and real-time segmentation, cutting campaign launch time in half. Building end-to-end security across 3 layers: WAF, OAuth, and request validation, plus field-level hybrid encryption, holding sub-300ms p99 latency."
+            desc="Owning development of a production proxy service enabling migration of a notification platform serving 43M+ daily push notifications to 11M+ customers. Designing a multi-endpoint REST API supporting localization, personalization, and real-time segmentation, cutting campaign launch time in half. Building end-to-end security across 3 layers, plus field-level hybrid encryption, holding sub-300ms p99 latency."
             color="#fbceb1"
             borderColor="#e0b594"
           />
@@ -105,8 +105,8 @@ const ExpPage = () => {
             org="TSI + Cornell University"
             date="JUNE - AUG 2023"
             desc="Selected as top 10% of ~1,000. Adapted a Brain Network Transformer using Python GNNs for multi-state neuroimaging recognition. Published findings in the Talaria Journal and presented at the Talaria 2023 International Conference."
-            color="#ffcbdb"
-            borderColor="#fa98b6"
+            color="#6cd0d0"
+            borderColor="#519e9e"
           />
         </div>
       </section>

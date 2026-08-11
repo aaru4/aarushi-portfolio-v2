@@ -3,14 +3,15 @@ import { FaGithub } from 'react-icons/fa';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const badges = ['13x Hackathon Winner', 'NCWIT National Winner', 'Girls Who Code 20 Under 20'];
+const roleBadges = ['SWE Intern @ Amazon', 'AI Engineering Intern @ Mayo Clinic', 'Lead SWE Intern @ Oracle'];
+const awardBadges = ['13x Hackathon Winner', 'NCWIT National Winner', 'Girls Who Code 20 Under 20'];
 
 export default function Home() {
   return (
     <main className="w-full">
       <section className="mx-auto flex w-full max-w-6xl flex-col items-center gap-10 px-4 py-10 sm:px-8 sm:py-16 lg:min-h-[calc(100vh-140px)] lg:flex-row lg:justify-between lg:gap-8 lg:py-0">
         {/* Text panel */}
-        <div className="w-full rounded-3xl bg-gradient-to-br from-[var(--peach)] via-[var(--peach)] to-[var(--mint)] p-8 text-center shadow-sm sm:p-12 lg:w-1/2 lg:p-14 lg:text-left">
+        <div className="w-full rounded-3xl bg-gradient-to-br from-[var(--mint)] via-[var(--mint)] to-[var(--teal)] p-8 text-center shadow-sm sm:p-12 lg:w-1/2 lg:p-14 lg:text-left">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-[var(--ink-soft)]">
             Software Engineer &middot; AI Researcher
           </p>
@@ -18,12 +19,21 @@ export default function Home() {
             Aarushi Ammavajjala
           </h1>
           <p className="mx-auto mt-4 max-w-md text-base leading-relaxed text-[var(--ink)]/80 sm:text-lg lg:mx-0">
-            B.S. in Computer Science at the Georgia Institute of Technology, building at the
-            intersection of software engineering, applied AI, and healthcare.
+            Studying Computer Science on a Full Ride @ Georgia Institute of Technology
           </p>
 
           <div className="mt-6 flex flex-wrap justify-center gap-2 lg:justify-start">
-            {badges.map((b) => (
+            {roleBadges.map((b) => (
+              <span
+                key={b}
+                className="rounded-full border border-[var(--ink)]/15 bg-white/60 px-3 py-1.5 text-xs font-semibold text-[var(--ink)]"
+              >
+                {b}
+              </span>
+            ))}
+          </div>
+          <div className="mt-2 flex flex-wrap justify-center gap-2 lg:justify-start">
+            {awardBadges.map((b) => (
               <span
                 key={b}
                 className="rounded-full border border-[var(--ink)]/15 bg-white/60 px-3 py-1.5 text-xs font-semibold text-[var(--ink)]"

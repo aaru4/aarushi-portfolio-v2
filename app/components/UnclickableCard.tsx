@@ -24,7 +24,7 @@ export const UCProjectBox: React.FC<UCProjectCardProps> = ({
 }) => {
   return (
     <div
-      className="mx-auto flex w-full min-h-[280px] flex-col rounded-2xl p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:min-h-[360px]"
+      className="mx-auto flex w-full min-h-[280px] flex-col rounded-2xl p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.03] hover:shadow-lg sm:min-h-[360px]"
       style={{
         background: `linear-gradient(160deg, ${hexToRgba(color, 0.4)}, ${color})`,
         border: `2px solid ${borderColor ?? color}`,

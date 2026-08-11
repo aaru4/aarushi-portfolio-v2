@@ -13,6 +13,8 @@ const navItems = [
   { name: 'Publications', href: '/pubPage', icon: BookOpen, bg: 'var(--peach)' },
 ];
 
+const ACTIVE_BG = 'rgba(33, 29, 28, 0.08)';
+
 export default function Navbar() {
   const pathname = usePathname();
 
@@ -41,7 +43,7 @@ export default function Navbar() {
                 className={`group flex shrink-0 items-center gap-2 rounded-full px-2.5 py-2 transition-all duration-300 sm:px-3 ${
                   isActive ? 'shadow-sm' : 'hover:-translate-y-0.5'
                 }`}
-                style={{ backgroundColor: isActive ? item.bg : 'transparent' }}
+                style={{ backgroundColor: isActive ? ACTIVE_BG : 'transparent' }}
                 onMouseEnter={(e) => {
                   if (!isActive) e.currentTarget.style.backgroundColor = `${item.bg}80`;
                 }}
