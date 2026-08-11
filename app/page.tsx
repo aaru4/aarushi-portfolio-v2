@@ -23,17 +23,7 @@ export default function Home() {
           </p>
 
           <div className="mt-6 flex flex-wrap justify-center gap-2 lg:justify-start">
-            {roleBadges.map((b) => (
-              <span
-                key={b}
-                className="rounded-full border border-[var(--ink)]/15 bg-white/60 px-3 py-1.5 text-xs font-semibold text-[var(--ink)]"
-              >
-                {b}
-              </span>
-            ))}
-          </div>
-          <div className="mt-2 flex flex-wrap justify-center gap-2 lg:justify-start">
-            {awardBadges.map((b) => (
+            {[...roleBadges, ...awardBadges].map((b) => (
               <span
                 key={b}
                 className="rounded-full border border-[var(--ink)]/15 bg-white/60 px-3 py-1.5 text-xs font-semibold text-[var(--ink)]"
