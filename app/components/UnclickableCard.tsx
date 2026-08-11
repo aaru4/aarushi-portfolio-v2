@@ -24,53 +24,25 @@ export const UCProjectBox: React.FC<UCProjectCardProps> = ({
 }) => {
   return (
     <div
-      className={`
-        w-full min-h-[280px] sm:min-h-[360px] flex flex-col p-6 rounded-2xl mx-auto
-        transform transition-all duration-300 ease-in-out
-        hover:scale-105 hover:rotate-2
-        hover:shadow-lg hover:shadow-[${color}]/60
-        brightness-100 hover:brightness-105
-      `}
+      className="mx-auto flex w-full min-h-[280px] flex-col rounded-2xl p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:min-h-[360px]"
       style={{
-        background: `linear-gradient(${hexToRgba(color, 0.5)}, ${color})`,
-        border: `3px solid ${borderColor}`,
+        background: `linear-gradient(160deg, ${hexToRgba(color, 0.4)}, ${color})`,
+        border: `2px solid ${borderColor ?? color}`,
       }}
     >
       <div className="flex-grow">
-        <h1 style={cardStyles.title}>{title}</h1>
-        <p style={cardStyles.org}>{org}</p>
-        <p style={cardStyles.desc}>{desc}</p>
+        <h1 className="mb-1 text-base font-bold tracking-tight text-[var(--ink)]">{title}</h1>
+        <p className="mb-2 text-[13px] font-medium text-[var(--ink-soft)]">{org}</p>
+        <p className="text-[12.5px] leading-relaxed text-[var(--ink)]/90">{desc}</p>
       </div>
-      <div className="mt-auto">
-        <p style={cardStyles.date}>{date}</p>
+      <div className="mt-4">
+        <p
+          className="inline-block rounded-full bg-white/50 px-2.5 py-1 text-[11px] font-bold tracking-wide text-[var(--ink)]"
+          style={{ border: `1px solid ${borderColor ?? color}` }}
+        >
+          {date}
+        </p>
       </div>
     </div>
   );
-};
-
-const cardStyles = {
-  title: {
-    fontSize: "16px",
-    fontWeight: "bold",
-    marginBottom: "10px",
-    color: "#333",
-    letterSpacing: "0.5px",
-  },
-  org: {
-    fontSize: "13px",
-    color: "#333",
-    marginBottom: "8px",
-  },
-  date: {
-    fontSize: "12px",
-    color: "#333",
-    marginTop: "8px",
-    fontWeight: "bold",
-    marginBottom: "12px",
-  },
-  desc: {
-    fontSize: "12px",
-    color: "#333",
-    lineHeight: "1.5",
-  },
 };

@@ -1,122 +1,115 @@
-import Navbar from '../components/header';
+import PageHeader from '../components/PageHeader';
 import { UCProjectBox } from '../components/UnclickableCard';
 
 const ExpPage = () => {
   return (
     <div>
-      <div className="block mb-4 w-full">
-        <Navbar></Navbar>
-      </div>
-      <section id="exp">
-        <div className="flex items-center justify-center w-full">
-  <div className="bg-white p-3 rounded-lg">
-    <h1 className="text-3xl font-bold text-center bg-clip-text underline text-black bg-gradient-to-r from-[#ffcbdb] to-[#fbceb1]">
-      Recent Experience
-    </h1>
-  </div>
-</div>  
-<div className="w-screen grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 place-items-center gap-6 pt-6 pb-10 xl:p-10 px-6">
+      <PageHeader
+        title="Recent Experience"
+        subtitle="Selected roles across AI research, healthcare, and industry engineering."
+      />
+      <section id="exp" className="mx-auto w-full max-w-6xl px-4 pb-16 pt-6 sm:px-8">
+        <div className="grid grid-cols-1 place-items-stretch gap-6 md:grid-cols-2 xl:grid-cols-3">
+          <UCProjectBox
+            title="Software Development Engineer Intern"
+            org="Amazon"
+            date="JUNE 2026 - PRESENT"
+            desc="Owning development of a production proxy service enabling migration of a notification platform serving 43M+ daily push notifications to 11M+ customers. Designing a multi-endpoint REST API (API Gateway + ECS Fargate) supporting localization, personalization, and real-time segmentation, cutting campaign launch time in half. Building end-to-end security across 3 layers: WAF, OAuth, and request validation, plus field-level hybrid encryption, holding sub-300ms p99 latency."
+            color="#fbceb1"
+            borderColor="#e0b594"
+          />
 
-<UCProjectBox
-  title="Software Development Engineer Intern"
-  org="Amazon"
-  date="JUNE 2026 - AUG 2026"
-  desc="Coming soon."
-  color="#fbceb1"         // orange
-  borderColor="#e0b594"   // darker orange
-/>
-  
-<UCProjectBox
-  title="Computational Pathology and AI Intern"
-  org="Mayo Clinic"
-  date="OCT 2025 - PRESENT"
-  desc="'Histology-Based Deep Learning Stratifies Progression-Free Survival in Trastuzumab Deruxtecan–Treated HER2-Negative Breast Cancer' accepted to 2026 Mayo Clinic AI Research Summit and 2026 Pathology Visions Conference. Built large-scale data pipeline processing 9,000+ DICOM medical imaging slides; optimized MIL (Multiple Instance Learning) system architecture for breast cancer biomarker prediction deployed at clinical scale. Engineered scalable inference pipeline for UNI foundation model generating survival outcome predictions with attention-based interpretability."
-  color="#b1ddc9"         // green
-  borderColor="#86b0a0"   // darker green
-/>
+          <UCProjectBox
+            title="AI Engineering Intern"
+            org="Mayo Clinic"
+            date="OCT 2025 - JUNE 2026"
+            desc="Accepted to 2026 Mayo Clinic AI Research Summit and 2026 Pathology Visions Conference. Built large-scale data pipeline processing 9,000+ DICOM medical imaging slides; optimized MIL (Multiple Instance Learning) system architecture for breast cancer biomarker prediction deployed at clinical scale. Engineered scalable inference pipeline for UNI foundation model generating survival outcome predictions with attention-based interpretability."
+            color="#b1ddc9"
+            borderColor="#86b0a0"
+          />
 
-<UCProjectBox
-  title="AI Development Intern"
-  org="Georgia Institute of Technology"
-  date="JUNE 2025"
-  desc="“Counterfactual Explanations for Agentic Workflows” accepted to HCXAI @ CHI 2026 (Poster Spotlight). Designed interactive interface and LLM-based assistant to visualize execution traces, generate counterfactuals, and explain workflow behavior, improving interpretability of complex multi-step systems."
-  color="#6cd0d0"         // blue
-  borderColor="#519e9e"   // darker blue
-/>
+          <UCProjectBox
+            title="AI Research Intern"
+            org="Georgia Tech — Entertainment Intelligence"
+            date="JUNE 2025 - PRESENT"
+            desc="“Counterfactual Explanations for Agentic Workflows” accepted to HCXAI @ CHI 2026 (Poster Spotlight). Designed interactive interface and LLM-based assistant to visualize execution traces, generate counterfactuals, and explain workflow behavior, improving interpretability of complex multi-step systems."
+            color="#6cd0d0"
+            borderColor="#519e9e"
+          />
 
-<UCProjectBox
-  title="STEM@GTRI Intern"
-  org="Georgia Tech Research Institute"
-  date="JUNE - JULY 2025"
-  desc="Selected as the top 5% of 1200+. Designed and implemented an inversion-based adaptive noise cancellation system using signal generators, spectrum analyzers, and tunable band-pass filters. Developed a real-time digital signal processing (DSP) pipeline with a statistically significant 48% average SNR improvement. Integrated the system into a custom-built RF transceiver for performance validation under realistic conditions."
-  color="#ffcbdb"         // pink
-  borderColor="#fa98b6"   // darker pink
-/>
+          <UCProjectBox
+            title="AI Research Intern"
+            org="Stanford Department of Anesthesiology"
+            date="DEC 2024 - JAN 2026"
+            desc="Built scalable data processing infrastructure on GCP/BigQuery for 4,100+ patient records with 50+ clinical covariates; secured $5,000 in research funding supporting a surgical risk prediction system. Designed and implemented a regression modeling pipeline using SQL, Python, and R for multi-dimensional clinical data analysis, enabling data-driven protocol improvements."
+            color="#ffcbdb"
+            borderColor="#fa98b6"
+          />
 
-<UCProjectBox
-  title="Digital Strategy & Web Development Intern"
-  org="United Nations WAY"
-  date="JAN 2025 - PRESENT"
-  desc="Selected as 1 of 1500+. Organized, judged, and moderated the largest UN hackathon to date with 1,700+ participants, $10,000 in prizes, and attendance from UN Ambassadors and Directors. Revamped the WAY website for enhanced UX, accessibility, and mobile responsiveness across 50+ pages. Launched a global youth policy map with scraped data and custom fact sheets from 190+ countries. Streamlined onboarding for 1,300+ volunteers and restructured the content architecture for 250+ resources."
-  color="#fbceb1"         // orange
-  borderColor="#e0b594"   // darker orange
-/>
+          <UCProjectBox
+            title="STEM@GTRI Research Intern"
+            org="Georgia Tech Research Institute — Sensors & Electromagnetic Applications"
+            date="JUNE - JULY 2025"
+            desc="Designed and implemented a novel Python-based inversion adaptive noise cancellation system and GUI with a 48% SNR improvement (p = 9e-22) despite non-stationary noise. Developed a real-time digital signal processing pipeline leveraging RF lab equipment: signal generators, attenuators, noise amplifiers, and tunable band-pass filters."
+            color="#fbceb1"
+            borderColor="#e0b594"
+          />
 
-<UCProjectBox
-  title="AI Research Intern"
-  org="Stanford Department of Anesthesiology"
-  date="JAN 2025 - PRESENT"
-  desc="Secured $5,000 in research funding. Extracted structured and unstructured EHR data (labs, flowsheets, medications, ICD10, vitals) to derive frailty scores, comorbidities, medication classes, and physiological predictors using SQL, Python, and BigQuery. Visualized variable distributions, performed imputation strategies, and constructed Table 1 stratified by blood pressure categories with standardized mean differences. Deployed and statistically interpreted logistic regression across 4,100+ patients."
-  color="#b1ddc9"         // green
-  borderColor="#86b0a0"   // darker green
-/>
+          <UCProjectBox
+            title="Lead Software Development Intern"
+            org="Oracle"
+            date="AUG 2024 - MAY 2025"
+            desc="Led a 4-person team building a full-stack debt management system using Oracle APEX, SQL, and Java with a modular, object-oriented architecture; optimized FIFO data structures, reducing average days-to-payment by 18%. Implemented per-account FIFO priority queues with modular components for delinquency payment processing; improved system transparency and scalability across billing operations."
+            color="#b1ddc9"
+            borderColor="#86b0a0"
+          />
 
-<UCProjectBox
-  title="Software Development Intern"
-  org="Oracle"
-  date="AUG 2024 - MAY 2025"
-  desc="Led full-stack Oracle APEX app development, from schema design to UI, for a production billing platform using Oracle Cloud Infrastructure (OCI), APEX, SQL, and PL/SQL. Implemented FIFO debt resolution logic, dynamic error handling, and delinquency prediction modules. Conducted independent research on multi-class ultrasound cancer detection using ResNet18 with attention, improving classification accuracy across tumor types."
-  color="#6cd0d0"         // blue
-  borderColor="#519e9e"   // darker blue
-/>
+          <UCProjectBox
+            title="Digital Strategy & Web Dev. Intern"
+            org="United Nations World Assembly of Youth"
+            date="JAN 2025 - DEC 2025"
+            desc="Led end-to-end planning and moderation of the UN's largest global hackathon, attracting 1,700+ participants from 90+ countries, securing $10,000+ in prizes, and engaging UN Ambassadors and Directors."
+            color="#6cd0d0"
+            borderColor="#519e9e"
+          />
 
-<UCProjectBox
-  title="AI Research Intern"
-  org="Stanford Center for Artificial Intelligence in Medicine and Imaging"
-  date="JUNE - JULY 2024"
-  desc="Selected as 1 of 20 nationwide. Trained a ResNet-101 image classifier on weak labels extracted from radiology reports via rule-based NLP using SpaCy and RadGraph. Built a custom dataset with transformation pipelines to reduce label bias and eliminate overrepresentation. Achieved 89% classification accuracy on pulmonary ultrasound data and placed 2nd in the program challenge."
-  color="#ffcbdb"         // pink
-  borderColor="#fa98b6"   // darker pink
-/>
+          <UCProjectBox
+            title="Lead Software Development Intern"
+            org="Microsoft and Women of AT&T"
+            date="JULY 2023 - JAN 2024"
+            desc="Prototyped an iOS app and NFC wearable to securely transfer HIPAA-protected medical data in emergencies. Directed a 6-person cross-functional team in Scrum-based development, including daily stand-ups and UX design, to enable faster, safer care during critical incidents; pitched to Microsoft and AT&T executives."
+            color="#ffcbdb"
+            borderColor="#fa98b6"
+          />
 
-<UCProjectBox
-  title="Software Development Intern"
-  org="Microsoft"
-  date="JULY 2023 - APR 2024"
-  desc="Prototyped an iOS and Flutter app and NFC wearable for HIPAA-protected medical data transfer in emergencies. Programmed core NFC logic in Swift, built cross-platform UI in Dart, and explored offline storage with SQL. Led Scrum-based project management, coordinated UI/UX, and pitched the project to Microsoft and AT&T executives."
-  color="#fbceb1"         // orange
-  borderColor="#e0b594"   // darker orange
-/>
+          <UCProjectBox
+            title="AI Research Intern"
+            org="Stanford Center for Artificial Intelligence in Medicine and Imaging"
+            date="JUNE - JULY 2024"
+            desc="Selected as 1 of 20 nationwide. Trained a ResNet-101 image classifier on weak labels extracted from radiology reports via rule-based NLP using SpaCy and RadGraph. Built a custom dataset with transformation pipelines to reduce label bias and eliminate overrepresentation. Achieved 89% classification accuracy on pulmonary ultrasound data and placed 2nd in the program challenge."
+            color="#fbceb1"
+            borderColor="#e0b594"
+          />
 
-<UCProjectBox
-  title="AI Research Intern"
-  org="TSI + Cornell University"
-  date="JUNE - AUG 2023"
-  desc="Selected as Top 10% of ~1,000. Adapted Brain Network Transformer using Python GNNs for multi-state neuroimaging recognition. Published findings in the Talaria Journal and presented at the Talaria 2023 International Conference."
-  color="#b1ddc9"         // green
-  borderColor="#86b0a0"   // darker green
-/>
+          <UCProjectBox
+            title="AI Research Intern"
+            org="Midwestern University"
+            date="AUG 2023 - APR 2024"
+            desc="Engineered POCUS-Net, a novel transformer-based model to automate gastric ultrasound analysis. Classified gastric contents (liquid, solid, air) and segmented diameters to estimate operable volume. Achieved ~87% accuracy and integrated volume-based decision weighting to output aspiration risk."
+            color="#b1ddc9"
+            borderColor="#86b0a0"
+          />
 
-<UCProjectBox
-  title="AI Research Intern"
-  org="Midwestern University"
-  date="AUG 2023 - APR 2024"
-  desc="Engineered POCUS-Net, a novel transformer-based model to automate gastric ultrasound analysis. Classified gastric contents (liquid, solid, air) and segmented diameters to estimate operable volume. Achieved ~87% accuracy and integrated volume-based decision weighting to output aspiration risk."
-  color="#6cd0d0"         // blue
-  borderColor="#519e9e"   // darker blue
-/>
-          </div>
-        </section>
+          <UCProjectBox
+            title="AI Research Intern"
+            org="TSI + Cornell University"
+            date="JUNE - AUG 2023"
+            desc="Selected as top 10% of ~1,000. Adapted a Brain Network Transformer using Python GNNs for multi-state neuroimaging recognition. Published findings in the Talaria Journal and presented at the Talaria 2023 International Conference."
+            color="#ffcbdb"
+            borderColor="#fa98b6"
+          />
+        </div>
+      </section>
     </div>
   );
 };

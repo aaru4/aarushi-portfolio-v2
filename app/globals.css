@@ -3,35 +3,48 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #000000;
-  --primary: #fbceb1;
-  --secondary: #b1ddc9;
-  --tertiary: #6cd0d0;
-  --quarternary: #ffcbdb;
-}
+  /* Neutrals */
+  --paper: #fffdfb;
+  --paper-alt: #fbf8f5;
+  --ink: #211d1c;
+  --ink-soft: #55504d;
+  --border-soft: rgba(33, 29, 28, 0.08);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ffffff;
-    --primary: #fbceb1;
-    --secondary: #b1ddc9;
-    --tertiary: #6cd0d0;
-    --quarternary: #ffcbdb;
-  }
+  /* Brand palette */
+  --peach: #fbceb1;
+  --peach-dark: #e0b594;
+  --mint: #b1ddc9;
+  --mint-dark: #86b0a0;
+  --teal: #6cd0d0;
+  --teal-dark: #519e9e;
+  --pink: #ffcbdb;
+  --pink-dark: #fa98b6;
+
+  --background: var(--paper);
+  --foreground: var(--ink);
 }
 
 html {
   color-scheme: light;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
-  background-color: #ffffff;
-  color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--paper);
+  color: var(--ink);
   margin: 0;
   padding: 0;
-  height: 100%;
+  min-height: 100%;
   width: 100%;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: var(--pink);
+  color: var(--ink);
+}
+
+a {
+  color: inherit;
 }

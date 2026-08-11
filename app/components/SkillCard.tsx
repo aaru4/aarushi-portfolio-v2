@@ -7,24 +7,10 @@ interface SkillCardProps {
 export const SkillBox: React.FC<SkillCardProps> = ({ title, color, border }) => {
   return (
     <div
-      className="w-full sm:w-[155px] md:w-[160px] lg:w-[160px] xl:w-[160px] mx-auto mb-4"
-      style={{ ...cardStyles.container, backgroundColor: color, border: `3px solid ${border}`, }}
+      className="mx-auto mb-2 w-full rounded-lg px-3 py-2.5 text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md sm:w-[155px]"
+      style={{ backgroundColor: color, border: `2px solid ${border ?? color}` }}
     >
-      <h1 style={cardStyles.title}>{title}</h1>
+      <h1 className="text-xs font-semibold text-[var(--ink)]">{title}</h1>
     </div>
   );
-};
-
-const cardStyles = {
-  container: {
-    borderRadius: "8px",
-    boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
-    padding: "12px",
-    margin: "8px",
-    textAlign: "center" as const,
-  },
-  title: {
-    fontSize: "12px",
-    color: "black",
-  },
 };

@@ -1,128 +1,113 @@
 import { BarChart, Code, Cpu, Folder } from 'lucide-react';
 import { ECProjectBox } from '../components/EducationCard';
 import { SkillBox } from '../components/SkillCard';
-import Navbar from '../components/header';
+import PageHeader from '../components/PageHeader';
+
+const skillGroups = [
+  {
+    label: 'Programming',
+    icon: Code,
+    color: '#fbceb1',
+    skills: [
+      'Python',
+      'SQL',
+      'Java',
+      'Swift',
+      'JavaScript',
+      'TypeScript',
+      'R',
+      'MATLAB',
+      'HTML/CSS (Tailwind)',
+    ],
+  },
+  {
+    label: 'AI & ML',
+    icon: Cpu,
+    color: '#ffcbdb',
+    skills: [
+      'PyTorch',
+      'TensorFlow',
+      'scikit-learn',
+      'OpenCV',
+      'SpaCy',
+      'RadGraph',
+      'ResNet',
+      'GNNs',
+      'Transformers',
+    ],
+  },
+  {
+    label: 'Data & Cloud',
+    icon: BarChart,
+    color: '#b1ddc9',
+    skills: [
+      'Pandas',
+      'NumPy',
+      'Tableau',
+      'AWS',
+      'GCP/BigQuery',
+      'Firebase',
+      'Oracle Cloud (OCI)',
+      'APEX',
+      'Simulink',
+    ],
+  },
+  {
+    label: 'Tools & Frameworks',
+    icon: Folder,
+    color: '#6cd0d0',
+    skills: ['Git', 'CI/CD', 'React', 'Next.js', 'Microsoft Suite'],
+  },
+];
 
 const eduPage = () => {
   return (
     <div>
-      <div className="block mb-4 w-full">
-        <Navbar />
-      </div>
+      <PageHeader
+        title="Education & Skills"
+        subtitle="Coursework, tools, and technologies I build with."
+      />
 
-      <div className="flex items-center justify-center w-full">
-        <div id="education" className="bg-white p-3 rounded-lg">
-          <h1 className="text-3xl font-bold text-center underline text-black">
-            Education & Skills
-          </h1>
-        </div>
-      </div>
-
-      <section className="flex flex-col gap-6 sm:gap-8 py-6 w-full px-4">
-        <div className="w-full px-2">
-          <ECProjectBox
-            title="Georgia Institute of Technology"
-            org="B.S. in Computer Science"
-            color="#fbceb1"
-            borderColor="#e0b594"
-          />
-        </div>
-        <div className="w-full px-2">
-          <ECProjectBox
-            title="South Forsyth High School"
-            org="NMSQT Finalist, AP Scholar with Distinction"
-            color="#ffcbdb"
-            borderColor="#fa98b6"
-          />
-        </div>
+      <section className="mx-auto flex w-full max-w-4xl flex-col gap-6 px-4 py-6 sm:px-8">
+        <ECProjectBox
+          title="Georgia Institute of Technology"
+          org="B.S. in Computer Science · GPA: 3.9"
+          color="#fbceb1"
+          borderColor="#e0b594"
+        />
+        <ECProjectBox
+          title="South Forsyth High School"
+          org="NMSQT Finalist, AP Scholar with Distinction"
+          color="#ffcbdb"
+          borderColor="#fa98b6"
+        />
       </section>
 
-      <div className="w-full flex items-center justify-center">
-        <div className="grid max-w-6xl w-full pb-12 grid-cols-2 sm:grid-cols-4 gap-3 gap-x-2 sm:gap-4">
-
-          {/* Programming Languages */}
-          <div className="relative group flex flex-col items-center">
-            <div className="flex items-center justify-center w-24 h-24 rounded-full" style={{ backgroundColor: "#fbceb1" }}>
-              <Code size={48} color="#000000" />
-            </div>
-            <span className="mt-2 text-sm font-semibold text-black">Programming</span>
-            <div className="mt-3 flex flex-wrap items-center justify-center transition-all duration-300 z-10
-                            opacity-100
-                            relative sm:absolute sm:top-full sm:left-1/2 sm:transform sm:-translate-x-1/2">
-              <SkillBox title="Python" color="#fbceb1" />
-              <SkillBox title="SQL" color="#fbceb1" />
-              <SkillBox title="Java" color="#fbceb1" />
-              <SkillBox title="Swift" color="#fbceb1" />
-              <SkillBox title="JavaScript" color="#fbceb1" />
-              <SkillBox title="TypeScript" color="#fbceb1" />
-              <SkillBox title="R" color="#fbceb1" />
-              <SkillBox title="MATLAB" color="#fbceb1" />
-              <SkillBox title="HTML/CSS (Tailwind)" color="#fbceb1" />
-            </div>
-          </div>
-
-          {/* AI / Machine Learning */}
-          <div className="relative group flex flex-col items-center">
-            <div className="flex items-center justify-center w-24 h-24 rounded-full" style={{ backgroundColor: "#ffcbdb" }}>
-              <Cpu size={48} color="#000000" />
-            </div>
-            <span className="mt-2 text-sm font-semibold text-black">AI & ML</span>
-            <div className="mt-3 flex flex-wrap items-center justify-center transition-all duration-300 z-10
-                            opacity-100
-                            relative sm:absolute sm:top-full sm:left-1/2 sm:transform sm:-translate-x-1/2">
-              <SkillBox title="PyTorch" color="#ffcbdb" />
-              <SkillBox title="TensorFlow" color="#ffcbdb" />
-              <SkillBox title="scikit-learn" color="#ffcbdb" />
-              <SkillBox title="OpenCV" color="#ffcbdb" />
-              <SkillBox title="SpaCy" color="#ffcbdb" />
-              <SkillBox title="RadGraph" color="#ffcbdb" />
-              <SkillBox title="ResNet" color="#ffcbdb" />
-              <SkillBox title="GNNs" color="#ffcbdb" />
-              <SkillBox title="Transformers" color="#ffcbdb" />
-            </div>
-          </div>
-
-          {/* Data & Cloud */}
-          <div className="relative group flex flex-col items-center">
-            <div className="flex items-center justify-center w-24 h-24 rounded-full" style={{ backgroundColor: "#b1ddc9" }}>
-              <BarChart size={48} color="#000000" />
-            </div>
-            <span className="mt-2 text-sm font-semibold text-black">Data & Cloud</span>
-            <div className="mt-3 flex flex-wrap items-center justify-center transition-all duration-300 z-10
-                            opacity-100 
-                            relative sm:absolute sm:top-full sm:left-1/2 sm:transform sm:-translate-x-1/2">
-              <SkillBox title="Pandas" color="#b1ddc9" />
-              <SkillBox title="NumPy" color="#b1ddc9" />
-              <SkillBox title="Tableau" color="#b1ddc9" />
-              <SkillBox title="AWS" color="#b1ddc9" />
-              <SkillBox title="Firebase" color="#b1ddc9" />
-              <SkillBox title="Oracle Cloud (OCI)" color="#b1ddc9" />
-              <SkillBox title="APEX" color="#b1ddc9" />
-              <SkillBox title="Simulink" color="#b1ddc9" />
-            </div>
-          </div>
-
-          {/* Tools & Frameworks */}
-          <div className="relative group flex flex-col items-center">
-            <div className="flex items-center justify-center w-24 h-24 rounded-full" style={{ backgroundColor: "#6cd0d0" }}>
-              <Folder size={48} color="#000000" />
-            </div>
-            <span className="mt-2 text-sm font-semibold text-black">Tools & Frameworks</span>
-            <div className="mt-3 flex flex-wrap items-center justify-center transition-all duration-300 z-10
-                            opacity-100 
-                            relative sm:absolute sm:top-full sm:left-1/2 sm:transform sm:-translate-x-1/2">
-              <SkillBox title="Git" color="#6cd0d0" />
-              <SkillBox title="Firebase" color="#6cd0d0" />
-              <SkillBox title="Microsoft Suite" color="#6cd0d0" />
-              <SkillBox title="React" color="#6cd0d0" />
-              <SkillBox title="Next.js" color="#6cd0d0" />
-              <SkillBox title="Google Cloud" color="#6cd0d0" />
-              <SkillBox title="BigQuery" color="#6cd0d0" />
-            </div>
-          </div>
-
+      <section className="mx-auto w-full max-w-6xl px-4 pb-16 pt-4 sm:px-8">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          {skillGroups.map((group) => {
+            const Icon = group.icon;
+            return (
+              <div key={group.label} className="flex flex-col items-center text-center">
+                <div
+                  className="flex h-20 w-20 items-center justify-center rounded-full shadow-sm"
+                  style={{ backgroundColor: group.color }}
+                >
+                  <Icon size={40} color="var(--ink)" />
+                </div>
+                <span className="mt-3 text-sm font-semibold text-[var(--ink)]">
+                  {group.label}
+                </span>
+                <div className="mt-4 flex w-full flex-col gap-2">
+                  {group.skills.map((skill) => (
+                    <SkillBox key={skill} title={skill} color={group.color} />
+                  ))}
+                </div>
+              </div>
+            );
+          })}
         </div>
-      </div>
+      </section>
     </div>
   );
 };

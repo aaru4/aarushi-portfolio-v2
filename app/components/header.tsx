@@ -2,79 +2,62 @@
 
 import { Award, BookOpen, Briefcase, FolderGit2, GraduationCap, Home } from 'lucide-react';
 import Link from 'next/link';
-import { useState } from 'react';
+import { usePathname } from 'next/navigation';
+
+const navItems = [
+  { name: 'Home', href: '/', icon: Home, bg: 'var(--pink)' },
+  { name: 'Education', href: '/eduPage', icon: GraduationCap, bg: 'var(--peach)' },
+  { name: 'Experience', href: '/expPage', icon: Briefcase, bg: 'var(--mint)' },
+  { name: 'Projects', href: '/projPage', icon: FolderGit2, bg: 'var(--teal)' },
+  { name: 'Awards', href: '/awardPage', icon: Award, bg: 'var(--pink)' },
+  { name: 'Publications', href: '/pubPage', icon: BookOpen, bg: 'var(--peach)' },
+];
 
 export default function Navbar() {
-  const [hovered, setHovered] = useState<string | null>(null);
-
-  const navItems = [
-    {
-      name: 'Home',
-      href: '/',
-      icon: <Home size={28} color="#000" />,
-      bg: '#ffcbdb',
-    },
-    {
-      name: 'Education',
-      href: '/eduPage',
-      icon: <GraduationCap size={28} color="#000" />,
-      bg: '#fbceb1',
-    },
-    {
-      name: 'Experiences',
-      href: '/expPage',
-      icon: <Briefcase size={28} color="#000" />,
-      bg: '#b1ddc9',
-    },
-    {
-      name: 'Projects',
-      href: '/projPage',
-      icon: <FolderGit2 size={28} color="#000" />,
-      bg: '#6cd0d0',
-    },
-    {
-      name: 'Awards',
-      href: '/awardPage',
-      icon: <Award size={28} color="#000" />,
-      bg: '#ffcbdb',
-    },
-    {
-      name: 'Publications',
-      href: '/pubPage',
-      icon: <BookOpen size={28} color="#000" />,
-      bg: '#fbceb1',
-},
-  ];
+  const pathname = usePathname();
 
   return (
-    <nav className="w-full md:w-full bg-white py-6 px-4 sticky top-0 z-50">
-      <div className="flex items-center justify-center gap-6 sm:gap-10">
-        {navItems.map((item) => (
-          <div
-            key={item.name}
-            className="relative flex flex-col items-center group cursor-pointer transition-transform duration-500 ease-in-out hover:scale-110"
-            onMouseEnter={() => setHovered(item.name)}
-            onMouseLeave={() => setHovered(null)}
-          >
-            <Link
-              href={item.href}
-              className="p-3 rounded-full transition-colors duration-500"
-              style={{ backgroundColor: item.bg }}
-            >
-              {item.icon}
-            </Link>
+    <header className="sticky top-0 z-50 w-full border-b border-[var(--border-soft)] bg-[var(--paper)]/85 backdrop-blur-md">
+      <nav className="mx-auto flex w-full max-w-6xl min-w-0 items-center justify-between gap-4 px-4 py-3 sm:px-8">
+        <Link
+          href="/"
+          className="shrink-0 text-base font-bold tracking-tight text-[var(--ink)] transition-opacity hover:opacity-70 sm:text-lg"
+        >
+          <span className="sm:hidden">AA</span>
+          <span className="hidden sm:inline">Aarushi Ammavajjala</span>
+        </Link>
 
-            {/* Always reserve space for label, but show/hide with opacity */}
-            <span
-              className={`absolute mt-12 text-xs sm:text-sm absolute top-full mt-2 text-black font-medium transition-opacity duration-500 ${
-                hovered === item.name ? 'opacity-100' : 'opacity-0'
-              }`}
-            >
-              {item.name}
-            </span>
-          </div>
-        ))}
-      </div>
-    </nav>
+        <div className="flex min-w-0 items-center gap-1 overflow-x-auto sm:gap-2">
+          {navItems.map((item) => {
+            const Icon = item.icon;
+            const isActive = pathname === item.href;
+            return (
+              <Link
+                key={item.name}
+                href={item.href}
+                aria-label={item.name}
+                aria-current={isActive ? 'page' : undefined}
+                title={item.name}
+                className={`group flex shrink-0 items-center gap-2 rounded-full px-2.5 py-2 transition-all duration-300 sm:px-3 ${
+                  isActive ? 'shadow-sm' : 'hover:-translate-y-0.5'
+                }`}
+                style={{ backgroundColor: isActive ? item.bg : 'transparent' }}
+                onMouseEnter={(e) => {
+                  if (!isActive) e.currentTarget.style.backgroundColor = `${item.bg}80`;
+                }}
+                onMouseLeave={(e) => {
+                  if (!isActive) e.currentTarget.style.backgroundColor = 'transparent';
+                }}
+              >
+                <Icon size={18} strokeWidth={2} color="var(--ink)" />
+                <span className="hidden text-sm font-medium text-[var(--ink)] md:inline">
+                  {item.name}
+                </span>
+              </Link>
+            );
+          })}
+        </div>
+      </nav>
+    </header>
   );
 }

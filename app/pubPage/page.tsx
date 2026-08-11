@@ -1,27 +1,17 @@
-import Navbar from '../components/header';
+import PageHeader from '../components/PageHeader';
 import { IndBox } from '../components/IndependentCard';
 
 const PubPage = () => {
   return (
     <div>
-      <div className="block mb-4 w-full">
-        <Navbar />
-      </div>
+      <PageHeader title="Publications" />
 
-      <div className="flex items-center justify-center w-full">
-        <div className="bg-white p-3 rounded-lg">
-          <h1 className="text-2xl font-bold text-center underline text-black">
-            Publications
-          </h1>
-        </div>
-      </div>
-
-      <div className="flex flex-col gap-4 px-6 py-6 max-w-4xl mx-auto w-full">
+      <section className="mx-auto flex w-full max-w-4xl flex-col gap-5 px-4 py-6 sm:px-8">
         <a
           href="https://chi2026.acm.org/"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mt-4 break-inside-avoid"
+          className="inline-block w-full"
         >
           <IndBox
             title="Counterfactual Explanations for Agentic Workflows"
@@ -29,12 +19,12 @@ const PubPage = () => {
             color="#ffcbdb"
             borderColor="#fa98b6"
           />
-          </a>
+        </a>
         <a
           href="https://ai-summit.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mt-4 break-inside-avoid"
+          className="inline-block w-full"
         >
           <IndBox
             title="Histology-Based Deep Learning Stratifies Progression-Free Survival in Trastuzumab Deruxtecan–Treated HER2-Negative Breast Cancer"
@@ -42,12 +32,12 @@ const PubPage = () => {
             color="#fbceb1"
             borderColor="#e0b594"
           />
-          </a>
+        </a>
         <a
           href="https://talaria.org/papers"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mt-4 break-inside-avoid"
+          className="inline-block w-full"
         >
           <IndBox
             title="Machine Learning Model for Predicting Climate Change-Induced Suicides in the United States"
@@ -56,7 +46,7 @@ const PubPage = () => {
             borderColor="#86b0a0"
           />
         </a>
-      </div>
+      </section>
     </div>
   );
 };

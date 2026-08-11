@@ -1,3 +1,5 @@
+import { ArrowUpRight } from 'lucide-react';
+
 interface IndCardProps {
   title: string;
   org: string;
@@ -15,37 +17,19 @@ function hexToRgba(hex: string, opacity: number) {
 export const IndBox: React.FC<IndCardProps> = ({ title, org, color, borderColor }) => {
   return (
     <div
-     className={`w-full flex flex-col p-6 rounded-lg shadow-lg mx-auto hover:scale-105 transform transition-transform duration-300`}
+      className="relative mx-auto flex w-full transform flex-col rounded-2xl p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
       style={{
-        background: `linear-gradient(${hexToRgba(color, 0.5)}, ${color})`,
-        border: `3px solid ${borderColor}`,
+        background: `linear-gradient(160deg, ${hexToRgba(color, 0.4)}, ${color})`,
+        border: `2px solid ${borderColor ?? color}`,
       }}
     >
-      <h1 style={cardStyles.title}>{title}</h1>
-      <p style={cardStyles.org}>{org}</p>
+      <ArrowUpRight
+        size={18}
+        className="absolute right-4 top-4 text-[var(--ink)]/50"
+        aria-hidden
+      />
+      <h1 className="mb-2 pr-6 text-base font-bold tracking-tight text-[var(--ink)]">{title}</h1>
+      <p className="text-[12.5px] leading-relaxed text-[var(--ink)]/85">{org}</p>
     </div>
   );
-};
-
-const cardStyles = {
-  container: {
-    borderRadius: "12px",
-    boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.1)",
-    padding: "20px",
-    width: "400px",
-    margin: "16px auto",
-    transition: "transform 0.3s ease, box-shadow 0.3s ease",
-  },
-  title: {
-    fontSize: "14px",
-    fontWeight: "bold",
-    marginBottom: "10px",
-    color: "#333",
-    letterSpacing: "0.5px",
-  },
-  org: {
-    fontSize: "11px",
-    color: "#333",
-    marginBottom: "8px",
-  },
 };
