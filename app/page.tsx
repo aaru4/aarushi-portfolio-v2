@@ -3,7 +3,7 @@ import { FaGithub } from 'react-icons/fa';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const roleBadges = ['SWE Intern @ Amazon', 'AI Engineering Intern @ Mayo Clinic', 'Lead SWE Intern @ Oracle'];
+const roleBadges = ['SWE Intern @ Amazon', 'Intern @ United Nations', 'SWE Intern @ Oracle'];
 const awardBadges = ['13x Hackathon Winner', 'NCWIT National Winner', 'Girls Who Code 20 Under 20'];
 
 export default function Home() {
